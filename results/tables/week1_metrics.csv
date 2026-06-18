@@ -1,0 +1,5 @@
+Controller,Scenario,Rise Time (s),Overshoot (%),Settling Time (s),IAE,ISE,ITAE
+L-PID (ZN),Step Response,0.1350,0.22,0.1990,2.3403,35.1934,0.1631
+N-PID (ZN),Step Response,0.1330,8.61,0.6190,3.3404,36.0305,1.4050
+L-PID (ZN+dist),Disturbance Rejection,0.1350,0.22,0.1990,2.3422,35.1935,0.1661
+N-PID (ZN+dist),Disturbance Rejection,0.1340,8.43,0.5790,3.5657,36.1028,2.2349
