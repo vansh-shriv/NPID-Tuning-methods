@@ -1,0 +1,2681 @@
+ident,ptype,change,noise,method,window,ratio,failed
+917,sopdt,none x1.0,True,frozen,0,1.3165017073619667,False
+917,sopdt,none x1.0,True,frozen,1,1.08529622760817,False
+917,sopdt,none x1.0,True,frozen,2,0.9346050360846168,False
+917,sopdt,none x1.0,True,frozen,3,0.9430494209400012,False
+917,sopdt,none x1.0,True,frozen,4,0.9635121467095961,False
+917,sopdt,none x1.0,True,adaptive ML,0,1.4199017276313184,False
+917,sopdt,none x1.0,True,adaptive ML,1,2.190916220968148,False
+917,sopdt,none x1.0,True,adaptive ML,2,4.3515007226824505,False
+917,sopdt,none x1.0,True,adaptive ML,3,1.3629457801965565,False
+917,sopdt,none x1.0,True,adaptive ML,4,2.976001975935817,False
+917,sopdt,none x1.0,True,self-tuning pole placement,0,1.3931457061031431,False
+917,sopdt,none x1.0,True,self-tuning pole placement,1,1.5054973059775043,False
+917,sopdt,none x1.0,True,self-tuning pole placement,2,1.6998708476468585,False
+917,sopdt,none x1.0,True,self-tuning pole placement,3,1.5281916406763656,False
+917,sopdt,none x1.0,True,self-tuning pole placement,4,1.1460874078892478,False
+917,sopdt,none x1.0,True,retune by experiment,0,1.0,False
+917,sopdt,none x1.0,True,retune by experiment,1,1.0,False
+917,sopdt,none x1.0,True,retune by experiment,2,1.0,False
+917,sopdt,none x1.0,True,retune by experiment,3,1.0,False
+917,sopdt,none x1.0,True,retune by experiment,4,1.0,False
+917,sopdt,none x1.0,False,frozen,0,1.0991223274624695,False
+917,sopdt,none x1.0,False,frozen,1,0.9078946631894815,False
+917,sopdt,none x1.0,False,frozen,2,0.9163878482497002,False
+917,sopdt,none x1.0,False,frozen,3,0.9078888459549435,False
+917,sopdt,none x1.0,False,frozen,4,0.9163878484131087,False
+917,sopdt,none x1.0,False,adaptive ML,0,1.0752928867655536,False
+917,sopdt,none x1.0,False,adaptive ML,1,3.5476901273778343,False
+917,sopdt,none x1.0,False,adaptive ML,2,3.404683005465056,False
+917,sopdt,none x1.0,False,adaptive ML,3,3.8524687065761287,False
+917,sopdt,none x1.0,False,adaptive ML,4,0.679530822834797,False
+917,sopdt,none x1.0,False,self-tuning pole placement,0,1.1343863446163043,False
+917,sopdt,none x1.0,False,self-tuning pole placement,1,3.1326244161837926,False
+917,sopdt,none x1.0,False,self-tuning pole placement,2,3.0953904788354514,False
+917,sopdt,none x1.0,False,self-tuning pole placement,3,2.8772962991316584,False
+917,sopdt,none x1.0,False,self-tuning pole placement,4,2.819683211282911,False
+917,sopdt,none x1.0,False,retune by experiment,0,1.0,False
+917,sopdt,none x1.0,False,retune by experiment,1,1.0,False
+917,sopdt,none x1.0,False,retune by experiment,2,1.0,False
+917,sopdt,none x1.0,False,retune by experiment,3,1.0,False
+917,sopdt,none x1.0,False,retune by experiment,4,1.0,False
+917,sopdt,gain x0.4,True,frozen,0,1.3165017073619667,False
+917,sopdt,gain x0.4,True,frozen,1,1.046584378139777,False
+917,sopdt,gain x0.4,True,frozen,2,4.397114234219398,False
+917,sopdt,gain x0.4,True,frozen,3,1.417922249321846,False
+917,sopdt,gain x0.4,True,frozen,4,1.4250123224608735,False
+917,sopdt,gain x0.4,True,adaptive ML,0,1.4199017276313184,False
+917,sopdt,gain x0.4,True,adaptive ML,1,1.3755072671854542,False
+917,sopdt,gain x0.4,True,adaptive ML,2,5.854873263248423,False
+917,sopdt,gain x0.4,True,adaptive ML,3,1.321408531486368,False
+917,sopdt,gain x0.4,True,adaptive ML,4,1.2864492420747844,False
+917,sopdt,gain x0.4,True,self-tuning pole placement,0,1.3931457061031431,False
+917,sopdt,gain x0.4,True,self-tuning pole placement,1,1.2212101452486197,False
+917,sopdt,gain x0.4,True,self-tuning pole placement,2,4.9999324304113495,False
+917,sopdt,gain x0.4,True,self-tuning pole placement,3,1.3165318305384637,False
+917,sopdt,gain x0.4,True,self-tuning pole placement,4,1.2248799170037241,False
+917,sopdt,gain x0.4,True,retune by experiment,0,1.0,False
+917,sopdt,gain x0.4,True,retune by experiment,1,1.0,False
+917,sopdt,gain x0.4,True,retune by experiment,2,1.0,False
+917,sopdt,gain x0.4,True,retune by experiment,3,1.0,False
+917,sopdt,gain x0.4,True,retune by experiment,4,1.0,False
+917,sopdt,gain x0.4,False,frozen,0,1.0991223274624695,False
+917,sopdt,gain x0.4,False,frozen,1,1.0748773416392983,False
+917,sopdt,gain x0.4,False,frozen,2,4.361093640060144,False
+917,sopdt,gain x0.4,False,frozen,3,2.1289567582013245,False
+917,sopdt,gain x0.4,False,frozen,4,2.1006488081188195,False
+917,sopdt,gain x0.4,False,adaptive ML,0,1.0752928867655536,False
+917,sopdt,gain x0.4,False,adaptive ML,1,1.631101482710749,False
+917,sopdt,gain x0.4,False,adaptive ML,2,8.652120989028365,False
+917,sopdt,gain x0.4,False,adaptive ML,3,6.139518825552131,False
+917,sopdt,gain x0.4,False,adaptive ML,4,1.9873489069564247,False
+917,sopdt,gain x0.4,False,self-tuning pole placement,0,1.1343863446163043,False
+917,sopdt,gain x0.4,False,self-tuning pole placement,1,1.5880356652693488,False
+917,sopdt,gain x0.4,False,self-tuning pole placement,2,20.769934234091036,False
+917,sopdt,gain x0.4,False,self-tuning pole placement,3,2.922015639240668,False
+917,sopdt,gain x0.4,False,self-tuning pole placement,4,2.8605426185822287,False
+917,sopdt,gain x0.4,False,retune by experiment,0,1.0,False
+917,sopdt,gain x0.4,False,retune by experiment,1,1.0,False
+917,sopdt,gain x0.4,False,retune by experiment,2,1.0,False
+917,sopdt,gain x0.4,False,retune by experiment,3,1.0,False
+917,sopdt,gain x0.4,False,retune by experiment,4,1.0,False
+917,sopdt,gain x2.5,True,frozen,0,1.3165017073619667,False
+917,sopdt,gain x2.5,True,frozen,1,0.9278043130981933,False
+917,sopdt,gain x2.5,True,frozen,2,3.9113952399326957,False
+917,sopdt,gain x2.5,True,frozen,3,5.761147101067621,False
+917,sopdt,gain x2.5,True,frozen,4,11.64059717160174,False
+917,sopdt,gain x2.5,True,adaptive ML,0,1.4199017276313184,False
+917,sopdt,gain x2.5,True,adaptive ML,1,1.0881618829728978,False
+917,sopdt,gain x2.5,True,adaptive ML,2,9.440070562908016,False
+917,sopdt,gain x2.5,True,adaptive ML,3,6.159987015521964,False
+917,sopdt,gain x2.5,True,adaptive ML,4,3.266520345523637,False
+917,sopdt,gain x2.5,True,self-tuning pole placement,0,1.3931457061031431,False
+917,sopdt,gain x2.5,True,self-tuning pole placement,1,1.2526213603237042,False
+917,sopdt,gain x2.5,True,self-tuning pole placement,2,0.5538314658384859,False
+917,sopdt,gain x2.5,True,self-tuning pole placement,3,1.3664025743711115,False
+917,sopdt,gain x2.5,True,self-tuning pole placement,4,1.2028223015329191,False
+917,sopdt,gain x2.5,True,retune by experiment,0,1.0,False
+917,sopdt,gain x2.5,True,retune by experiment,1,1.0,False
+917,sopdt,gain x2.5,True,retune by experiment,2,1.0,False
+917,sopdt,gain x2.5,True,retune by experiment,3,1.0,False
+917,sopdt,gain x2.5,True,retune by experiment,4,1.0,False
+917,sopdt,gain x2.5,False,frozen,0,1.0991223274624695,False
+917,sopdt,gain x2.5,False,frozen,1,0.7801448530576698,False
+917,sopdt,gain x2.5,False,frozen,2,6.213075964559758,False
+917,sopdt,gain x2.5,False,frozen,3,26.763041323171528,False
+917,sopdt,gain x2.5,False,frozen,4,31.914644164916822,False
+917,sopdt,gain x2.5,False,adaptive ML,0,1.0752928867655536,False
+917,sopdt,gain x2.5,False,adaptive ML,1,1.153875802360934,False
+917,sopdt,gain x2.5,False,adaptive ML,2,4.897088415099279,False
+917,sopdt,gain x2.5,False,adaptive ML,3,0.48658291005375176,False
+917,sopdt,gain x2.5,False,adaptive ML,4,3.9587986833480393,False
+917,sopdt,gain x2.5,False,self-tuning pole placement,0,1.1343863446163043,False
+917,sopdt,gain x2.5,False,self-tuning pole placement,1,1.309858028894378,False
+917,sopdt,gain x2.5,False,self-tuning pole placement,2,1.2649927827771565,False
+917,sopdt,gain x2.5,False,self-tuning pole placement,3,3.5692995585137077,False
+917,sopdt,gain x2.5,False,self-tuning pole placement,4,2.9113230205390264,False
+917,sopdt,gain x2.5,False,retune by experiment,0,1.0,False
+917,sopdt,gain x2.5,False,retune by experiment,1,1.0,False
+917,sopdt,gain x2.5,False,retune by experiment,2,1.0,False
+917,sopdt,gain x2.5,False,retune by experiment,3,1.0,False
+917,sopdt,gain x2.5,False,retune by experiment,4,1.0,False
+917,sopdt,lag x3.0,True,frozen,0,1.3165017073619667,False
+917,sopdt,lag x3.0,True,frozen,1,1.08775757663107,False
+917,sopdt,lag x3.0,True,frozen,2,3.441908330440061,False
+917,sopdt,lag x3.0,True,frozen,3,3.2807702419501887,False
+917,sopdt,lag x3.0,True,frozen,4,3.0071776544069997,False
+917,sopdt,lag x3.0,True,adaptive ML,0,1.4199017276313184,False
+917,sopdt,lag x3.0,True,adaptive ML,1,2.132691183797194,False
+917,sopdt,lag x3.0,True,adaptive ML,2,2.5321157447167715,False
+917,sopdt,lag x3.0,True,adaptive ML,3,2.316000441072301,False
+917,sopdt,lag x3.0,True,adaptive ML,4,0.9863182019667741,False
+917,sopdt,lag x3.0,True,self-tuning pole placement,0,1.3931457061031431,False
+917,sopdt,lag x3.0,True,self-tuning pole placement,1,1.4112108545038617,False
+917,sopdt,lag x3.0,True,self-tuning pole placement,2,8.461680398036226,False
+917,sopdt,lag x3.0,True,self-tuning pole placement,3,3.3779562527296934,False
+917,sopdt,lag x3.0,True,self-tuning pole placement,4,2.919028443635716,False
+917,sopdt,lag x3.0,True,retune by experiment,0,1.0,False
+917,sopdt,lag x3.0,True,retune by experiment,1,1.0,False
+917,sopdt,lag x3.0,True,retune by experiment,2,1.0,False
+917,sopdt,lag x3.0,True,retune by experiment,3,1.0,False
+917,sopdt,lag x3.0,True,retune by experiment,4,1.0,False
+917,sopdt,lag x3.0,False,frozen,0,1.0991223274624695,False
+917,sopdt,lag x3.0,False,frozen,1,0.9078801452950399,False
+917,sopdt,lag x3.0,False,frozen,2,2.024612327728834,False
+917,sopdt,lag x3.0,False,frozen,3,1.0595039514682678,False
+917,sopdt,lag x3.0,False,frozen,4,1.9463841038685197,False
+917,sopdt,lag x3.0,False,adaptive ML,0,1.0752928867655536,False
+917,sopdt,lag x3.0,False,adaptive ML,1,3.548878593093117,False
+917,sopdt,lag x3.0,False,adaptive ML,2,1.0074088368866627,False
+917,sopdt,lag x3.0,False,adaptive ML,3,0.39284640771134416,False
+917,sopdt,lag x3.0,False,adaptive ML,4,0.5910806371207787,False
+917,sopdt,lag x3.0,False,self-tuning pole placement,0,1.1343863446163043,False
+917,sopdt,lag x3.0,False,self-tuning pole placement,1,3.133175992556138,False
+917,sopdt,lag x3.0,False,self-tuning pole placement,2,3.9979562102706736,False
+917,sopdt,lag x3.0,False,self-tuning pole placement,3,0.6066514375246512,False
+917,sopdt,lag x3.0,False,self-tuning pole placement,4,1.0135668036980472,False
+917,sopdt,lag x3.0,False,retune by experiment,0,1.0,False
+917,sopdt,lag x3.0,False,retune by experiment,1,1.0,False
+917,sopdt,lag x3.0,False,retune by experiment,2,1.0,False
+917,sopdt,lag x3.0,False,retune by experiment,3,1.0,False
+917,sopdt,lag x3.0,False,retune by experiment,4,1.0,False
+917,sopdt,lag x0.4,True,frozen,0,1.3165017073619667,False
+917,sopdt,lag x0.4,True,frozen,1,1.138020992623331,False
+917,sopdt,lag x0.4,True,frozen,2,48.30722986193312,False
+917,sopdt,lag x0.4,True,frozen,3,33.76274360712608,False
+917,sopdt,lag x0.4,True,frozen,4,34.928557026465846,False
+917,sopdt,lag x0.4,True,adaptive ML,0,1.4199017276313184,False
+917,sopdt,lag x0.4,True,adaptive ML,1,2.210011188997213,False
+917,sopdt,lag x0.4,True,adaptive ML,2,100.0,False
+917,sopdt,lag x0.4,True,adaptive ML,3,100.0,False
+917,sopdt,lag x0.4,True,adaptive ML,4,100.0,False
+917,sopdt,lag x0.4,True,self-tuning pole placement,0,1.3931457061031431,False
+917,sopdt,lag x0.4,True,self-tuning pole placement,1,1.4428044370948137,False
+917,sopdt,lag x0.4,True,self-tuning pole placement,2,0.7157032423456843,False
+917,sopdt,lag x0.4,True,self-tuning pole placement,3,0.584461705694141,False
+917,sopdt,lag x0.4,True,self-tuning pole placement,4,0.544808404391775,False
+917,sopdt,lag x0.4,True,retune by experiment,0,1.0,False
+917,sopdt,lag x0.4,True,retune by experiment,1,1.0,False
+917,sopdt,lag x0.4,True,retune by experiment,2,1.0,False
+917,sopdt,lag x0.4,True,retune by experiment,3,1.0,False
+917,sopdt,lag x0.4,True,retune by experiment,4,1.0,False
+917,sopdt,lag x0.4,False,frozen,0,1.0991223274624695,False
+917,sopdt,lag x0.4,False,frozen,1,0.9079368885255911,False
+917,sopdt,lag x0.4,False,frozen,2,100.0,False
+917,sopdt,lag x0.4,False,frozen,3,100.0,False
+917,sopdt,lag x0.4,False,frozen,4,100.0,False
+917,sopdt,lag x0.4,False,adaptive ML,0,1.0752928867655536,False
+917,sopdt,lag x0.4,False,adaptive ML,1,3.546483737803991,False
+917,sopdt,lag x0.4,False,adaptive ML,2,100.0,False
+917,sopdt,lag x0.4,False,adaptive ML,3,100.0,False
+917,sopdt,lag x0.4,False,adaptive ML,4,100.0,False
+917,sopdt,lag x0.4,False,self-tuning pole placement,0,1.1343863446163043,False
+917,sopdt,lag x0.4,False,self-tuning pole placement,1,3.1314905048116057,False
+917,sopdt,lag x0.4,False,self-tuning pole placement,2,8.345800340980986,False
+917,sopdt,lag x0.4,False,self-tuning pole placement,3,3.947684469550492,False
+917,sopdt,lag x0.4,False,self-tuning pole placement,4,3.5699027774898924,False
+917,sopdt,lag x0.4,False,retune by experiment,0,1.0,False
+917,sopdt,lag x0.4,False,retune by experiment,1,1.0,False
+917,sopdt,lag x0.4,False,retune by experiment,2,1.0,False
+917,sopdt,lag x0.4,False,retune by experiment,3,1.0,False
+917,sopdt,lag x0.4,False,retune by experiment,4,1.0,False
+265,sopdt,none x1.0,True,frozen,0,1.2644491353464147,False
+265,sopdt,none x1.0,True,frozen,1,1.0617756634165643,False
+265,sopdt,none x1.0,True,frozen,2,1.0280357476759685,False
+265,sopdt,none x1.0,True,frozen,3,0.9301270392908626,False
+265,sopdt,none x1.0,True,frozen,4,1.076191544173061,False
+265,sopdt,none x1.0,True,adaptive ML,0,1.2276639672786118,False
+265,sopdt,none x1.0,True,adaptive ML,1,1.4071368228935093,False
+265,sopdt,none x1.0,True,adaptive ML,2,1.0953917973488194,False
+265,sopdt,none x1.0,True,adaptive ML,3,1.525641061101965,False
+265,sopdt,none x1.0,True,adaptive ML,4,1.4976239108442717,False
+265,sopdt,none x1.0,True,self-tuning pole placement,0,1.163839944956738,False
+265,sopdt,none x1.0,True,self-tuning pole placement,1,1.5618540651967185,False
+265,sopdt,none x1.0,True,self-tuning pole placement,2,1.2705025982608156,False
+265,sopdt,none x1.0,True,self-tuning pole placement,3,1.2307453292480663,False
+265,sopdt,none x1.0,True,self-tuning pole placement,4,1.1496575638385729,False
+265,sopdt,none x1.0,True,retune by experiment,0,1.0,False
+265,sopdt,none x1.0,True,retune by experiment,1,1.0,False
+265,sopdt,none x1.0,True,retune by experiment,2,1.0,False
+265,sopdt,none x1.0,True,retune by experiment,3,1.0,False
+265,sopdt,none x1.0,True,retune by experiment,4,1.0,False
+265,sopdt,none x1.0,False,frozen,0,1.0416008765314506,False
+265,sopdt,none x1.0,False,frozen,1,1.0094056341723552,False
+265,sopdt,none x1.0,False,frozen,2,1.0094064747483305,False
+265,sopdt,none x1.0,False,frozen,3,1.0093067310450474,False
+265,sopdt,none x1.0,False,frozen,4,1.0094064783050127,False
+265,sopdt,none x1.0,False,adaptive ML,0,1.0214164919965687,False
+265,sopdt,none x1.0,False,adaptive ML,1,2.196911142188802,False
+265,sopdt,none x1.0,False,adaptive ML,2,67.04953445263982,False
+265,sopdt,none x1.0,False,adaptive ML,3,100.0,False
+265,sopdt,none x1.0,False,adaptive ML,4,58.83549214347757,False
+265,sopdt,none x1.0,False,self-tuning pole placement,0,1.076157446781143,False
+265,sopdt,none x1.0,False,self-tuning pole placement,1,3.1669761714298987,False
+265,sopdt,none x1.0,False,self-tuning pole placement,2,2.7971411603655105,False
+265,sopdt,none x1.0,False,self-tuning pole placement,3,3.4177531659478495,False
+265,sopdt,none x1.0,False,self-tuning pole placement,4,3.435919942269214,False
+265,sopdt,none x1.0,False,retune by experiment,0,1.0,False
+265,sopdt,none x1.0,False,retune by experiment,1,1.0,False
+265,sopdt,none x1.0,False,retune by experiment,2,1.0,False
+265,sopdt,none x1.0,False,retune by experiment,3,1.0,False
+265,sopdt,none x1.0,False,retune by experiment,4,1.0,False
+265,sopdt,gain x2.5,True,frozen,0,1.2644491353464147,False
+265,sopdt,gain x2.5,True,frozen,1,1.053402981948028,False
+265,sopdt,gain x2.5,True,frozen,2,1.2604724855294984,False
+265,sopdt,gain x2.5,True,frozen,3,6.251090973745155,False
+265,sopdt,gain x2.5,True,frozen,4,6.927607732663394,False
+265,sopdt,gain x2.5,True,adaptive ML,0,1.2276639672786118,False
+265,sopdt,gain x2.5,True,adaptive ML,1,1.1052552799969626,False
+265,sopdt,gain x2.5,True,adaptive ML,2,0.7376869737806431,False
+265,sopdt,gain x2.5,True,adaptive ML,3,0.7902851664580989,False
+265,sopdt,gain x2.5,True,adaptive ML,4,2.0841049126587876,False
+265,sopdt,gain x2.5,True,self-tuning pole placement,0,1.163839944956738,False
+265,sopdt,gain x2.5,True,self-tuning pole placement,1,1.2416633044603544,False
+265,sopdt,gain x2.5,True,self-tuning pole placement,2,0.7566184795037587,False
+265,sopdt,gain x2.5,True,self-tuning pole placement,3,1.5683260277813624,False
+265,sopdt,gain x2.5,True,self-tuning pole placement,4,1.26274020977772,False
+265,sopdt,gain x2.5,True,retune by experiment,0,1.0,False
+265,sopdt,gain x2.5,True,retune by experiment,1,1.0,False
+265,sopdt,gain x2.5,True,retune by experiment,2,1.0,False
+265,sopdt,gain x2.5,True,retune by experiment,3,1.0,False
+265,sopdt,gain x2.5,True,retune by experiment,4,1.0,False
+265,sopdt,gain x2.5,False,frozen,0,1.0416008765314506,False
+265,sopdt,gain x2.5,False,frozen,1,0.9189615105649691,False
+265,sopdt,gain x2.5,False,frozen,2,15.993965741787195,False
+265,sopdt,gain x2.5,False,frozen,3,71.3074675165008,False
+265,sopdt,gain x2.5,False,frozen,4,70.09431871542445,False
+265,sopdt,gain x2.5,False,adaptive ML,0,1.0214164919965687,False
+265,sopdt,gain x2.5,False,adaptive ML,1,1.1452461116999997,False
+265,sopdt,gain x2.5,False,adaptive ML,2,74.26937386539267,False
+265,sopdt,gain x2.5,False,adaptive ML,3,100.0,False
+265,sopdt,gain x2.5,False,adaptive ML,4,34.49465270076242,False
+265,sopdt,gain x2.5,False,self-tuning pole placement,0,1.076157446781143,False
+265,sopdt,gain x2.5,False,self-tuning pole placement,1,1.4061475060243391,False
+265,sopdt,gain x2.5,False,self-tuning pole placement,2,1.1843655933681194,False
+265,sopdt,gain x2.5,False,self-tuning pole placement,3,3.5326448029354705,False
+265,sopdt,gain x2.5,False,self-tuning pole placement,4,3.5680598284115623,False
+265,sopdt,gain x2.5,False,retune by experiment,0,1.0,False
+265,sopdt,gain x2.5,False,retune by experiment,1,1.0,False
+265,sopdt,gain x2.5,False,retune by experiment,2,1.0,False
+265,sopdt,gain x2.5,False,retune by experiment,3,1.0,False
+265,sopdt,gain x2.5,False,retune by experiment,4,1.0,False
+265,sopdt,lag x3.0,True,frozen,0,1.2644491353464147,False
+265,sopdt,lag x3.0,True,frozen,1,1.0239060945833467,False
+265,sopdt,lag x3.0,True,frozen,2,6.109499810019703,False
+265,sopdt,lag x3.0,True,frozen,3,4.901766475625787,False
+265,sopdt,lag x3.0,True,frozen,4,4.749205594961953,False
+265,sopdt,lag x3.0,True,adaptive ML,0,1.2276639672786118,False
+265,sopdt,lag x3.0,True,adaptive ML,1,1.3513993788291512,False
+265,sopdt,lag x3.0,True,adaptive ML,2,2.7846064926839396,False
+265,sopdt,lag x3.0,True,adaptive ML,3,0.794559023579686,False
+265,sopdt,lag x3.0,True,adaptive ML,4,1.0962301858631744,False
+265,sopdt,lag x3.0,True,self-tuning pole placement,0,1.163839944956738,False
+265,sopdt,lag x3.0,True,self-tuning pole placement,1,1.488471820751139,False
+265,sopdt,lag x3.0,True,self-tuning pole placement,2,4.416197407037499,False
+265,sopdt,lag x3.0,True,self-tuning pole placement,3,1.9616940657512365,False
+265,sopdt,lag x3.0,True,self-tuning pole placement,4,1.6198258697023848,False
+265,sopdt,lag x3.0,True,retune by experiment,0,1.0,False
+265,sopdt,lag x3.0,True,retune by experiment,1,1.0,False
+265,sopdt,lag x3.0,True,retune by experiment,2,1.0,False
+265,sopdt,lag x3.0,True,retune by experiment,3,1.0,False
+265,sopdt,lag x3.0,True,retune by experiment,4,1.0,False
+265,sopdt,lag x3.0,False,frozen,0,1.0416008765314506,False
+265,sopdt,lag x3.0,False,frozen,1,1.0094155158659206,False
+265,sopdt,lag x3.0,False,frozen,2,2.1583060852374203,False
+265,sopdt,lag x3.0,False,frozen,3,2.671319863436025,False
+265,sopdt,lag x3.0,False,frozen,4,2.1117354317374732,False
+265,sopdt,lag x3.0,False,adaptive ML,0,1.0214164919965687,False
+265,sopdt,lag x3.0,False,adaptive ML,1,2.2079169467969386,False
+265,sopdt,lag x3.0,False,adaptive ML,2,14.985536612004429,False
+265,sopdt,lag x3.0,False,adaptive ML,3,0.2703298293198728,False
+265,sopdt,lag x3.0,False,adaptive ML,4,1.5293945782430087,False
+265,sopdt,lag x3.0,False,self-tuning pole placement,0,1.076157446781143,False
+265,sopdt,lag x3.0,False,self-tuning pole placement,1,3.167211993753305,False
+265,sopdt,lag x3.0,False,self-tuning pole placement,2,2.891753605535567,False
+265,sopdt,lag x3.0,False,self-tuning pole placement,3,1.2654487648224728,False
+265,sopdt,lag x3.0,False,self-tuning pole placement,4,0.8247603584864304,False
+265,sopdt,lag x3.0,False,retune by experiment,0,1.0,False
+265,sopdt,lag x3.0,False,retune by experiment,1,1.0,False
+265,sopdt,lag x3.0,False,retune by experiment,2,1.0,False
+265,sopdt,lag x3.0,False,retune by experiment,3,1.0,False
+265,sopdt,lag x3.0,False,retune by experiment,4,1.0,False
+265,sopdt,lag x0.4,True,frozen,0,1.2644491353464147,False
+265,sopdt,lag x0.4,True,frozen,1,1.0899689896066698,False
+265,sopdt,lag x0.4,True,frozen,2,15.850515537837357,False
+265,sopdt,lag x0.4,True,frozen,3,14.21008365474141,False
+265,sopdt,lag x0.4,True,frozen,4,13.153348030853708,False
+265,sopdt,lag x0.4,True,adaptive ML,0,1.2276639672786118,False
+265,sopdt,lag x0.4,True,adaptive ML,1,1.4285660868435623,False
+265,sopdt,lag x0.4,True,adaptive ML,2,100.0,False
+265,sopdt,lag x0.4,True,adaptive ML,3,100.0,False
+265,sopdt,lag x0.4,True,adaptive ML,4,100.0,False
+265,sopdt,lag x0.4,True,self-tuning pole placement,0,1.163839944956738,False
+265,sopdt,lag x0.4,True,self-tuning pole placement,1,1.5380785509076942,False
+265,sopdt,lag x0.4,True,self-tuning pole placement,2,1.51989225204826,False
+265,sopdt,lag x0.4,True,self-tuning pole placement,3,0.6032051124257927,False
+265,sopdt,lag x0.4,True,self-tuning pole placement,4,0.7523423832903327,False
+265,sopdt,lag x0.4,True,retune by experiment,0,1.0,False
+265,sopdt,lag x0.4,True,retune by experiment,1,1.0,False
+265,sopdt,lag x0.4,True,retune by experiment,2,1.0,False
+265,sopdt,lag x0.4,True,retune by experiment,3,1.0,False
+265,sopdt,lag x0.4,True,retune by experiment,4,1.0,False
+265,sopdt,lag x0.4,False,frozen,0,1.0416008765314506,False
+265,sopdt,lag x0.4,False,frozen,1,1.0094090799770092,False
+265,sopdt,lag x0.4,False,frozen,2,100.0,False
+265,sopdt,lag x0.4,False,frozen,3,100.0,False
+265,sopdt,lag x0.4,False,frozen,4,100.0,False
+265,sopdt,lag x0.4,False,adaptive ML,0,1.0214164919965687,False
+265,sopdt,lag x0.4,False,adaptive ML,1,2.1999915650278474,False
+265,sopdt,lag x0.4,False,adaptive ML,2,100.0,False
+265,sopdt,lag x0.4,False,adaptive ML,3,100.0,False
+265,sopdt,lag x0.4,False,adaptive ML,4,100.0,False
+265,sopdt,lag x0.4,False,self-tuning pole placement,0,1.076157446781143,False
+265,sopdt,lag x0.4,False,self-tuning pole placement,1,3.1663408852386246,False
+265,sopdt,lag x0.4,False,self-tuning pole placement,2,8.27558153013567,False
+265,sopdt,lag x0.4,False,self-tuning pole placement,3,6.2518997925730835,False
+265,sopdt,lag x0.4,False,self-tuning pole placement,4,6.3371751542421135,False
+265,sopdt,lag x0.4,False,retune by experiment,0,1.0,False
+265,sopdt,lag x0.4,False,retune by experiment,1,1.0,False
+265,sopdt,lag x0.4,False,retune by experiment,2,1.0,False
+265,sopdt,lag x0.4,False,retune by experiment,3,1.0,False
+265,sopdt,lag x0.4,False,retune by experiment,4,1.0,False
+943,hammerstein,none x1.0,True,frozen,0,1.3391937446470392,False
+943,hammerstein,none x1.0,True,frozen,1,1.4542334528783711,False
+943,hammerstein,none x1.0,True,frozen,2,1.294162815525836,False
+943,hammerstein,none x1.0,True,frozen,3,1.3740335984802952,False
+943,hammerstein,none x1.0,True,frozen,4,1.2136849388502675,False
+943,hammerstein,none x1.0,True,adaptive ML,0,1.476715841887441,False
+943,hammerstein,none x1.0,True,adaptive ML,1,1.546352293649292,False
+943,hammerstein,none x1.0,True,adaptive ML,2,1.430861995123935,False
+943,hammerstein,none x1.0,True,adaptive ML,3,1.4849801366363606,False
+943,hammerstein,none x1.0,True,adaptive ML,4,1.231582871877713,False
+943,hammerstein,none x1.0,True,self-tuning pole placement,0,0.7518067751165867,False
+943,hammerstein,none x1.0,True,self-tuning pole placement,1,0.21600705985604232,False
+943,hammerstein,none x1.0,True,self-tuning pole placement,2,0.23537704871654788,False
+943,hammerstein,none x1.0,True,self-tuning pole placement,3,0.2326067857581787,False
+943,hammerstein,none x1.0,True,self-tuning pole placement,4,0.23574912280924493,False
+943,hammerstein,none x1.0,True,retune by experiment,0,1.0,False
+943,hammerstein,none x1.0,True,retune by experiment,1,1.0,False
+943,hammerstein,none x1.0,True,retune by experiment,2,1.0,False
+943,hammerstein,none x1.0,True,retune by experiment,3,1.0,False
+943,hammerstein,none x1.0,True,retune by experiment,4,1.0,False
+943,hammerstein,none x1.0,False,frozen,0,0.999646813835978,False
+943,hammerstein,none x1.0,False,frozen,1,1.032707963305688,False
+943,hammerstein,none x1.0,False,frozen,2,0.9394445795922566,False
+943,hammerstein,none x1.0,False,frozen,3,1.0327079633057406,False
+943,hammerstein,none x1.0,False,frozen,4,0.9394445795922948,False
+943,hammerstein,none x1.0,False,adaptive ML,0,1.0006059674903858,False
+943,hammerstein,none x1.0,False,adaptive ML,1,100.0,False
+943,hammerstein,none x1.0,False,adaptive ML,2,100.0,False
+943,hammerstein,none x1.0,False,adaptive ML,3,100.0,False
+943,hammerstein,none x1.0,False,adaptive ML,4,100.0,False
+943,hammerstein,none x1.0,False,self-tuning pole placement,0,0.9997248059529249,False
+943,hammerstein,none x1.0,False,self-tuning pole placement,1,8.174628315821245,False
+943,hammerstein,none x1.0,False,self-tuning pole placement,2,19.192736122076127,False
+943,hammerstein,none x1.0,False,self-tuning pole placement,3,5.935804024825997,False
+943,hammerstein,none x1.0,False,self-tuning pole placement,4,19.52002129113255,False
+943,hammerstein,none x1.0,False,retune by experiment,0,1.0,False
+943,hammerstein,none x1.0,False,retune by experiment,1,1.0,False
+943,hammerstein,none x1.0,False,retune by experiment,2,1.0,False
+943,hammerstein,none x1.0,False,retune by experiment,3,1.0,False
+943,hammerstein,none x1.0,False,retune by experiment,4,1.0,False
+943,hammerstein,gain x2.5,True,frozen,0,1.3391937446470392,False
+943,hammerstein,gain x2.5,True,frozen,1,1.750266073937529,False
+943,hammerstein,gain x2.5,True,frozen,2,4.21126326018204,False
+943,hammerstein,gain x2.5,True,frozen,3,4.54966166513947,False
+943,hammerstein,gain x2.5,True,frozen,4,3.9600189863689508,False
+943,hammerstein,gain x2.5,True,adaptive ML,0,1.476715841887441,False
+943,hammerstein,gain x2.5,True,adaptive ML,1,1.8220761957890639,False
+943,hammerstein,gain x2.5,True,adaptive ML,2,3.253889367939203,False
+943,hammerstein,gain x2.5,True,adaptive ML,3,3.680422803505446,False
+943,hammerstein,gain x2.5,True,adaptive ML,4,3.9995176356248905,False
+943,hammerstein,gain x2.5,True,self-tuning pole placement,0,0.7518067751165867,False
+943,hammerstein,gain x2.5,True,self-tuning pole placement,1,0.7333029134054373,False
+943,hammerstein,gain x2.5,True,self-tuning pole placement,2,0.166618100950408,False
+943,hammerstein,gain x2.5,True,self-tuning pole placement,3,0.2147026736292931,False
+943,hammerstein,gain x2.5,True,self-tuning pole placement,4,0.22425746731312798,False
+943,hammerstein,gain x2.5,True,retune by experiment,0,1.0,False
+943,hammerstein,gain x2.5,True,retune by experiment,1,1.0,False
+943,hammerstein,gain x2.5,True,retune by experiment,2,1.0,False
+943,hammerstein,gain x2.5,True,retune by experiment,3,1.0,False
+943,hammerstein,gain x2.5,True,retune by experiment,4,1.0,False
+943,hammerstein,gain x2.5,False,frozen,0,0.999646813835978,False
+943,hammerstein,gain x2.5,False,frozen,1,1.0001191738685233,False
+943,hammerstein,gain x2.5,False,frozen,2,100.0,False
+943,hammerstein,gain x2.5,False,frozen,3,100.0,False
+943,hammerstein,gain x2.5,False,frozen,4,100.0,False
+943,hammerstein,gain x2.5,False,adaptive ML,0,1.0006059674903858,False
+943,hammerstein,gain x2.5,False,adaptive ML,1,9.383894996549296,False
+943,hammerstein,gain x2.5,False,adaptive ML,2,100.0,False
+943,hammerstein,gain x2.5,False,adaptive ML,3,100.0,False
+943,hammerstein,gain x2.5,False,adaptive ML,4,100.0,False
+943,hammerstein,gain x2.5,False,self-tuning pole placement,0,0.9997248059529249,False
+943,hammerstein,gain x2.5,False,self-tuning pole placement,1,2.4586046429695143,False
+943,hammerstein,gain x2.5,False,self-tuning pole placement,2,3.6924740155481373,False
+943,hammerstein,gain x2.5,False,self-tuning pole placement,3,6.385442447735219,False
+943,hammerstein,gain x2.5,False,self-tuning pole placement,4,10.775009071878625,False
+943,hammerstein,gain x2.5,False,retune by experiment,0,1.0,False
+943,hammerstein,gain x2.5,False,retune by experiment,1,1.0,False
+943,hammerstein,gain x2.5,False,retune by experiment,2,1.0,False
+943,hammerstein,gain x2.5,False,retune by experiment,3,1.0,False
+943,hammerstein,gain x2.5,False,retune by experiment,4,1.0,False
+943,hammerstein,lag x3.0,True,frozen,0,1.3391937446470392,False
+943,hammerstein,lag x3.0,True,frozen,1,1.4017326290945566,False
+943,hammerstein,lag x3.0,True,frozen,2,1.0378697299135144,False
+943,hammerstein,lag x3.0,True,frozen,3,1.048542843574553,False
+943,hammerstein,lag x3.0,True,frozen,4,1.040225481661509,False
+943,hammerstein,lag x3.0,True,adaptive ML,0,1.476715841887441,False
+943,hammerstein,lag x3.0,True,adaptive ML,1,1.4803785306006974,False
+943,hammerstein,lag x3.0,True,adaptive ML,2,1.0718414656261814,False
+943,hammerstein,lag x3.0,True,adaptive ML,3,0.9315496387512752,False
+943,hammerstein,lag x3.0,True,adaptive ML,4,1.0447770560083318,False
+943,hammerstein,lag x3.0,True,self-tuning pole placement,0,0.7518067751165867,False
+943,hammerstein,lag x3.0,True,self-tuning pole placement,1,0.22301575662072937,False
+943,hammerstein,lag x3.0,True,self-tuning pole placement,2,1.3935081205179465,False
+943,hammerstein,lag x3.0,True,self-tuning pole placement,3,0.20821991714968888,False
+943,hammerstein,lag x3.0,True,self-tuning pole placement,4,0.9779065377776659,False
+943,hammerstein,lag x3.0,True,retune by experiment,0,1.0,False
+943,hammerstein,lag x3.0,True,retune by experiment,1,1.0,False
+943,hammerstein,lag x3.0,True,retune by experiment,2,1.0,False
+943,hammerstein,lag x3.0,True,retune by experiment,3,1.0,False
+943,hammerstein,lag x3.0,True,retune by experiment,4,1.0,False
+943,hammerstein,lag x3.0,False,frozen,0,0.999646813835978,False
+943,hammerstein,lag x3.0,False,frozen,1,1.0327079633059415,False
+943,hammerstein,lag x3.0,False,frozen,2,1.498271840481526,False
+943,hammerstein,lag x3.0,False,frozen,3,1.107613170830526,False
+943,hammerstein,lag x3.0,False,frozen,4,1.4982718404824333,False
+943,hammerstein,lag x3.0,False,adaptive ML,0,1.0006059674903858,False
+943,hammerstein,lag x3.0,False,adaptive ML,1,100.0,False
+943,hammerstein,lag x3.0,False,adaptive ML,2,1.2229169886477484,False
+943,hammerstein,lag x3.0,False,adaptive ML,3,0.9847814157677226,False
+943,hammerstein,lag x3.0,False,adaptive ML,4,0.9603968647491125,False
+943,hammerstein,lag x3.0,False,self-tuning pole placement,0,0.9997248059529249,False
+943,hammerstein,lag x3.0,False,self-tuning pole placement,1,8.174628263706621,False
+943,hammerstein,lag x3.0,False,self-tuning pole placement,2,6.9968297044746075,False
+943,hammerstein,lag x3.0,False,self-tuning pole placement,3,1.3280957224832348,False
+943,hammerstein,lag x3.0,False,self-tuning pole placement,4,6.437911692194122,False
+943,hammerstein,lag x3.0,False,retune by experiment,0,1.0,False
+943,hammerstein,lag x3.0,False,retune by experiment,1,1.0,False
+943,hammerstein,lag x3.0,False,retune by experiment,2,1.0,False
+943,hammerstein,lag x3.0,False,retune by experiment,3,1.0,False
+943,hammerstein,lag x3.0,False,retune by experiment,4,1.0,False
+943,hammerstein,lag x0.4,True,frozen,0,1.3391937446470392,False
+943,hammerstein,lag x0.4,True,frozen,1,1.5242099991369407,False
+943,hammerstein,lag x0.4,True,frozen,2,3.535669068057608,False
+943,hammerstein,lag x0.4,True,frozen,3,3.3172883208904276,False
+943,hammerstein,lag x0.4,True,frozen,4,2.660211941406968,False
+943,hammerstein,lag x0.4,True,adaptive ML,0,1.476715841887441,False
+943,hammerstein,lag x0.4,True,adaptive ML,1,1.5886185290898376,False
+943,hammerstein,lag x0.4,True,adaptive ML,2,3.633601142239545,False
+943,hammerstein,lag x0.4,True,adaptive ML,3,3.173160870708386,False
+943,hammerstein,lag x0.4,True,adaptive ML,4,2.7137943602231402,False
+943,hammerstein,lag x0.4,True,self-tuning pole placement,0,0.7518067751165867,False
+943,hammerstein,lag x0.4,True,self-tuning pole placement,1,0.20315276530808016,False
+943,hammerstein,lag x0.4,True,self-tuning pole placement,2,0.19124008164711195,False
+943,hammerstein,lag x0.4,True,self-tuning pole placement,3,0.20365229583564803,False
+943,hammerstein,lag x0.4,True,self-tuning pole placement,4,0.2501281043346986,False
+943,hammerstein,lag x0.4,True,retune by experiment,0,1.0,False
+943,hammerstein,lag x0.4,True,retune by experiment,1,1.0,False
+943,hammerstein,lag x0.4,True,retune by experiment,2,1.0,False
+943,hammerstein,lag x0.4,True,retune by experiment,3,1.0,False
+943,hammerstein,lag x0.4,True,retune by experiment,4,1.0,False
+943,hammerstein,lag x0.4,False,frozen,0,0.999646813835978,False
+943,hammerstein,lag x0.4,False,frozen,1,1.0327079633175504,False
+943,hammerstein,lag x0.4,False,frozen,2,100.0,False
+943,hammerstein,lag x0.4,False,frozen,3,100.0,False
+943,hammerstein,lag x0.4,False,frozen,4,100.0,False
+943,hammerstein,lag x0.4,False,adaptive ML,0,1.0006059674903858,False
+943,hammerstein,lag x0.4,False,adaptive ML,1,100.0,False
+943,hammerstein,lag x0.4,False,adaptive ML,2,100.0,False
+943,hammerstein,lag x0.4,False,adaptive ML,3,100.0,False
+943,hammerstein,lag x0.4,False,adaptive ML,4,100.0,False
+943,hammerstein,lag x0.4,False,self-tuning pole placement,0,0.9997248059529249,False
+943,hammerstein,lag x0.4,False,self-tuning pole placement,1,8.17462833802019,False
+943,hammerstein,lag x0.4,False,self-tuning pole placement,2,4.4758797626562625,False
+943,hammerstein,lag x0.4,False,self-tuning pole placement,3,3.570465408658554,False
+943,hammerstein,lag x0.4,False,self-tuning pole placement,4,9.988567408159573,False
+943,hammerstein,lag x0.4,False,retune by experiment,0,1.0,False
+943,hammerstein,lag x0.4,False,retune by experiment,1,1.0,False
+943,hammerstein,lag x0.4,False,retune by experiment,2,1.0,False
+943,hammerstein,lag x0.4,False,retune by experiment,3,1.0,False
+943,hammerstein,lag x0.4,False,retune by experiment,4,1.0,False
+1155,hammerstein,none x1.0,True,frozen,0,1.2323570582336643,False
+1155,hammerstein,none x1.0,True,frozen,1,2.150806388370616,False
+1155,hammerstein,none x1.0,True,frozen,2,1.7497352814763107,False
+1155,hammerstein,none x1.0,True,frozen,3,2.4028453979808435,False
+1155,hammerstein,none x1.0,True,frozen,4,1.6221330277982595,False
+1155,hammerstein,none x1.0,True,adaptive ML,0,1.039651262547615,False
+1155,hammerstein,none x1.0,True,adaptive ML,1,2.3297816721800877,False
+1155,hammerstein,none x1.0,True,adaptive ML,2,1.5443782272690756,False
+1155,hammerstein,none x1.0,True,adaptive ML,3,1.0175973858327625,False
+1155,hammerstein,none x1.0,True,adaptive ML,4,0.9266570372792842,False
+1155,hammerstein,none x1.0,True,self-tuning pole placement,0,1.010335162006097,False
+1155,hammerstein,none x1.0,True,self-tuning pole placement,1,0.9122758592774737,False
+1155,hammerstein,none x1.0,True,self-tuning pole placement,2,1.2983166219350242,False
+1155,hammerstein,none x1.0,True,self-tuning pole placement,3,0.8088555090225383,False
+1155,hammerstein,none x1.0,True,self-tuning pole placement,4,0.916795759863136,False
+1155,hammerstein,none x1.0,True,retune by experiment,0,1.0,False
+1155,hammerstein,none x1.0,True,retune by experiment,1,1.0,False
+1155,hammerstein,none x1.0,True,retune by experiment,2,1.0,False
+1155,hammerstein,none x1.0,True,retune by experiment,3,1.0,False
+1155,hammerstein,none x1.0,True,retune by experiment,4,1.0,False
+1155,hammerstein,none x1.0,False,frozen,0,1.0673820963818803,False
+1155,hammerstein,none x1.0,False,frozen,1,1.0939134982749026,False
+1155,hammerstein,none x1.0,False,frozen,2,0.9268665733328962,False
+1155,hammerstein,none x1.0,False,frozen,3,1.0925923276376897,False
+1155,hammerstein,none x1.0,False,frozen,4,0.9268665755089546,False
+1155,hammerstein,none x1.0,False,adaptive ML,0,1.1066636035598665,False
+1155,hammerstein,none x1.0,False,adaptive ML,1,2.06597603732528,False
+1155,hammerstein,none x1.0,False,adaptive ML,2,1.73018437499845,False
+1155,hammerstein,none x1.0,False,adaptive ML,3,2.5200888119780633,False
+1155,hammerstein,none x1.0,False,adaptive ML,4,2.8757099751854764,False
+1155,hammerstein,none x1.0,False,self-tuning pole placement,0,1.1077891187145132,False
+1155,hammerstein,none x1.0,False,self-tuning pole placement,1,2.792442323374678,False
+1155,hammerstein,none x1.0,False,self-tuning pole placement,2,3.3566685146176862,False
+1155,hammerstein,none x1.0,False,self-tuning pole placement,3,2.747401518677547,False
+1155,hammerstein,none x1.0,False,self-tuning pole placement,4,3.229800934828397,False
+1155,hammerstein,none x1.0,False,retune by experiment,0,1.0,False
+1155,hammerstein,none x1.0,False,retune by experiment,1,1.0,False
+1155,hammerstein,none x1.0,False,retune by experiment,2,1.0,False
+1155,hammerstein,none x1.0,False,retune by experiment,3,1.0,False
+1155,hammerstein,none x1.0,False,retune by experiment,4,1.0,False
+1155,hammerstein,gain x0.4,True,frozen,0,1.2323570582336643,False
+1155,hammerstein,gain x0.4,True,frozen,1,1.1955406825338253,False
+1155,hammerstein,gain x0.4,True,frozen,2,3.274138224412286,False
+1155,hammerstein,gain x0.4,True,frozen,3,1.1012055411774013,False
+1155,hammerstein,gain x0.4,True,frozen,4,1.124434395882688,False
+1155,hammerstein,gain x0.4,True,adaptive ML,0,1.039651262547615,False
+1155,hammerstein,gain x0.4,True,adaptive ML,1,1.247573963769484,False
+1155,hammerstein,gain x0.4,True,adaptive ML,2,14.3649433957479,False
+1155,hammerstein,gain x0.4,True,adaptive ML,3,0.8587596104802336,False
+1155,hammerstein,gain x0.4,True,adaptive ML,4,0.7453832980048174,False
+1155,hammerstein,gain x0.4,True,self-tuning pole placement,0,1.010335162006097,False
+1155,hammerstein,gain x0.4,True,self-tuning pole placement,1,1.025373857167363,False
+1155,hammerstein,gain x0.4,True,self-tuning pole placement,2,11.122507353909356,False
+1155,hammerstein,gain x0.4,True,self-tuning pole placement,3,0.7631585780206838,False
+1155,hammerstein,gain x0.4,True,self-tuning pole placement,4,0.8785554723575562,False
+1155,hammerstein,gain x0.4,True,retune by experiment,0,1.0,False
+1155,hammerstein,gain x0.4,True,retune by experiment,1,1.0,False
+1155,hammerstein,gain x0.4,True,retune by experiment,2,1.0,False
+1155,hammerstein,gain x0.4,True,retune by experiment,3,1.0,False
+1155,hammerstein,gain x0.4,True,retune by experiment,4,1.0,False
+1155,hammerstein,gain x0.4,False,frozen,0,1.0673820963818803,False
+1155,hammerstein,gain x0.4,False,frozen,1,1.0053616190746972,False
+1155,hammerstein,gain x0.4,False,frozen,2,11.644131287698642,False
+1155,hammerstein,gain x0.4,False,frozen,3,8.139281061746837,False
+1155,hammerstein,gain x0.4,False,frozen,4,10.205087194301699,False
+1155,hammerstein,gain x0.4,False,adaptive ML,0,1.1066636035598665,False
+1155,hammerstein,gain x0.4,False,adaptive ML,1,1.0727507705334882,False
+1155,hammerstein,gain x0.4,False,adaptive ML,2,7.187618008221679,False
+1155,hammerstein,gain x0.4,False,adaptive ML,3,1.4338839988308567,False
+1155,hammerstein,gain x0.4,False,adaptive ML,4,2.4811113980444675,False
+1155,hammerstein,gain x0.4,False,self-tuning pole placement,0,1.1077891187145132,False
+1155,hammerstein,gain x0.4,False,self-tuning pole placement,1,1.1305977253910313,False
+1155,hammerstein,gain x0.4,False,self-tuning pole placement,2,17.818932040852367,False
+1155,hammerstein,gain x0.4,False,self-tuning pole placement,3,2.3789999164633495,False
+1155,hammerstein,gain x0.4,False,self-tuning pole placement,4,3.5903152203439532,False
+1155,hammerstein,gain x0.4,False,retune by experiment,0,1.0,False
+1155,hammerstein,gain x0.4,False,retune by experiment,1,1.0,False
+1155,hammerstein,gain x0.4,False,retune by experiment,2,1.0,False
+1155,hammerstein,gain x0.4,False,retune by experiment,3,1.0,False
+1155,hammerstein,gain x0.4,False,retune by experiment,4,1.0,False
+1155,hammerstein,gain x2.5,True,frozen,0,1.2323570582336643,False
+1155,hammerstein,gain x2.5,True,frozen,1,1.0638833433785015,False
+1155,hammerstein,gain x2.5,True,frozen,2,100.0,False
+1155,hammerstein,gain x2.5,True,frozen,3,100.0,False
+1155,hammerstein,gain x2.5,True,frozen,4,100.0,False
+1155,hammerstein,gain x2.5,True,adaptive ML,0,1.039651262547615,False
+1155,hammerstein,gain x2.5,True,adaptive ML,1,1.3095538350866591,False
+1155,hammerstein,gain x2.5,True,adaptive ML,2,9.682767485615036,False
+1155,hammerstein,gain x2.5,True,adaptive ML,3,0.794497356734178,False
+1155,hammerstein,gain x2.5,True,adaptive ML,4,0.8934496156721599,False
+1155,hammerstein,gain x2.5,True,self-tuning pole placement,0,1.010335162006097,False
+1155,hammerstein,gain x2.5,True,self-tuning pole placement,1,1.3421858401336868,False
+1155,hammerstein,gain x2.5,True,self-tuning pole placement,2,0.19638180085255727,False
+1155,hammerstein,gain x2.5,True,self-tuning pole placement,3,1.0526211353128587,False
+1155,hammerstein,gain x2.5,True,self-tuning pole placement,4,0.8651930978429424,False
+1155,hammerstein,gain x2.5,True,retune by experiment,0,1.0,False
+1155,hammerstein,gain x2.5,True,retune by experiment,1,1.0,False
+1155,hammerstein,gain x2.5,True,retune by experiment,2,1.0,False
+1155,hammerstein,gain x2.5,True,retune by experiment,3,1.0,False
+1155,hammerstein,gain x2.5,True,retune by experiment,4,1.0,False
+1155,hammerstein,gain x2.5,False,frozen,0,1.0673820963818803,False
+1155,hammerstein,gain x2.5,False,frozen,1,1.0016903732604054,False
+1155,hammerstein,gain x2.5,False,frozen,2,82.28613473037807,False
+1155,hammerstein,gain x2.5,False,frozen,3,100.0,False
+1155,hammerstein,gain x2.5,False,frozen,4,100.0,False
+1155,hammerstein,gain x2.5,False,adaptive ML,0,1.1066636035598665,False
+1155,hammerstein,gain x2.5,False,adaptive ML,1,1.1513227480660562,False
+1155,hammerstein,gain x2.5,False,adaptive ML,2,6.467317320558638,False
+1155,hammerstein,gain x2.5,False,adaptive ML,3,3.2928479541942752,False
+1155,hammerstein,gain x2.5,False,adaptive ML,4,3.2750000680303724,False
+1155,hammerstein,gain x2.5,False,self-tuning pole placement,0,1.1077891187145132,False
+1155,hammerstein,gain x2.5,False,self-tuning pole placement,1,1.3080409169150118,False
+1155,hammerstein,gain x2.5,False,self-tuning pole placement,2,0.16408515224229955,False
+1155,hammerstein,gain x2.5,False,self-tuning pole placement,3,3.4967253736584807,False
+1155,hammerstein,gain x2.5,False,self-tuning pole placement,4,3.2064765617679916,False
+1155,hammerstein,gain x2.5,False,retune by experiment,0,1.0,False
+1155,hammerstein,gain x2.5,False,retune by experiment,1,1.0,False
+1155,hammerstein,gain x2.5,False,retune by experiment,2,1.0,False
+1155,hammerstein,gain x2.5,False,retune by experiment,3,1.0,False
+1155,hammerstein,gain x2.5,False,retune by experiment,4,1.0,False
+1155,hammerstein,lag x3.0,True,frozen,0,1.2323570582336643,False
+1155,hammerstein,lag x3.0,True,frozen,1,2.117881654508325,False
+1155,hammerstein,lag x3.0,True,frozen,2,1.8951928312981678,False
+1155,hammerstein,lag x3.0,True,frozen,3,1.3305135179951102,False
+1155,hammerstein,lag x3.0,True,frozen,4,1.64740033862903,False
+1155,hammerstein,lag x3.0,True,adaptive ML,0,1.039651262547615,False
+1155,hammerstein,lag x3.0,True,adaptive ML,1,2.3580332394302963,False
+1155,hammerstein,lag x3.0,True,adaptive ML,2,1.2120142218717946,False
+1155,hammerstein,lag x3.0,True,adaptive ML,3,0.7476622750982224,False
+1155,hammerstein,lag x3.0,True,adaptive ML,4,1.303384372815123,False
+1155,hammerstein,lag x3.0,True,self-tuning pole placement,0,1.010335162006097,False
+1155,hammerstein,lag x3.0,True,self-tuning pole placement,1,0.9148581363442675,False
+1155,hammerstein,lag x3.0,True,self-tuning pole placement,2,3.7994308282285836,False
+1155,hammerstein,lag x3.0,True,self-tuning pole placement,3,1.2552157053685238,False
+1155,hammerstein,lag x3.0,True,self-tuning pole placement,4,1.4340191062048746,False
+1155,hammerstein,lag x3.0,True,retune by experiment,0,1.0,False
+1155,hammerstein,lag x3.0,True,retune by experiment,1,1.0,False
+1155,hammerstein,lag x3.0,True,retune by experiment,2,1.0,False
+1155,hammerstein,lag x3.0,True,retune by experiment,3,1.0,False
+1155,hammerstein,lag x3.0,True,retune by experiment,4,1.0,False
+1155,hammerstein,lag x3.0,False,frozen,0,1.0673820963818803,False
+1155,hammerstein,lag x3.0,False,frozen,1,1.0939163555044382,False
+1155,hammerstein,lag x3.0,False,frozen,2,3.5661369528499045,False
+1155,hammerstein,lag x3.0,False,frozen,3,6.512202159320255,False
+1155,hammerstein,lag x3.0,False,frozen,4,3.567914458838677,False
+1155,hammerstein,lag x3.0,False,adaptive ML,0,1.1066636035598665,False
+1155,hammerstein,lag x3.0,False,adaptive ML,1,2.0659738667422625,False
+1155,hammerstein,lag x3.0,False,adaptive ML,2,3.9632475506506752,False
+1155,hammerstein,lag x3.0,False,adaptive ML,3,1.6849659666139132,False
+1155,hammerstein,lag x3.0,False,adaptive ML,4,1.3741319762043684,False
+1155,hammerstein,lag x3.0,False,self-tuning pole placement,0,1.1077891187145132,False
+1155,hammerstein,lag x3.0,False,self-tuning pole placement,1,2.7924826942257828,False
+1155,hammerstein,lag x3.0,False,self-tuning pole placement,2,6.387664599934476,False
+1155,hammerstein,lag x3.0,False,self-tuning pole placement,3,5.0320644165046975,False
+1155,hammerstein,lag x3.0,False,self-tuning pole placement,4,3.025028388930313,False
+1155,hammerstein,lag x3.0,False,retune by experiment,0,1.0,False
+1155,hammerstein,lag x3.0,False,retune by experiment,1,1.0,False
+1155,hammerstein,lag x3.0,False,retune by experiment,2,1.0,False
+1155,hammerstein,lag x3.0,False,retune by experiment,3,1.0,False
+1155,hammerstein,lag x3.0,False,retune by experiment,4,1.0,False
+1155,hammerstein,lag x0.4,True,frozen,0,1.2323570582336643,False
+1155,hammerstein,lag x0.4,True,frozen,1,2.0904460231819577,False
+1155,hammerstein,lag x0.4,True,frozen,2,100.0,False
+1155,hammerstein,lag x0.4,True,frozen,3,100.0,False
+1155,hammerstein,lag x0.4,True,frozen,4,100.0,False
+1155,hammerstein,lag x0.4,True,adaptive ML,0,1.039651262547615,False
+1155,hammerstein,lag x0.4,True,adaptive ML,1,2.1027711712682198,False
+1155,hammerstein,lag x0.4,True,adaptive ML,2,4.623207005144638,False
+1155,hammerstein,lag x0.4,True,adaptive ML,3,0.9690346835397912,False
+1155,hammerstein,lag x0.4,True,adaptive ML,4,0.8500717090864061,False
+1155,hammerstein,lag x0.4,True,self-tuning pole placement,0,1.010335162006097,False
+1155,hammerstein,lag x0.4,True,self-tuning pole placement,1,0.830001205497678,False
+1155,hammerstein,lag x0.4,True,self-tuning pole placement,2,1.3135233020053676,False
+1155,hammerstein,lag x0.4,True,self-tuning pole placement,3,1.7637786958287427,False
+1155,hammerstein,lag x0.4,True,self-tuning pole placement,4,1.769953262242377,False
+1155,hammerstein,lag x0.4,True,retune by experiment,0,1.0,False
+1155,hammerstein,lag x0.4,True,retune by experiment,1,1.0,False
+1155,hammerstein,lag x0.4,True,retune by experiment,2,1.0,False
+1155,hammerstein,lag x0.4,True,retune by experiment,3,1.0,False
+1155,hammerstein,lag x0.4,True,retune by experiment,4,1.0,False
+1155,hammerstein,lag x0.4,False,frozen,0,1.0673820963818803,False
+1155,hammerstein,lag x0.4,False,frozen,1,1.0939106764357347,False
+1155,hammerstein,lag x0.4,False,frozen,2,100.0,False
+1155,hammerstein,lag x0.4,False,frozen,3,100.0,False
+1155,hammerstein,lag x0.4,False,frozen,4,100.0,False
+1155,hammerstein,lag x0.4,False,adaptive ML,0,1.1066636035598665,False
+1155,hammerstein,lag x0.4,False,adaptive ML,1,2.065978551568116,False
+1155,hammerstein,lag x0.4,False,adaptive ML,2,4.155737606765324,False
+1155,hammerstein,lag x0.4,False,adaptive ML,3,2.0437473183383346,False
+1155,hammerstein,lag x0.4,False,adaptive ML,4,1.7307443991919098,False
+1155,hammerstein,lag x0.4,False,self-tuning pole placement,0,1.1077891187145132,False
+1155,hammerstein,lag x0.4,False,self-tuning pole placement,1,2.7923946903079386,False
+1155,hammerstein,lag x0.4,False,self-tuning pole placement,2,3.4473965633549706,False
+1155,hammerstein,lag x0.4,False,self-tuning pole placement,3,3.9174299972234383,False
+1155,hammerstein,lag x0.4,False,self-tuning pole placement,4,6.962658426974462,False
+1155,hammerstein,lag x0.4,False,retune by experiment,0,1.0,False
+1155,hammerstein,lag x0.4,False,retune by experiment,1,1.0,False
+1155,hammerstein,lag x0.4,False,retune by experiment,2,1.0,False
+1155,hammerstein,lag x0.4,False,retune by experiment,3,1.0,False
+1155,hammerstein,lag x0.4,False,retune by experiment,4,1.0,False
+506,ipdt,none x1.0,True,frozen,0,1.0839264345378081,False
+506,ipdt,none x1.0,True,frozen,1,1.2347650496710803,False
+506,ipdt,none x1.0,True,frozen,2,1.2405042284464212,False
+506,ipdt,none x1.0,True,frozen,3,1.2728310900758875,False
+506,ipdt,none x1.0,True,frozen,4,1.29832318833449,False
+506,ipdt,none x1.0,True,adaptive ML,0,1.0404958791129495,False
+506,ipdt,none x1.0,True,adaptive ML,1,1.4984364334333211,False
+506,ipdt,none x1.0,True,adaptive ML,2,1.4727682824963297,False
+506,ipdt,none x1.0,True,adaptive ML,3,1.4700636071794577,False
+506,ipdt,none x1.0,True,adaptive ML,4,1.2469756369253924,False
+506,ipdt,none x1.0,True,self-tuning pole placement,0,1.0614387048736746,False
+506,ipdt,none x1.0,True,self-tuning pole placement,1,1.0499032494706588,False
+506,ipdt,none x1.0,True,self-tuning pole placement,2,2.3304497029867357,False
+506,ipdt,none x1.0,True,self-tuning pole placement,3,2.1966398476593807,False
+506,ipdt,none x1.0,True,self-tuning pole placement,4,5.060870766542014,False
+506,ipdt,none x1.0,True,retune by experiment,0,1.0,False
+506,ipdt,none x1.0,True,retune by experiment,1,1.0,False
+506,ipdt,none x1.0,True,retune by experiment,2,1.0,False
+506,ipdt,none x1.0,True,retune by experiment,3,1.0,False
+506,ipdt,none x1.0,True,retune by experiment,4,1.0,False
+506,ipdt,none x1.0,False,frozen,0,1.0023324852779985,False
+506,ipdt,none x1.0,False,frozen,1,1.019052058236482,False
+506,ipdt,none x1.0,False,frozen,2,1.019332250905992,False
+506,ipdt,none x1.0,False,frozen,3,1.019052889516817,False
+506,ipdt,none x1.0,False,frozen,4,1.019332123257852,False
+506,ipdt,none x1.0,False,adaptive ML,0,0.9970512038978552,False
+506,ipdt,none x1.0,False,adaptive ML,1,0.9257954457362007,False
+506,ipdt,none x1.0,False,adaptive ML,2,0.963578445744784,False
+506,ipdt,none x1.0,False,adaptive ML,3,0.938440741822328,False
+506,ipdt,none x1.0,False,adaptive ML,4,0.934333968383642,False
+506,ipdt,none x1.0,False,self-tuning pole placement,0,1.0025997080126008,False
+506,ipdt,none x1.0,False,self-tuning pole placement,1,1.2376480917593655,False
+506,ipdt,none x1.0,False,self-tuning pole placement,2,2.1296993211582906,False
+506,ipdt,none x1.0,False,self-tuning pole placement,3,4.157629117424883,False
+506,ipdt,none x1.0,False,self-tuning pole placement,4,4.595861642056198,False
+506,ipdt,none x1.0,False,retune by experiment,0,1.0,False
+506,ipdt,none x1.0,False,retune by experiment,1,1.0,False
+506,ipdt,none x1.0,False,retune by experiment,2,1.0,False
+506,ipdt,none x1.0,False,retune by experiment,3,1.0,False
+506,ipdt,none x1.0,False,retune by experiment,4,1.0,False
+506,ipdt,gain x0.4,True,frozen,0,1.0839264345378081,False
+506,ipdt,gain x0.4,True,frozen,1,1.2435750923032225,False
+506,ipdt,gain x0.4,True,frozen,2,1.345016843822317,False
+506,ipdt,gain x0.4,True,frozen,3,1.4379210500402468,False
+506,ipdt,gain x0.4,True,frozen,4,1.359000144454716,False
+506,ipdt,gain x0.4,True,adaptive ML,0,1.0404958791129495,False
+506,ipdt,gain x0.4,True,adaptive ML,1,1.4724311500404033,False
+506,ipdt,gain x0.4,True,adaptive ML,2,1.1344842868270086,False
+506,ipdt,gain x0.4,True,adaptive ML,3,1.3602866389539328,False
+506,ipdt,gain x0.4,True,adaptive ML,4,1.593422851695444,False
+506,ipdt,gain x0.4,True,self-tuning pole placement,0,1.0614387048736746,False
+506,ipdt,gain x0.4,True,self-tuning pole placement,1,1.0468680063390239,False
+506,ipdt,gain x0.4,True,self-tuning pole placement,2,1.3722840362605013,False
+506,ipdt,gain x0.4,True,self-tuning pole placement,3,1.6269881166123703,False
+506,ipdt,gain x0.4,True,self-tuning pole placement,4,2.0917318727217684,False
+506,ipdt,gain x0.4,True,retune by experiment,0,1.0,False
+506,ipdt,gain x0.4,True,retune by experiment,1,1.0,False
+506,ipdt,gain x0.4,True,retune by experiment,2,1.0,False
+506,ipdt,gain x0.4,True,retune by experiment,3,1.0,False
+506,ipdt,gain x0.4,True,retune by experiment,4,1.0,False
+506,ipdt,gain x0.4,False,frozen,0,1.0023324852779985,False
+506,ipdt,gain x0.4,False,frozen,1,1.0191514035145786,False
+506,ipdt,gain x0.4,False,frozen,2,1.009103535908679,False
+506,ipdt,gain x0.4,False,frozen,3,1.0094159600580974,False
+506,ipdt,gain x0.4,False,frozen,4,1.0091188568713174,False
+506,ipdt,gain x0.4,False,adaptive ML,0,0.9970512038978552,False
+506,ipdt,gain x0.4,False,adaptive ML,1,0.9258858538203893,False
+506,ipdt,gain x0.4,False,adaptive ML,2,0.63816222650864,False
+506,ipdt,gain x0.4,False,adaptive ML,3,0.6464029251792319,False
+506,ipdt,gain x0.4,False,adaptive ML,4,0.6698148457000568,False
+506,ipdt,gain x0.4,False,self-tuning pole placement,0,1.0025997080126008,False
+506,ipdt,gain x0.4,False,self-tuning pole placement,1,1.2382255498030539,False
+506,ipdt,gain x0.4,False,self-tuning pole placement,2,2.63802796753623,False
+506,ipdt,gain x0.4,False,self-tuning pole placement,3,2.1782501229744056,False
+506,ipdt,gain x0.4,False,self-tuning pole placement,4,2.4119483805565873,False
+506,ipdt,gain x0.4,False,retune by experiment,0,1.0,False
+506,ipdt,gain x0.4,False,retune by experiment,1,1.0,False
+506,ipdt,gain x0.4,False,retune by experiment,2,1.0,False
+506,ipdt,gain x0.4,False,retune by experiment,3,1.0,False
+506,ipdt,gain x0.4,False,retune by experiment,4,1.0,False
+506,ipdt,gain x2.5,True,frozen,0,1.0839264345378081,False
+506,ipdt,gain x2.5,True,frozen,1,1.3125287558940264,False
+506,ipdt,gain x2.5,True,frozen,2,1.5261599073321581,False
+506,ipdt,gain x2.5,True,frozen,3,1.715858235989593,False
+506,ipdt,gain x2.5,True,frozen,4,1.5209218430728197,False
+506,ipdt,gain x2.5,True,adaptive ML,0,1.0404958791129495,False
+506,ipdt,gain x2.5,True,adaptive ML,1,1.5630200869463415,False
+506,ipdt,gain x2.5,True,adaptive ML,2,2.826660522130685,False
+506,ipdt,gain x2.5,True,adaptive ML,3,1.6536004982689074,False
+506,ipdt,gain x2.5,True,adaptive ML,4,2.103107714280823,False
+506,ipdt,gain x2.5,True,self-tuning pole placement,0,1.0614387048736746,False
+506,ipdt,gain x2.5,True,self-tuning pole placement,1,1.1054077280512407,False
+506,ipdt,gain x2.5,True,self-tuning pole placement,2,3.2699784650715875,False
+506,ipdt,gain x2.5,True,self-tuning pole placement,3,3.02609745065641,False
+506,ipdt,gain x2.5,True,self-tuning pole placement,4,6.3548413325396185,False
+506,ipdt,gain x2.5,True,retune by experiment,0,1.0,False
+506,ipdt,gain x2.5,True,retune by experiment,1,1.0,False
+506,ipdt,gain x2.5,True,retune by experiment,2,1.0,False
+506,ipdt,gain x2.5,True,retune by experiment,3,1.0,False
+506,ipdt,gain x2.5,True,retune by experiment,4,1.0,False
+506,ipdt,gain x2.5,False,frozen,0,1.0023324852779985,False
+506,ipdt,gain x2.5,False,frozen,1,1.018803353678756,False
+506,ipdt,gain x2.5,False,frozen,2,1.279905968722317,False
+506,ipdt,gain x2.5,False,frozen,3,1.289664075967808,False
+506,ipdt,gain x2.5,False,frozen,4,1.2799999591390745,False
+506,ipdt,gain x2.5,False,adaptive ML,0,0.9970512038978552,False
+506,ipdt,gain x2.5,False,adaptive ML,1,0.9255694186056589,False
+506,ipdt,gain x2.5,False,adaptive ML,2,1.0797888193275118,False
+506,ipdt,gain x2.5,False,adaptive ML,3,1.6265930635486576,False
+506,ipdt,gain x2.5,False,adaptive ML,4,2.309753059800903,False
+506,ipdt,gain x2.5,False,self-tuning pole placement,0,1.0025997080126008,False
+506,ipdt,gain x2.5,False,self-tuning pole placement,1,1.2364780816432015,False
+506,ipdt,gain x2.5,False,self-tuning pole placement,2,2.2110509939279135,False
+506,ipdt,gain x2.5,False,self-tuning pole placement,3,8.00635254543693,False
+506,ipdt,gain x2.5,False,self-tuning pole placement,4,8.445006285487546,False
+506,ipdt,gain x2.5,False,retune by experiment,0,1.0,False
+506,ipdt,gain x2.5,False,retune by experiment,1,1.0,False
+506,ipdt,gain x2.5,False,retune by experiment,2,1.0,False
+506,ipdt,gain x2.5,False,retune by experiment,3,1.0,False
+506,ipdt,gain x2.5,False,retune by experiment,4,1.0,False
+506,ipdt,lag x3.0,True,frozen,0,1.0839264345378081,False
+506,ipdt,lag x3.0,True,frozen,1,1.2575477899548082,False
+506,ipdt,lag x3.0,True,frozen,2,0.4658816438320964,False
+506,ipdt,lag x3.0,True,frozen,3,0.40320415820868066,False
+506,ipdt,lag x3.0,True,frozen,4,0.39561674405974434,False
+506,ipdt,lag x3.0,True,adaptive ML,0,1.0404958791129495,False
+506,ipdt,lag x3.0,True,adaptive ML,1,1.4900842414921667,False
+506,ipdt,lag x3.0,True,adaptive ML,2,0.7275766777049526,False
+506,ipdt,lag x3.0,True,adaptive ML,3,0.5257376657155368,False
+506,ipdt,lag x3.0,True,adaptive ML,4,1.126896336480265,False
+506,ipdt,lag x3.0,True,self-tuning pole placement,0,1.0614387048736746,False
+506,ipdt,lag x3.0,True,self-tuning pole placement,1,1.0577744936641045,False
+506,ipdt,lag x3.0,True,self-tuning pole placement,2,4.078143349049503,False
+506,ipdt,lag x3.0,True,self-tuning pole placement,3,5.857419404787545,False
+506,ipdt,lag x3.0,True,self-tuning pole placement,4,4.805288274781546,False
+506,ipdt,lag x3.0,True,retune by experiment,0,1.0,False
+506,ipdt,lag x3.0,True,retune by experiment,1,1.0,False
+506,ipdt,lag x3.0,True,retune by experiment,2,1.0,False
+506,ipdt,lag x3.0,True,retune by experiment,3,1.0,False
+506,ipdt,lag x3.0,True,retune by experiment,4,1.0,False
+506,ipdt,lag x3.0,False,frozen,0,1.0023324852779985,False
+506,ipdt,lag x3.0,False,frozen,1,1.0190071668894705,False
+506,ipdt,lag x3.0,False,frozen,2,0.20162974533464886,False
+506,ipdt,lag x3.0,False,frozen,3,0.2027103046083686,False
+506,ipdt,lag x3.0,False,frozen,4,0.20177203006243324,False
+506,ipdt,lag x3.0,False,adaptive ML,0,0.9970512038978552,False
+506,ipdt,lag x3.0,False,adaptive ML,1,0.9257548182026271,False
+506,ipdt,lag x3.0,False,adaptive ML,2,0.381801154775541,False
+506,ipdt,lag x3.0,False,adaptive ML,3,1.9727451060440764,False
+506,ipdt,lag x3.0,False,adaptive ML,4,2.9441066451503928,False
+506,ipdt,lag x3.0,False,self-tuning pole placement,0,1.0025997080126008,False
+506,ipdt,lag x3.0,False,self-tuning pole placement,1,1.238056235774281,False
+506,ipdt,lag x3.0,False,self-tuning pole placement,2,1.3388120639043757,False
+506,ipdt,lag x3.0,False,self-tuning pole placement,3,1.4555197233835044,False
+506,ipdt,lag x3.0,False,self-tuning pole placement,4,1.4932091056479717,False
+506,ipdt,lag x3.0,False,retune by experiment,0,1.0,False
+506,ipdt,lag x3.0,False,retune by experiment,1,1.0,False
+506,ipdt,lag x3.0,False,retune by experiment,2,1.0,False
+506,ipdt,lag x3.0,False,retune by experiment,3,1.0,False
+506,ipdt,lag x3.0,False,retune by experiment,4,1.0,False
+506,ipdt,lag x0.4,True,frozen,0,1.0839264345378081,False
+506,ipdt,lag x0.4,True,frozen,1,1.1925356431739933,False
+506,ipdt,lag x0.4,True,frozen,2,1.3240330195984418,False
+506,ipdt,lag x0.4,True,frozen,3,1.072183447896739,False
+506,ipdt,lag x0.4,True,frozen,4,1.3015732416716408,False
+506,ipdt,lag x0.4,True,adaptive ML,0,1.0404958791129495,False
+506,ipdt,lag x0.4,True,adaptive ML,1,1.432965918009641,False
+506,ipdt,lag x0.4,True,adaptive ML,2,1.5129838787402283,False
+506,ipdt,lag x0.4,True,adaptive ML,3,1.768964397292026,False
+506,ipdt,lag x0.4,True,adaptive ML,4,1.5541560031102652,False
+506,ipdt,lag x0.4,True,self-tuning pole placement,0,1.0614387048736746,False
+506,ipdt,lag x0.4,True,self-tuning pole placement,1,1.002714763857805,False
+506,ipdt,lag x0.4,True,self-tuning pole placement,2,0.7708010577691974,False
+506,ipdt,lag x0.4,True,self-tuning pole placement,3,0.5533337824034438,False
+506,ipdt,lag x0.4,True,self-tuning pole placement,4,1.313514652417053,False
+506,ipdt,lag x0.4,True,retune by experiment,0,1.0,False
+506,ipdt,lag x0.4,True,retune by experiment,1,1.0,False
+506,ipdt,lag x0.4,True,retune by experiment,2,1.0,False
+506,ipdt,lag x0.4,True,retune by experiment,3,1.0,False
+506,ipdt,lag x0.4,True,retune by experiment,4,1.0,False
+506,ipdt,lag x0.4,False,frozen,0,1.0023324852779985,False
+506,ipdt,lag x0.4,False,frozen,1,1.0191615312249849,False
+506,ipdt,lag x0.4,False,frozen,2,3.3122992483040905,False
+506,ipdt,lag x0.4,False,frozen,3,3.2811542623942858,False
+506,ipdt,lag x0.4,False,frozen,4,3.3121622244483424,False
+506,ipdt,lag x0.4,False,adaptive ML,0,0.9970512038978552,False
+506,ipdt,lag x0.4,False,adaptive ML,1,0.9258948531391786,False
+506,ipdt,lag x0.4,False,adaptive ML,2,2.203603381257111,False
+506,ipdt,lag x0.4,False,adaptive ML,3,0.8501952260930833,False
+506,ipdt,lag x0.4,False,adaptive ML,4,0.856028299202741,False
+506,ipdt,lag x0.4,False,self-tuning pole placement,0,1.0025997080126008,False
+506,ipdt,lag x0.4,False,self-tuning pole placement,1,1.237305188471915,False
+506,ipdt,lag x0.4,False,self-tuning pole placement,2,5.908616210011858,False
+506,ipdt,lag x0.4,False,self-tuning pole placement,3,9.692986208155737,False
+506,ipdt,lag x0.4,False,self-tuning pole placement,4,10.264222014041286,False
+506,ipdt,lag x0.4,False,retune by experiment,0,1.0,False
+506,ipdt,lag x0.4,False,retune by experiment,1,1.0,False
+506,ipdt,lag x0.4,False,retune by experiment,2,1.0,False
+506,ipdt,lag x0.4,False,retune by experiment,3,1.0,False
+506,ipdt,lag x0.4,False,retune by experiment,4,1.0,False
+6,ipdt,none x1.0,True,frozen,0,1.0093826392355203,False
+6,ipdt,none x1.0,True,frozen,1,1.0069033383187889,False
+6,ipdt,none x1.0,True,frozen,2,1.003862315019768,False
+6,ipdt,none x1.0,True,frozen,3,1.0045359252991097,False
+6,ipdt,none x1.0,True,frozen,4,1.0011912266179395,False
+6,ipdt,none x1.0,True,adaptive ML,0,0.9999066814124768,False
+6,ipdt,none x1.0,True,adaptive ML,1,1.0093280973376297,False
+6,ipdt,none x1.0,True,adaptive ML,2,5.107651718862758,False
+6,ipdt,none x1.0,True,adaptive ML,3,2.114132327370748,False
+6,ipdt,none x1.0,True,adaptive ML,4,1.182684419957044,False
+6,ipdt,none x1.0,True,self-tuning pole placement,0,0.9408416912393102,False
+6,ipdt,none x1.0,True,self-tuning pole placement,1,0.9585550049878289,False
+6,ipdt,none x1.0,True,self-tuning pole placement,2,1.9493883123046183,False
+6,ipdt,none x1.0,True,self-tuning pole placement,3,3.041174525894665,False
+6,ipdt,none x1.0,True,self-tuning pole placement,4,4.279823014317352,False
+6,ipdt,none x1.0,True,retune by experiment,0,1.0,False
+6,ipdt,none x1.0,True,retune by experiment,1,1.0,False
+6,ipdt,none x1.0,True,retune by experiment,2,1.0,False
+6,ipdt,none x1.0,True,retune by experiment,3,1.0,False
+6,ipdt,none x1.0,True,retune by experiment,4,1.0,False
+6,ipdt,none x1.0,False,frozen,0,1.0017263543973098,False
+6,ipdt,none x1.0,False,frozen,1,0.9964081756290191,False
+6,ipdt,none x1.0,False,frozen,2,0.9967871049759659,False
+6,ipdt,none x1.0,False,frozen,3,0.9964094855341437,False
+6,ipdt,none x1.0,False,frozen,4,0.9967860178497379,False
+6,ipdt,none x1.0,False,adaptive ML,0,0.986035244276281,False
+6,ipdt,none x1.0,False,adaptive ML,1,1.1711635945809598,False
+6,ipdt,none x1.0,False,adaptive ML,2,1.210675518385009,False
+6,ipdt,none x1.0,False,adaptive ML,3,1.2042164686073022,False
+6,ipdt,none x1.0,False,adaptive ML,4,1.2048262377906243,False
+6,ipdt,none x1.0,False,self-tuning pole placement,0,1.006775630799495,False
+6,ipdt,none x1.0,False,self-tuning pole placement,1,0.652697718886013,False
+6,ipdt,none x1.0,False,self-tuning pole placement,2,0.9807676889753217,False
+6,ipdt,none x1.0,False,self-tuning pole placement,3,2.33290287372418,False
+6,ipdt,none x1.0,False,self-tuning pole placement,4,2.336652579745758,False
+6,ipdt,none x1.0,False,retune by experiment,0,1.0,False
+6,ipdt,none x1.0,False,retune by experiment,1,1.0,False
+6,ipdt,none x1.0,False,retune by experiment,2,1.0,False
+6,ipdt,none x1.0,False,retune by experiment,3,1.0,False
+6,ipdt,none x1.0,False,retune by experiment,4,1.0,False
+6,ipdt,gain x0.4,True,frozen,0,1.0093826392355203,False
+6,ipdt,gain x0.4,True,frozen,1,1.0013594227544411,False
+6,ipdt,gain x0.4,True,frozen,2,0.9203541649114106,False
+6,ipdt,gain x0.4,True,frozen,3,0.952886604076715,False
+6,ipdt,gain x0.4,True,frozen,4,0.9012054226351343,False
+6,ipdt,gain x0.4,True,adaptive ML,0,0.9999066814124768,False
+6,ipdt,gain x0.4,True,adaptive ML,1,0.9633750189637742,False
+6,ipdt,gain x0.4,True,adaptive ML,2,0.6652124857930309,False
+6,ipdt,gain x0.4,True,adaptive ML,3,0.6739397112246663,False
+6,ipdt,gain x0.4,True,adaptive ML,4,0.5778596436478791,False
+6,ipdt,gain x0.4,True,self-tuning pole placement,0,0.9408416912393102,False
+6,ipdt,gain x0.4,True,self-tuning pole placement,1,0.9209988436905647,False
+6,ipdt,gain x0.4,True,self-tuning pole placement,2,1.0102609017277135,False
+6,ipdt,gain x0.4,True,self-tuning pole placement,3,1.5835483604075253,False
+6,ipdt,gain x0.4,True,self-tuning pole placement,4,2.8389106358005023,False
+6,ipdt,gain x0.4,True,retune by experiment,0,1.0,False
+6,ipdt,gain x0.4,True,retune by experiment,1,1.0,False
+6,ipdt,gain x0.4,True,retune by experiment,2,1.0,False
+6,ipdt,gain x0.4,True,retune by experiment,3,1.0,False
+6,ipdt,gain x0.4,True,retune by experiment,4,1.0,False
+6,ipdt,gain x0.4,False,frozen,0,1.0017263543973098,False
+6,ipdt,gain x0.4,False,frozen,1,0.99641359330657,False
+6,ipdt,gain x0.4,False,frozen,2,1.0992087482557187,False
+6,ipdt,gain x0.4,False,frozen,3,1.096569030284649,False
+6,ipdt,gain x0.4,False,frozen,4,1.0990685118364596,False
+6,ipdt,gain x0.4,False,adaptive ML,0,0.986035244276281,False
+6,ipdt,gain x0.4,False,adaptive ML,1,1.1712129917324232,False
+6,ipdt,gain x0.4,False,adaptive ML,2,0.8645387474744712,False
+6,ipdt,gain x0.4,False,adaptive ML,3,0.4924852685906598,False
+6,ipdt,gain x0.4,False,adaptive ML,4,0.4940286677044811,False
+6,ipdt,gain x0.4,False,self-tuning pole placement,0,1.006775630799495,False
+6,ipdt,gain x0.4,False,self-tuning pole placement,1,0.652800219784707,False
+6,ipdt,gain x0.4,False,self-tuning pole placement,2,1.4456121664973443,False
+6,ipdt,gain x0.4,False,self-tuning pole placement,3,0.9738646934568478,False
+6,ipdt,gain x0.4,False,self-tuning pole placement,4,1.3472471822529621,False
+6,ipdt,gain x0.4,False,retune by experiment,0,1.0,False
+6,ipdt,gain x0.4,False,retune by experiment,1,1.0,False
+6,ipdt,gain x0.4,False,retune by experiment,2,1.0,False
+6,ipdt,gain x0.4,False,retune by experiment,3,1.0,False
+6,ipdt,gain x0.4,False,retune by experiment,4,1.0,False
+6,ipdt,gain x2.5,True,frozen,0,1.0093826392355203,False
+6,ipdt,gain x2.5,True,frozen,1,1.0430730222583064,False
+6,ipdt,gain x2.5,True,frozen,2,2.983501461775551,False
+6,ipdt,gain x2.5,True,frozen,3,3.0135475878140823,False
+6,ipdt,gain x2.5,True,frozen,4,2.175684178011178,False
+6,ipdt,gain x2.5,True,adaptive ML,0,0.9999066814124768,False
+6,ipdt,gain x2.5,True,adaptive ML,1,1.1415207934712603,False
+6,ipdt,gain x2.5,True,adaptive ML,2,3.4265419734190745,False
+6,ipdt,gain x2.5,True,adaptive ML,3,1.0751836034289974,False
+6,ipdt,gain x2.5,True,adaptive ML,4,1.4220469135990719,False
+6,ipdt,gain x2.5,True,self-tuning pole placement,0,0.9408416912393102,False
+6,ipdt,gain x2.5,True,self-tuning pole placement,1,1.027798261980558,False
+6,ipdt,gain x2.5,True,self-tuning pole placement,2,8.951491951640019,False
+6,ipdt,gain x2.5,True,self-tuning pole placement,3,5.067646640857892,False
+6,ipdt,gain x2.5,True,self-tuning pole placement,4,6.100770239262687,False
+6,ipdt,gain x2.5,True,retune by experiment,0,1.0,False
+6,ipdt,gain x2.5,True,retune by experiment,1,1.0,False
+6,ipdt,gain x2.5,True,retune by experiment,2,1.0,False
+6,ipdt,gain x2.5,True,retune by experiment,3,1.0,False
+6,ipdt,gain x2.5,True,retune by experiment,4,1.0,False
+6,ipdt,gain x2.5,False,frozen,0,1.0017263543973098,False
+6,ipdt,gain x2.5,False,frozen,1,0.9964956324295449,False
+6,ipdt,gain x2.5,False,frozen,2,19.873576769771446,False
+6,ipdt,gain x2.5,False,frozen,3,20.251032302195316,False
+6,ipdt,gain x2.5,False,frozen,4,19.82003986801599,False
+6,ipdt,gain x2.5,False,adaptive ML,0,0.986035244276281,False
+6,ipdt,gain x2.5,False,adaptive ML,1,1.1712572722623777,False
+6,ipdt,gain x2.5,False,adaptive ML,2,14.95501771833451,False
+6,ipdt,gain x2.5,False,adaptive ML,3,20.35712812845652,False
+6,ipdt,gain x2.5,False,adaptive ML,4,19.6994563500202,False
+6,ipdt,gain x2.5,False,self-tuning pole placement,0,1.006775630799495,False
+6,ipdt,gain x2.5,False,self-tuning pole placement,1,0.6524642001985532,False
+6,ipdt,gain x2.5,False,self-tuning pole placement,2,1.4347176352448445,False
+6,ipdt,gain x2.5,False,self-tuning pole placement,3,6.027839562581665,False
+6,ipdt,gain x2.5,False,self-tuning pole placement,4,5.89381056691418,False
+6,ipdt,gain x2.5,False,retune by experiment,0,1.0,False
+6,ipdt,gain x2.5,False,retune by experiment,1,1.0,False
+6,ipdt,gain x2.5,False,retune by experiment,2,1.0,False
+6,ipdt,gain x2.5,False,retune by experiment,3,1.0,False
+6,ipdt,gain x2.5,False,retune by experiment,4,1.0,False
+6,ipdt,lag x3.0,True,frozen,0,1.0093826392355203,False
+6,ipdt,lag x3.0,True,frozen,1,1.0085542374245025,False
+6,ipdt,lag x3.0,True,frozen,2,0.16197123604866254,False
+6,ipdt,lag x3.0,True,frozen,3,0.15325461011588118,False
+6,ipdt,lag x3.0,True,frozen,4,0.16632916277184415,False
+6,ipdt,lag x3.0,True,adaptive ML,0,0.9999066814124768,False
+6,ipdt,lag x3.0,True,adaptive ML,1,0.9664531275466306,False
+6,ipdt,lag x3.0,True,adaptive ML,2,0.36232254578666623,False
+6,ipdt,lag x3.0,True,adaptive ML,3,1.431998490391265,False
+6,ipdt,lag x3.0,True,adaptive ML,4,0.43376281558533203,False
+6,ipdt,lag x3.0,True,self-tuning pole placement,0,0.9408416912393102,False
+6,ipdt,lag x3.0,True,self-tuning pole placement,1,0.9265715630911955,False
+6,ipdt,lag x3.0,True,self-tuning pole placement,2,2.270933265547769,False
+6,ipdt,lag x3.0,True,self-tuning pole placement,3,3.908489495666144,False
+6,ipdt,lag x3.0,True,self-tuning pole placement,4,3.1856894625519465,False
+6,ipdt,lag x3.0,True,retune by experiment,0,1.0,False
+6,ipdt,lag x3.0,True,retune by experiment,1,1.0,False
+6,ipdt,lag x3.0,True,retune by experiment,2,1.0,False
+6,ipdt,lag x3.0,True,retune by experiment,3,1.0,False
+6,ipdt,lag x3.0,True,retune by experiment,4,1.0,False
+6,ipdt,lag x3.0,False,frozen,0,1.0017263543973098,False
+6,ipdt,lag x3.0,False,frozen,1,0.9963883213006713,False
+6,ipdt,lag x3.0,False,frozen,2,0.14962529148719705,False
+6,ipdt,lag x3.0,False,frozen,3,0.15414761740996602,False
+6,ipdt,lag x3.0,False,frozen,4,0.15380670848094855,False
+6,ipdt,lag x3.0,False,adaptive ML,0,0.986035244276281,False
+6,ipdt,lag x3.0,False,adaptive ML,1,1.1711847020886008,False
+6,ipdt,lag x3.0,False,adaptive ML,2,0.7067441722547817,False
+6,ipdt,lag x3.0,False,adaptive ML,3,1.801369481927781,False
+6,ipdt,lag x3.0,False,adaptive ML,4,1.6938884834214984,False
+6,ipdt,lag x3.0,False,self-tuning pole placement,0,1.006775630799495,False
+6,ipdt,lag x3.0,False,self-tuning pole placement,1,0.6527854835608845,False
+6,ipdt,lag x3.0,False,self-tuning pole placement,2,0.47861281130947764,False
+6,ipdt,lag x3.0,False,self-tuning pole placement,3,0.8733140699458763,False
+6,ipdt,lag x3.0,False,self-tuning pole placement,4,0.8596264087273501,False
+6,ipdt,lag x3.0,False,retune by experiment,0,1.0,False
+6,ipdt,lag x3.0,False,retune by experiment,1,1.0,False
+6,ipdt,lag x3.0,False,retune by experiment,2,1.0,False
+6,ipdt,lag x3.0,False,retune by experiment,3,1.0,False
+6,ipdt,lag x3.0,False,retune by experiment,4,1.0,False
+6,ipdt,lag x0.4,True,frozen,0,1.0093826392355203,False
+6,ipdt,lag x0.4,True,frozen,1,1.0143240517815824,False
+6,ipdt,lag x0.4,True,frozen,2,1.6365882402796974,False
+6,ipdt,lag x0.4,True,frozen,3,1.612001267880939,False
+6,ipdt,lag x0.4,True,frozen,4,1.4023703798805924,False
+6,ipdt,lag x0.4,True,adaptive ML,0,0.9999066814124768,False
+6,ipdt,lag x0.4,True,adaptive ML,1,1.0922290056993929,False
+6,ipdt,lag x0.4,True,adaptive ML,2,2.7172077409834485,False
+6,ipdt,lag x0.4,True,adaptive ML,3,1.1469686810945712,False
+6,ipdt,lag x0.4,True,adaptive ML,4,0.8117764082661134,False
+6,ipdt,lag x0.4,True,self-tuning pole placement,0,0.9408416912393102,False
+6,ipdt,lag x0.4,True,self-tuning pole placement,1,0.9736299388448848,False
+6,ipdt,lag x0.4,True,self-tuning pole placement,2,1.230362381633057,False
+6,ipdt,lag x0.4,True,self-tuning pole placement,3,0.8375165436164147,False
+6,ipdt,lag x0.4,True,self-tuning pole placement,4,1.630462659349925,False
+6,ipdt,lag x0.4,True,retune by experiment,0,1.0,False
+6,ipdt,lag x0.4,True,retune by experiment,1,1.0,False
+6,ipdt,lag x0.4,True,retune by experiment,2,1.0,False
+6,ipdt,lag x0.4,True,retune by experiment,3,1.0,False
+6,ipdt,lag x0.4,True,retune by experiment,4,1.0,False
+6,ipdt,lag x0.4,False,frozen,0,1.0017263543973098,False
+6,ipdt,lag x0.4,False,frozen,1,0.9964865410961232,False
+6,ipdt,lag x0.4,False,frozen,2,23.202333039285605,False
+6,ipdt,lag x0.4,False,frozen,3,22.712938359645136,False
+6,ipdt,lag x0.4,False,frozen,4,22.60606254687164,False
+6,ipdt,lag x0.4,False,adaptive ML,0,0.986035244276281,False
+6,ipdt,lag x0.4,False,adaptive ML,1,1.1712477024187298,False
+6,ipdt,lag x0.4,False,adaptive ML,2,2.2527855118176543,False
+6,ipdt,lag x0.4,False,adaptive ML,3,0.6309401664730483,False
+6,ipdt,lag x0.4,False,adaptive ML,4,0.624853177008071,False
+6,ipdt,lag x0.4,False,self-tuning pole placement,0,1.006775630799495,False
+6,ipdt,lag x0.4,False,self-tuning pole placement,1,0.6525852694932484,False
+6,ipdt,lag x0.4,False,self-tuning pole placement,2,3.352371445190718,False
+6,ipdt,lag x0.4,False,self-tuning pole placement,3,6.545208763156125,False
+6,ipdt,lag x0.4,False,self-tuning pole placement,4,6.566138907016747,False
+6,ipdt,lag x0.4,False,retune by experiment,0,1.0,False
+6,ipdt,lag x0.4,False,retune by experiment,1,1.0,False
+6,ipdt,lag x0.4,False,retune by experiment,2,1.0,False
+6,ipdt,lag x0.4,False,retune by experiment,3,1.0,False
+6,ipdt,lag x0.4,False,retune by experiment,4,1.0,False
+286,ipdt,none x1.0,True,frozen,0,1.0988971338029516,False
+286,ipdt,none x1.0,True,frozen,1,1.08543515521721,False
+286,ipdt,none x1.0,True,frozen,2,1.0862755218009041,False
+286,ipdt,none x1.0,True,frozen,3,1.1207772151070718,False
+286,ipdt,none x1.0,True,frozen,4,1.093873842066765,False
+286,ipdt,none x1.0,True,adaptive ML,0,1.055674897745476,False
+286,ipdt,none x1.0,True,adaptive ML,1,1.2007921712389875,False
+286,ipdt,none x1.0,True,adaptive ML,2,2.8900667989015942,False
+286,ipdt,none x1.0,True,adaptive ML,3,0.7254511948985477,False
+286,ipdt,none x1.0,True,adaptive ML,4,1.3910576413907088,False
+286,ipdt,none x1.0,True,self-tuning pole placement,0,1.0183722507181892,False
+286,ipdt,none x1.0,True,self-tuning pole placement,1,1.6145408532550147,False
+286,ipdt,none x1.0,True,self-tuning pole placement,2,2.3175946755182584,False
+286,ipdt,none x1.0,True,self-tuning pole placement,3,1.5047154972582233,False
+286,ipdt,none x1.0,True,self-tuning pole placement,4,2.3850557230802467,False
+286,ipdt,none x1.0,True,retune by experiment,0,1.0,False
+286,ipdt,none x1.0,True,retune by experiment,1,1.0,False
+286,ipdt,none x1.0,True,retune by experiment,2,1.0,False
+286,ipdt,none x1.0,True,retune by experiment,3,1.0,False
+286,ipdt,none x1.0,True,retune by experiment,4,1.0,False
+286,ipdt,none x1.0,False,frozen,0,1.0002428496362923,False
+286,ipdt,none x1.0,False,frozen,1,0.9862324530822744,False
+286,ipdt,none x1.0,False,frozen,2,0.9870083353957249,False
+286,ipdt,none x1.0,False,frozen,3,0.9863048725296181,False
+286,ipdt,none x1.0,False,frozen,4,0.9870063550476281,False
+286,ipdt,none x1.0,False,adaptive ML,0,1.0081630311248255,False
+286,ipdt,none x1.0,False,adaptive ML,1,1.1948461737048564,False
+286,ipdt,none x1.0,False,adaptive ML,2,1.7122161730912393,False
+286,ipdt,none x1.0,False,adaptive ML,3,2.092192444192219,False
+286,ipdt,none x1.0,False,adaptive ML,4,2.9429702240444904,False
+286,ipdt,none x1.0,False,self-tuning pole placement,0,1.0059329577272154,False
+286,ipdt,none x1.0,False,self-tuning pole placement,1,1.1953825649639291,False
+286,ipdt,none x1.0,False,self-tuning pole placement,2,1.3105648006766915,False
+286,ipdt,none x1.0,False,self-tuning pole placement,3,1.9814471860701597,False
+286,ipdt,none x1.0,False,self-tuning pole placement,4,3.05368344078051,False
+286,ipdt,none x1.0,False,retune by experiment,0,1.0,False
+286,ipdt,none x1.0,False,retune by experiment,1,1.0,False
+286,ipdt,none x1.0,False,retune by experiment,2,1.0,False
+286,ipdt,none x1.0,False,retune by experiment,3,1.0,False
+286,ipdt,none x1.0,False,retune by experiment,4,1.0,False
+286,ipdt,gain x0.4,True,frozen,0,1.0988971338029516,False
+286,ipdt,gain x0.4,True,frozen,1,1.089132883893011,False
+286,ipdt,gain x0.4,True,frozen,2,1.1460247224530788,False
+286,ipdt,gain x0.4,True,frozen,3,1.13622540245691,False
+286,ipdt,gain x0.4,True,frozen,4,1.0785243885228728,False
+286,ipdt,gain x0.4,True,adaptive ML,0,1.055674897745476,False
+286,ipdt,gain x0.4,True,adaptive ML,1,1.1053147767760167,False
+286,ipdt,gain x0.4,True,adaptive ML,2,1.636158770114089,False
+286,ipdt,gain x0.4,True,adaptive ML,3,1.6565301048716716,False
+286,ipdt,gain x0.4,True,adaptive ML,4,2.2054900571150022,False
+286,ipdt,gain x0.4,True,self-tuning pole placement,0,1.0183722507181892,False
+286,ipdt,gain x0.4,True,self-tuning pole placement,1,1.631702305762441,False
+286,ipdt,gain x0.4,True,self-tuning pole placement,2,0.9868483264846656,False
+286,ipdt,gain x0.4,True,self-tuning pole placement,3,1.6491451057770516,False
+286,ipdt,gain x0.4,True,self-tuning pole placement,4,1.246209632355902,False
+286,ipdt,gain x0.4,True,retune by experiment,0,1.0,False
+286,ipdt,gain x0.4,True,retune by experiment,1,1.0,False
+286,ipdt,gain x0.4,True,retune by experiment,2,1.0,False
+286,ipdt,gain x0.4,True,retune by experiment,3,1.0,False
+286,ipdt,gain x0.4,True,retune by experiment,4,1.0,False
+286,ipdt,gain x0.4,False,frozen,0,1.0002428496362923,False
+286,ipdt,gain x0.4,False,frozen,1,0.9862392168180202,False
+286,ipdt,gain x0.4,False,frozen,2,2.4010472373279157,False
+286,ipdt,gain x0.4,False,frozen,3,2.4099087759101367,False
+286,ipdt,gain x0.4,False,frozen,4,2.3979414758680777,False
+286,ipdt,gain x0.4,False,adaptive ML,0,1.0081630311248255,False
+286,ipdt,gain x0.4,False,adaptive ML,1,1.1949085136978481,False
+286,ipdt,gain x0.4,False,adaptive ML,2,2.1333045808045368,False
+286,ipdt,gain x0.4,False,adaptive ML,3,0.8638324965314145,False
+286,ipdt,gain x0.4,False,adaptive ML,4,1.0140755046975312,False
+286,ipdt,gain x0.4,False,self-tuning pole placement,0,1.0059329577272154,False
+286,ipdt,gain x0.4,False,self-tuning pole placement,1,1.195351234952661,False
+286,ipdt,gain x0.4,False,self-tuning pole placement,2,2.4552927271650598,False
+286,ipdt,gain x0.4,False,self-tuning pole placement,3,0.8038067137393037,False
+286,ipdt,gain x0.4,False,self-tuning pole placement,4,1.6652764890307197,False
+286,ipdt,gain x0.4,False,retune by experiment,0,1.0,False
+286,ipdt,gain x0.4,False,retune by experiment,1,1.0,False
+286,ipdt,gain x0.4,False,retune by experiment,2,1.0,False
+286,ipdt,gain x0.4,False,retune by experiment,3,1.0,False
+286,ipdt,gain x0.4,False,retune by experiment,4,1.0,False
+286,ipdt,gain x2.5,True,frozen,0,1.0988971338029516,False
+286,ipdt,gain x2.5,True,frozen,1,1.0836035062674219,False
+286,ipdt,gain x2.5,True,frozen,2,42.79779819150537,False
+286,ipdt,gain x2.5,True,frozen,3,44.475169490413684,False
+286,ipdt,gain x2.5,True,frozen,4,41.31746188129781,False
+286,ipdt,gain x2.5,True,adaptive ML,0,1.055674897745476,False
+286,ipdt,gain x2.5,True,adaptive ML,1,1.3935327655581649,False
+286,ipdt,gain x2.5,True,adaptive ML,2,39.68810896180754,False
+286,ipdt,gain x2.5,True,adaptive ML,3,4.72201952252599,False
+286,ipdt,gain x2.5,True,adaptive ML,4,1.0073980909247342,False
+286,ipdt,gain x2.5,True,self-tuning pole placement,0,1.0183722507181892,False
+286,ipdt,gain x2.5,True,self-tuning pole placement,1,1.586376022771647,False
+286,ipdt,gain x2.5,True,self-tuning pole placement,2,24.359478523322892,False
+286,ipdt,gain x2.5,True,self-tuning pole placement,3,1.6941265997608044,False
+286,ipdt,gain x2.5,True,self-tuning pole placement,4,2.8370761446463963,False
+286,ipdt,gain x2.5,True,retune by experiment,0,1.0,False
+286,ipdt,gain x2.5,True,retune by experiment,1,1.0,False
+286,ipdt,gain x2.5,True,retune by experiment,2,1.0,False
+286,ipdt,gain x2.5,True,retune by experiment,3,1.0,False
+286,ipdt,gain x2.5,True,retune by experiment,4,1.0,False
+286,ipdt,gain x2.5,False,frozen,0,1.0002428496362923,False
+286,ipdt,gain x2.5,False,frozen,1,0.9862183983560477,False
+286,ipdt,gain x2.5,False,frozen,2,19.560671501843753,False
+286,ipdt,gain x2.5,False,frozen,3,18.932870483355973,False
+286,ipdt,gain x2.5,False,frozen,4,20.328309235229575,False
+286,ipdt,gain x2.5,False,adaptive ML,0,1.0081630311248255,False
+286,ipdt,gain x2.5,False,adaptive ML,1,1.194710690965854,False
+286,ipdt,gain x2.5,False,adaptive ML,2,46.35397107852232,False
+286,ipdt,gain x2.5,False,adaptive ML,3,40.759657680693934,False
+286,ipdt,gain x2.5,False,adaptive ML,4,45.47690040203222,False
+286,ipdt,gain x2.5,False,self-tuning pole placement,0,1.0059329577272154,False
+286,ipdt,gain x2.5,False,self-tuning pole placement,1,1.1954527512542086,False
+286,ipdt,gain x2.5,False,self-tuning pole placement,2,1.366281149596214,False
+286,ipdt,gain x2.5,False,self-tuning pole placement,3,3.22649036216745,False
+286,ipdt,gain x2.5,False,self-tuning pole placement,4,4.945539003540731,False
+286,ipdt,gain x2.5,False,retune by experiment,0,1.0,False
+286,ipdt,gain x2.5,False,retune by experiment,1,1.0,False
+286,ipdt,gain x2.5,False,retune by experiment,2,1.0,False
+286,ipdt,gain x2.5,False,retune by experiment,3,1.0,False
+286,ipdt,gain x2.5,False,retune by experiment,4,1.0,False
+286,ipdt,lag x3.0,True,frozen,0,1.0988971338029516,False
+286,ipdt,lag x3.0,True,frozen,1,1.0892850389309066,False
+286,ipdt,lag x3.0,True,frozen,2,0.36061760915860636,False
+286,ipdt,lag x3.0,True,frozen,3,0.3195086132254106,False
+286,ipdt,lag x3.0,True,frozen,4,0.33539520657526695,False
+286,ipdt,lag x3.0,True,adaptive ML,0,1.055674897745476,False
+286,ipdt,lag x3.0,True,adaptive ML,1,1.1074811823449129,False
+286,ipdt,lag x3.0,True,adaptive ML,2,1.3371388114940201,False
+286,ipdt,lag x3.0,True,adaptive ML,3,0.4905112141461783,False
+286,ipdt,lag x3.0,True,adaptive ML,4,3.1910007058813212,False
+286,ipdt,lag x3.0,True,self-tuning pole placement,0,1.0183722507181892,False
+286,ipdt,lag x3.0,True,self-tuning pole placement,1,1.629460431159626,False
+286,ipdt,lag x3.0,True,self-tuning pole placement,2,2.7515610847166743,False
+286,ipdt,lag x3.0,True,self-tuning pole placement,3,1.884037753310342,False
+286,ipdt,lag x3.0,True,self-tuning pole placement,4,2.4677801907311476,False
+286,ipdt,lag x3.0,True,retune by experiment,0,1.0,False
+286,ipdt,lag x3.0,True,retune by experiment,1,1.0,False
+286,ipdt,lag x3.0,True,retune by experiment,2,1.0,False
+286,ipdt,lag x3.0,True,retune by experiment,3,1.0,False
+286,ipdt,lag x3.0,True,retune by experiment,4,1.0,False
+286,ipdt,lag x3.0,False,frozen,0,1.0002428496362923,False
+286,ipdt,lag x3.0,False,frozen,1,0.9862308028386386,False
+286,ipdt,lag x3.0,False,frozen,2,0.3166912193194261,False
+286,ipdt,lag x3.0,False,frozen,3,0.31495875346192004,False
+286,ipdt,lag x3.0,False,frozen,4,0.31941096856678636,False
+286,ipdt,lag x3.0,False,adaptive ML,0,1.0081630311248255,False
+286,ipdt,lag x3.0,False,adaptive ML,1,1.194897434172447,False
+286,ipdt,lag x3.0,False,adaptive ML,2,0.22597176721727405,False
+286,ipdt,lag x3.0,False,adaptive ML,3,1.0265995891728206,False
+286,ipdt,lag x3.0,False,adaptive ML,4,2.0642489450911623,False
+286,ipdt,lag x3.0,False,self-tuning pole placement,0,1.0059329577272154,False
+286,ipdt,lag x3.0,False,self-tuning pole placement,1,1.1953417707698044,False
+286,ipdt,lag x3.0,False,self-tuning pole placement,2,0.8288643975248183,False
+286,ipdt,lag x3.0,False,self-tuning pole placement,3,0.49019134544869397,False
+286,ipdt,lag x3.0,False,self-tuning pole placement,4,0.7602537866566392,False
+286,ipdt,lag x3.0,False,retune by experiment,0,1.0,False
+286,ipdt,lag x3.0,False,retune by experiment,1,1.0,False
+286,ipdt,lag x3.0,False,retune by experiment,2,1.0,False
+286,ipdt,lag x3.0,False,retune by experiment,3,1.0,False
+286,ipdt,lag x3.0,False,retune by experiment,4,1.0,False
+286,ipdt,lag x0.4,True,frozen,0,1.0988971338029516,False
+286,ipdt,lag x0.4,True,frozen,1,1.0842321947535123,False
+286,ipdt,lag x0.4,True,frozen,2,11.850657920271892,False
+286,ipdt,lag x0.4,True,frozen,3,12.84998037101548,False
+286,ipdt,lag x0.4,True,frozen,4,11.961474316345468,False
+286,ipdt,lag x0.4,True,adaptive ML,0,1.055674897745476,False
+286,ipdt,lag x0.4,True,adaptive ML,1,1.2818520944671616,False
+286,ipdt,lag x0.4,True,adaptive ML,2,4.94262732566876,False
+286,ipdt,lag x0.4,True,adaptive ML,3,1.3625222097775413,False
+286,ipdt,lag x0.4,True,adaptive ML,4,1.891097596025543,False
+286,ipdt,lag x0.4,True,self-tuning pole placement,0,1.0183722507181892,False
+286,ipdt,lag x0.4,True,self-tuning pole placement,1,1.6132707218577012,False
+286,ipdt,lag x0.4,True,self-tuning pole placement,2,1.3114903495961214,False
+286,ipdt,lag x0.4,True,self-tuning pole placement,3,1.3326307020036563,False
+286,ipdt,lag x0.4,True,self-tuning pole placement,4,1.776218787209614,False
+286,ipdt,lag x0.4,True,retune by experiment,0,1.0,False
+286,ipdt,lag x0.4,True,retune by experiment,1,1.0,False
+286,ipdt,lag x0.4,True,retune by experiment,2,1.0,False
+286,ipdt,lag x0.4,True,retune by experiment,3,1.0,False
+286,ipdt,lag x0.4,True,retune by experiment,4,1.0,False
+286,ipdt,lag x0.4,False,frozen,0,1.0002428496362923,False
+286,ipdt,lag x0.4,False,frozen,1,0.9862441520945303,False
+286,ipdt,lag x0.4,False,frozen,2,2.4997665425937603,False
+286,ipdt,lag x0.4,False,frozen,3,2.5978235894581356,False
+286,ipdt,lag x0.4,False,frozen,4,2.5027833119339298,False
+286,ipdt,lag x0.4,False,adaptive ML,0,1.0081630311248255,False
+286,ipdt,lag x0.4,False,adaptive ML,1,1.194807583198229,False
+286,ipdt,lag x0.4,False,adaptive ML,2,2.284952610908767,False
+286,ipdt,lag x0.4,False,adaptive ML,3,2.3812231623575704,False
+286,ipdt,lag x0.4,False,adaptive ML,4,1.5960374205247756,False
+286,ipdt,lag x0.4,False,self-tuning pole placement,0,1.0059329577272154,False
+286,ipdt,lag x0.4,False,self-tuning pole placement,1,1.195435130226641,False
+286,ipdt,lag x0.4,False,self-tuning pole placement,2,3.021603009126466,False
+286,ipdt,lag x0.4,False,self-tuning pole placement,3,4.627364547215465,False
+286,ipdt,lag x0.4,False,self-tuning pole placement,4,5.298154875909575,False
+286,ipdt,lag x0.4,False,retune by experiment,0,1.0,False
+286,ipdt,lag x0.4,False,retune by experiment,1,1.0,False
+286,ipdt,lag x0.4,False,retune by experiment,2,1.0,False
+286,ipdt,lag x0.4,False,retune by experiment,3,1.0,False
+286,ipdt,lag x0.4,False,retune by experiment,4,1.0,False
+579,hammerstein,none x1.0,True,frozen,0,2.870323553862546,False
+579,hammerstein,none x1.0,True,frozen,1,10.44465595175803,False
+579,hammerstein,none x1.0,True,frozen,2,2.863953897981029,False
+579,hammerstein,none x1.0,True,frozen,3,7.055156555156714,False
+579,hammerstein,none x1.0,True,frozen,4,2.5694191627391962,False
+579,hammerstein,none x1.0,True,adaptive ML,0,2.050127637436312,False
+579,hammerstein,none x1.0,True,adaptive ML,1,0.9292775274446943,False
+579,hammerstein,none x1.0,True,adaptive ML,2,0.7765128611986698,False
+579,hammerstein,none x1.0,True,adaptive ML,3,0.41378443830506834,False
+579,hammerstein,none x1.0,True,adaptive ML,4,1.5149793279261636,False
+579,hammerstein,none x1.0,True,self-tuning pole placement,0,1.897661418313496,False
+579,hammerstein,none x1.0,True,self-tuning pole placement,1,1.106251431744412,False
+579,hammerstein,none x1.0,True,self-tuning pole placement,2,1.267733820922553,False
+579,hammerstein,none x1.0,True,self-tuning pole placement,3,0.5235476652507869,False
+579,hammerstein,none x1.0,True,self-tuning pole placement,4,0.7495004628909233,False
+579,hammerstein,none x1.0,True,retune by experiment,0,1.0,False
+579,hammerstein,none x1.0,True,retune by experiment,1,1.0,False
+579,hammerstein,none x1.0,True,retune by experiment,2,1.0,False
+579,hammerstein,none x1.0,True,retune by experiment,3,1.0,False
+579,hammerstein,none x1.0,True,retune by experiment,4,1.0,False
+579,hammerstein,none x1.0,False,frozen,0,1.041851310854452,False
+579,hammerstein,none x1.0,False,frozen,1,0.8778906726659205,False
+579,hammerstein,none x1.0,False,frozen,2,1.034503014458064,False
+579,hammerstein,none x1.0,False,frozen,3,0.87789063559217,False
+579,hammerstein,none x1.0,False,frozen,4,1.0345029885942623,False
+579,hammerstein,none x1.0,False,adaptive ML,0,1.042922834251909,False
+579,hammerstein,none x1.0,False,adaptive ML,1,0.6950066615707968,False
+579,hammerstein,none x1.0,False,adaptive ML,2,1.2655095022374363,False
+579,hammerstein,none x1.0,False,adaptive ML,3,0.7139234054974447,False
+579,hammerstein,none x1.0,False,adaptive ML,4,2.231126013976021,False
+579,hammerstein,none x1.0,False,self-tuning pole placement,0,1.0543990101482386,False
+579,hammerstein,none x1.0,False,self-tuning pole placement,1,2.591805046291023,False
+579,hammerstein,none x1.0,False,self-tuning pole placement,2,4.414981829707706,False
+579,hammerstein,none x1.0,False,self-tuning pole placement,3,3.910359481706763,False
+579,hammerstein,none x1.0,False,self-tuning pole placement,4,9.098702544195914,False
+579,hammerstein,none x1.0,False,retune by experiment,0,1.0,False
+579,hammerstein,none x1.0,False,retune by experiment,1,1.0,False
+579,hammerstein,none x1.0,False,retune by experiment,2,1.0,False
+579,hammerstein,none x1.0,False,retune by experiment,3,1.0,False
+579,hammerstein,none x1.0,False,retune by experiment,4,1.0,False
+579,hammerstein,gain x0.4,True,frozen,0,2.870323553862546,False
+579,hammerstein,gain x0.4,True,frozen,1,3.7458511653257576,False
+579,hammerstein,gain x0.4,True,frozen,2,9.900236537603103,False
+579,hammerstein,gain x0.4,True,frozen,3,2.2604063423364056,False
+579,hammerstein,gain x0.4,True,frozen,4,4.795043193670472,False
+579,hammerstein,gain x0.4,True,adaptive ML,0,2.050127637436312,False
+579,hammerstein,gain x0.4,True,adaptive ML,1,1.0072123471180467,False
+579,hammerstein,gain x0.4,True,adaptive ML,2,6.775258436848719,False
+579,hammerstein,gain x0.4,True,adaptive ML,3,0.34590626947324193,False
+579,hammerstein,gain x0.4,True,adaptive ML,4,1.6948089623138203,False
+579,hammerstein,gain x0.4,True,self-tuning pole placement,0,1.897661418313496,False
+579,hammerstein,gain x0.4,True,self-tuning pole placement,1,1.0747724576533209,False
+579,hammerstein,gain x0.4,True,self-tuning pole placement,2,23.76949216955638,False
+579,hammerstein,gain x0.4,True,self-tuning pole placement,3,3.8965364725972975,False
+579,hammerstein,gain x0.4,True,self-tuning pole placement,4,2.2866303237452934,False
+579,hammerstein,gain x0.4,True,retune by experiment,0,1.0,False
+579,hammerstein,gain x0.4,True,retune by experiment,1,1.0,False
+579,hammerstein,gain x0.4,True,retune by experiment,2,1.0,False
+579,hammerstein,gain x0.4,True,retune by experiment,3,1.0,False
+579,hammerstein,gain x0.4,True,retune by experiment,4,1.0,False
+579,hammerstein,gain x0.4,False,frozen,0,1.041851310854452,False
+579,hammerstein,gain x0.4,False,frozen,1,0.9869572575711648,False
+579,hammerstein,gain x0.4,False,frozen,2,27.552631333427158,False
+579,hammerstein,gain x0.4,False,frozen,3,9.946862849943441,False
+579,hammerstein,gain x0.4,False,frozen,4,16.713872620429616,False
+579,hammerstein,gain x0.4,False,adaptive ML,0,1.042922834251909,False
+579,hammerstein,gain x0.4,False,adaptive ML,1,0.9701367150521564,False
+579,hammerstein,gain x0.4,False,adaptive ML,2,33.07352131426485,False
+579,hammerstein,gain x0.4,False,adaptive ML,3,1.1420252656626348,False
+579,hammerstein,gain x0.4,False,adaptive ML,4,1.349261969885311,False
+579,hammerstein,gain x0.4,False,self-tuning pole placement,0,1.0543990101482386,False
+579,hammerstein,gain x0.4,False,self-tuning pole placement,1,1.1740473696445877,False
+579,hammerstein,gain x0.4,False,self-tuning pole placement,2,100.0,False
+579,hammerstein,gain x0.4,False,self-tuning pole placement,3,21.38890281856487,False
+579,hammerstein,gain x0.4,False,self-tuning pole placement,4,48.88674924647887,False
+579,hammerstein,gain x0.4,False,retune by experiment,0,1.0,False
+579,hammerstein,gain x0.4,False,retune by experiment,1,1.0,False
+579,hammerstein,gain x0.4,False,retune by experiment,2,1.0,False
+579,hammerstein,gain x0.4,False,retune by experiment,3,1.0,False
+579,hammerstein,gain x0.4,False,retune by experiment,4,1.0,False
+579,hammerstein,gain x2.5,True,frozen,0,2.870323553862546,False
+579,hammerstein,gain x2.5,True,frozen,1,2.619596949433226,False
+579,hammerstein,gain x2.5,True,frozen,2,56.39541572333546,False
+579,hammerstein,gain x2.5,True,frozen,3,100.0,False
+579,hammerstein,gain x2.5,True,frozen,4,100.0,False
+579,hammerstein,gain x2.5,True,adaptive ML,0,2.050127637436312,False
+579,hammerstein,gain x2.5,True,adaptive ML,1,0.9901704670561737,False
+579,hammerstein,gain x2.5,True,adaptive ML,2,36.85799202543169,False
+579,hammerstein,gain x2.5,True,adaptive ML,3,78.81536363699281,False
+579,hammerstein,gain x2.5,True,adaptive ML,4,100.0,False
+579,hammerstein,gain x2.5,True,self-tuning pole placement,0,1.897661418313496,False
+579,hammerstein,gain x2.5,True,self-tuning pole placement,1,1.0287819045820872,False
+579,hammerstein,gain x2.5,True,self-tuning pole placement,2,0.23584142952557405,False
+579,hammerstein,gain x2.5,True,self-tuning pole placement,3,0.293917109739236,False
+579,hammerstein,gain x2.5,True,self-tuning pole placement,4,0.8804226553365558,False
+579,hammerstein,gain x2.5,True,retune by experiment,0,1.0,False
+579,hammerstein,gain x2.5,True,retune by experiment,1,1.0,False
+579,hammerstein,gain x2.5,True,retune by experiment,2,1.0,False
+579,hammerstein,gain x2.5,True,retune by experiment,3,1.0,False
+579,hammerstein,gain x2.5,True,retune by experiment,4,1.0,False
+579,hammerstein,gain x2.5,False,frozen,0,1.041851310854452,False
+579,hammerstein,gain x2.5,False,frozen,1,0.9951574208990669,False
+579,hammerstein,gain x2.5,False,frozen,2,59.177625759688674,False
+579,hammerstein,gain x2.5,False,frozen,3,100.0,False
+579,hammerstein,gain x2.5,False,frozen,4,100.0,False
+579,hammerstein,gain x2.5,False,adaptive ML,0,1.042922834251909,False
+579,hammerstein,gain x2.5,False,adaptive ML,1,1.0058927975812189,False
+579,hammerstein,gain x2.5,False,adaptive ML,2,54.74177944700219,False
+579,hammerstein,gain x2.5,False,adaptive ML,3,100.0,False
+579,hammerstein,gain x2.5,False,adaptive ML,4,100.0,False
+579,hammerstein,gain x2.5,False,self-tuning pole placement,0,1.0543990101482386,False
+579,hammerstein,gain x2.5,False,self-tuning pole placement,1,1.1047022467924068,False
+579,hammerstein,gain x2.5,False,self-tuning pole placement,2,0.5854987127605125,False
+579,hammerstein,gain x2.5,False,self-tuning pole placement,3,2.0183353352722766,False
+579,hammerstein,gain x2.5,False,self-tuning pole placement,4,6.0773745053232515,False
+579,hammerstein,gain x2.5,False,retune by experiment,0,1.0,False
+579,hammerstein,gain x2.5,False,retune by experiment,1,1.0,False
+579,hammerstein,gain x2.5,False,retune by experiment,2,1.0,False
+579,hammerstein,gain x2.5,False,retune by experiment,3,1.0,False
+579,hammerstein,gain x2.5,False,retune by experiment,4,1.0,False
+579,hammerstein,lag x3.0,True,frozen,0,2.870323553862546,False
+579,hammerstein,lag x3.0,True,frozen,1,10.074864336015484,False
+579,hammerstein,lag x3.0,True,frozen,2,1.2730323240423398,False
+579,hammerstein,lag x3.0,True,frozen,3,0.2778964782867074,False
+579,hammerstein,lag x3.0,True,frozen,4,1.0427402689733702,False
+579,hammerstein,lag x3.0,True,adaptive ML,0,2.050127637436312,False
+579,hammerstein,lag x3.0,True,adaptive ML,1,0.9304689032338531,False
+579,hammerstein,lag x3.0,True,adaptive ML,2,3.4617448092888123,False
+579,hammerstein,lag x3.0,True,adaptive ML,3,1.0018395237777853,False
+579,hammerstein,lag x3.0,True,adaptive ML,4,1.878141003078264,False
+579,hammerstein,lag x3.0,True,self-tuning pole placement,0,1.897661418313496,False
+579,hammerstein,lag x3.0,True,self-tuning pole placement,1,1.1178204699605665,False
+579,hammerstein,lag x3.0,True,self-tuning pole placement,2,4.570569162411766,False
+579,hammerstein,lag x3.0,True,self-tuning pole placement,3,0.8351021126635542,False
+579,hammerstein,lag x3.0,True,self-tuning pole placement,4,1.3705595869488147,False
+579,hammerstein,lag x3.0,True,retune by experiment,0,1.0,False
+579,hammerstein,lag x3.0,True,retune by experiment,1,1.0,False
+579,hammerstein,lag x3.0,True,retune by experiment,2,1.0,False
+579,hammerstein,lag x3.0,True,retune by experiment,3,1.0,False
+579,hammerstein,lag x3.0,True,retune by experiment,4,1.0,False
+579,hammerstein,lag x3.0,False,frozen,0,1.041851310854452,False
+579,hammerstein,lag x3.0,False,frozen,1,0.8778712121641055,False
+579,hammerstein,lag x3.0,False,frozen,2,4.278513718676151,False
+579,hammerstein,lag x3.0,False,frozen,3,0.7498469172735077,False
+579,hammerstein,lag x3.0,False,frozen,4,5.467385017870064,False
+579,hammerstein,lag x3.0,False,adaptive ML,0,1.042922834251909,False
+579,hammerstein,lag x3.0,False,adaptive ML,1,0.6950055123734885,False
+579,hammerstein,lag x3.0,False,adaptive ML,2,3.4904036198068384,False
+579,hammerstein,lag x3.0,False,adaptive ML,3,0.927399758691968,False
+579,hammerstein,lag x3.0,False,adaptive ML,4,3.6747818918461164,False
+579,hammerstein,lag x3.0,False,self-tuning pole placement,0,1.0543990101482386,False
+579,hammerstein,lag x3.0,False,self-tuning pole placement,1,2.591809920892729,False
+579,hammerstein,lag x3.0,False,self-tuning pole placement,2,6.3705305221174475,False
+579,hammerstein,lag x3.0,False,self-tuning pole placement,3,0.3837812100091828,False
+579,hammerstein,lag x3.0,False,self-tuning pole placement,4,3.954131959963837,False
+579,hammerstein,lag x3.0,False,retune by experiment,0,1.0,False
+579,hammerstein,lag x3.0,False,retune by experiment,1,1.0,False
+579,hammerstein,lag x3.0,False,retune by experiment,2,1.0,False
+579,hammerstein,lag x3.0,False,retune by experiment,3,1.0,False
+579,hammerstein,lag x3.0,False,retune by experiment,4,1.0,False
+579,hammerstein,lag x0.4,True,frozen,0,2.870323553862546,False
+579,hammerstein,lag x0.4,True,frozen,1,10.679737075283734,False
+579,hammerstein,lag x0.4,True,frozen,2,100.0,False
+579,hammerstein,lag x0.4,True,frozen,3,100.0,False
+579,hammerstein,lag x0.4,True,frozen,4,100.0,False
+579,hammerstein,lag x0.4,True,adaptive ML,0,2.050127637436312,False
+579,hammerstein,lag x0.4,True,adaptive ML,1,0.9118748114370765,False
+579,hammerstein,lag x0.4,True,adaptive ML,2,1.2634132738119466,False
+579,hammerstein,lag x0.4,True,adaptive ML,3,2.4877036663618255,False
+579,hammerstein,lag x0.4,True,adaptive ML,4,5.456984164947342,False
+579,hammerstein,lag x0.4,True,self-tuning pole placement,0,1.897661418313496,False
+579,hammerstein,lag x0.4,True,self-tuning pole placement,1,1.0735169119690868,False
+579,hammerstein,lag x0.4,True,self-tuning pole placement,2,2.060541521003731,False
+579,hammerstein,lag x0.4,True,self-tuning pole placement,3,0.7546290315828106,False
+579,hammerstein,lag x0.4,True,self-tuning pole placement,4,1.9473525115649046,False
+579,hammerstein,lag x0.4,True,retune by experiment,0,1.0,False
+579,hammerstein,lag x0.4,True,retune by experiment,1,1.0,False
+579,hammerstein,lag x0.4,True,retune by experiment,2,1.0,False
+579,hammerstein,lag x0.4,True,retune by experiment,3,1.0,False
+579,hammerstein,lag x0.4,True,retune by experiment,4,1.0,False
+579,hammerstein,lag x0.4,False,frozen,0,1.041851310854452,False
+579,hammerstein,lag x0.4,False,frozen,1,0.8778723719067466,False
+579,hammerstein,lag x0.4,False,frozen,2,85.78120020075178,False
+579,hammerstein,lag x0.4,False,frozen,3,100.0,False
+579,hammerstein,lag x0.4,False,frozen,4,96.18846752011427,False
+579,hammerstein,lag x0.4,False,adaptive ML,0,1.042922834251909,False
+579,hammerstein,lag x0.4,False,adaptive ML,1,0.6949723103957028,False
+579,hammerstein,lag x0.4,False,adaptive ML,2,6.177678185805934,False
+579,hammerstein,lag x0.4,False,adaptive ML,3,100.0,False
+579,hammerstein,lag x0.4,False,adaptive ML,4,2.8761143505695244,False
+579,hammerstein,lag x0.4,False,self-tuning pole placement,0,1.0543990101482386,False
+579,hammerstein,lag x0.4,False,self-tuning pole placement,1,2.5916648929249524,False
+579,hammerstein,lag x0.4,False,self-tuning pole placement,2,6.775826371224103,False
+579,hammerstein,lag x0.4,False,self-tuning pole placement,3,28.008687975886335,False
+579,hammerstein,lag x0.4,False,self-tuning pole placement,4,17.108130750117812,False
+579,hammerstein,lag x0.4,False,retune by experiment,0,1.0,False
+579,hammerstein,lag x0.4,False,retune by experiment,1,1.0,False
+579,hammerstein,lag x0.4,False,retune by experiment,2,1.0,False
+579,hammerstein,lag x0.4,False,retune by experiment,3,1.0,False
+579,hammerstein,lag x0.4,False,retune by experiment,4,1.0,False
+435,hammerstein,none x1.0,True,frozen,0,1.1750910693053356,False
+435,hammerstein,none x1.0,True,frozen,1,1.4844762362313229,False
+435,hammerstein,none x1.0,True,frozen,2,1.2790083330431585,False
+435,hammerstein,none x1.0,True,frozen,3,1.4936762006802222,False
+435,hammerstein,none x1.0,True,frozen,4,1.248300749067696,False
+435,hammerstein,none x1.0,True,adaptive ML,0,1.1007700406499006,False
+435,hammerstein,none x1.0,True,adaptive ML,1,4.8221183707417685,False
+435,hammerstein,none x1.0,True,adaptive ML,2,3.526378025231645,False
+435,hammerstein,none x1.0,True,adaptive ML,3,7.257308501803151,False
+435,hammerstein,none x1.0,True,adaptive ML,4,30.718426603759138,False
+435,hammerstein,none x1.0,True,self-tuning pole placement,0,1.045597768852537,False
+435,hammerstein,none x1.0,True,self-tuning pole placement,1,1.9016585021086867,False
+435,hammerstein,none x1.0,True,self-tuning pole placement,2,1.5048774433860868,False
+435,hammerstein,none x1.0,True,self-tuning pole placement,3,1.4913612362772866,False
+435,hammerstein,none x1.0,True,self-tuning pole placement,4,1.1678277196107358,False
+435,hammerstein,none x1.0,True,retune by experiment,0,1.0,False
+435,hammerstein,none x1.0,True,retune by experiment,1,1.0,False
+435,hammerstein,none x1.0,True,retune by experiment,2,1.0,False
+435,hammerstein,none x1.0,True,retune by experiment,3,1.0,False
+435,hammerstein,none x1.0,True,retune by experiment,4,1.0,False
+435,hammerstein,none x1.0,False,frozen,0,1.1186664230394396,False
+435,hammerstein,none x1.0,False,frozen,1,1.1014719833084972,False
+435,hammerstein,none x1.0,False,frozen,2,0.9503146292409905,False
+435,hammerstein,none x1.0,False,frozen,3,1.1014715345607564,False
+435,hammerstein,none x1.0,False,frozen,4,0.9503146292416059,False
+435,hammerstein,none x1.0,False,adaptive ML,0,1.1395773443935762,False
+435,hammerstein,none x1.0,False,adaptive ML,1,7.948763637996984,False
+435,hammerstein,none x1.0,False,adaptive ML,2,100.0,False
+435,hammerstein,none x1.0,False,adaptive ML,3,79.7465706388287,False
+435,hammerstein,none x1.0,False,adaptive ML,4,12.065323255328188,False
+435,hammerstein,none x1.0,False,self-tuning pole placement,0,1.1368005005560797,False
+435,hammerstein,none x1.0,False,self-tuning pole placement,1,3.8255154385067214,False
+435,hammerstein,none x1.0,False,self-tuning pole placement,2,2.827944512986927,False
+435,hammerstein,none x1.0,False,self-tuning pole placement,3,2.84027694058434,False
+435,hammerstein,none x1.0,False,self-tuning pole placement,4,3.242318699591187,False
+435,hammerstein,none x1.0,False,retune by experiment,0,1.0,False
+435,hammerstein,none x1.0,False,retune by experiment,1,1.0,False
+435,hammerstein,none x1.0,False,retune by experiment,2,1.0,False
+435,hammerstein,none x1.0,False,retune by experiment,3,1.0,False
+435,hammerstein,none x1.0,False,retune by experiment,4,1.0,False
+435,hammerstein,gain x2.5,True,frozen,0,1.1750910693053356,False
+435,hammerstein,gain x2.5,True,frozen,1,1.034269102374428,False
+435,hammerstein,gain x2.5,True,frozen,2,36.37311300460668,False
+435,hammerstein,gain x2.5,True,frozen,3,100.0,False
+435,hammerstein,gain x2.5,True,frozen,4,100.0,False
+435,hammerstein,gain x2.5,True,adaptive ML,0,1.1007700406499006,False
+435,hammerstein,gain x2.5,True,adaptive ML,1,1.2721514489346448,False
+435,hammerstein,gain x2.5,True,adaptive ML,2,12.476149574795468,False
+435,hammerstein,gain x2.5,True,adaptive ML,3,7.56036581717306,False
+435,hammerstein,gain x2.5,True,adaptive ML,4,1.8649066595807349,False
+435,hammerstein,gain x2.5,True,self-tuning pole placement,0,1.045597768852537,False
+435,hammerstein,gain x2.5,True,self-tuning pole placement,1,1.0785363494752749,False
+435,hammerstein,gain x2.5,True,self-tuning pole placement,2,1.0058831838652498,False
+435,hammerstein,gain x2.5,True,self-tuning pole placement,3,1.530420058348897,False
+435,hammerstein,gain x2.5,True,self-tuning pole placement,4,1.0736304852157434,False
+435,hammerstein,gain x2.5,True,retune by experiment,0,1.0,False
+435,hammerstein,gain x2.5,True,retune by experiment,1,1.0,False
+435,hammerstein,gain x2.5,True,retune by experiment,2,1.0,False
+435,hammerstein,gain x2.5,True,retune by experiment,3,1.0,False
+435,hammerstein,gain x2.5,True,retune by experiment,4,1.0,False
+435,hammerstein,gain x2.5,False,frozen,0,1.1186664230394396,False
+435,hammerstein,gain x2.5,False,frozen,1,1.0034808793812018,False
+435,hammerstein,gain x2.5,False,frozen,2,44.05773362068383,False
+435,hammerstein,gain x2.5,False,frozen,3,100.0,False
+435,hammerstein,gain x2.5,False,frozen,4,100.0,False
+435,hammerstein,gain x2.5,False,adaptive ML,0,1.1395773443935762,False
+435,hammerstein,gain x2.5,False,adaptive ML,1,1.2615814334416355,False
+435,hammerstein,gain x2.5,False,adaptive ML,2,55.31784863773868,False
+435,hammerstein,gain x2.5,False,adaptive ML,3,100.0,False
+435,hammerstein,gain x2.5,False,adaptive ML,4,100.0,False
+435,hammerstein,gain x2.5,False,self-tuning pole placement,0,1.1368005005560797,False
+435,hammerstein,gain x2.5,False,self-tuning pole placement,1,1.1140901677419943,False
+435,hammerstein,gain x2.5,False,self-tuning pole placement,2,1.5977062378694513,False
+435,hammerstein,gain x2.5,False,self-tuning pole placement,3,3.101951093698359,False
+435,hammerstein,gain x2.5,False,self-tuning pole placement,4,3.4544446947275778,False
+435,hammerstein,gain x2.5,False,retune by experiment,0,1.0,False
+435,hammerstein,gain x2.5,False,retune by experiment,1,1.0,False
+435,hammerstein,gain x2.5,False,retune by experiment,2,1.0,False
+435,hammerstein,gain x2.5,False,retune by experiment,3,1.0,False
+435,hammerstein,gain x2.5,False,retune by experiment,4,1.0,False
+435,hammerstein,lag x3.0,True,frozen,0,1.1750910693053356,False
+435,hammerstein,lag x3.0,True,frozen,1,1.4823248439550314,False
+435,hammerstein,lag x3.0,True,frozen,2,2.6211807060220713,False
+435,hammerstein,lag x3.0,True,frozen,3,2.3116494954265896,False
+435,hammerstein,lag x3.0,True,frozen,4,2.349880035444208,False
+435,hammerstein,lag x3.0,True,adaptive ML,0,1.1007700406499006,False
+435,hammerstein,lag x3.0,True,adaptive ML,1,4.919378743373288,False
+435,hammerstein,lag x3.0,True,adaptive ML,2,1.5300508979280247,False
+435,hammerstein,lag x3.0,True,adaptive ML,3,3.050856412118172,False
+435,hammerstein,lag x3.0,True,adaptive ML,4,0.844455467428887,False
+435,hammerstein,lag x3.0,True,self-tuning pole placement,0,1.045597768852537,False
+435,hammerstein,lag x3.0,True,self-tuning pole placement,1,1.9323765305352838,False
+435,hammerstein,lag x3.0,True,self-tuning pole placement,2,5.2021754722892855,False
+435,hammerstein,lag x3.0,True,self-tuning pole placement,3,1.4189021216858448,False
+435,hammerstein,lag x3.0,True,self-tuning pole placement,4,1.6028050697196286,False
+435,hammerstein,lag x3.0,True,retune by experiment,0,1.0,False
+435,hammerstein,lag x3.0,True,retune by experiment,1,1.0,False
+435,hammerstein,lag x3.0,True,retune by experiment,2,1.0,False
+435,hammerstein,lag x3.0,True,retune by experiment,3,1.0,False
+435,hammerstein,lag x3.0,True,retune by experiment,4,1.0,False
+435,hammerstein,lag x3.0,False,frozen,0,1.1186664230394396,False
+435,hammerstein,lag x3.0,False,frozen,1,1.1014566295155273,False
+435,hammerstein,lag x3.0,False,frozen,2,3.6382794337936923,False
+435,hammerstein,lag x3.0,False,frozen,3,5.306023829030161,False
+435,hammerstein,lag x3.0,False,frozen,4,3.6478856608227015,False
+435,hammerstein,lag x3.0,False,adaptive ML,0,1.1395773443935762,False
+435,hammerstein,lag x3.0,False,adaptive ML,1,7.619469659966814,False
+435,hammerstein,lag x3.0,False,adaptive ML,2,1.5480269076813815,False
+435,hammerstein,lag x3.0,False,adaptive ML,3,2.2284498383874767,False
+435,hammerstein,lag x3.0,False,adaptive ML,4,1.12479625993403,False
+435,hammerstein,lag x3.0,False,self-tuning pole placement,0,1.1368005005560797,False
+435,hammerstein,lag x3.0,False,self-tuning pole placement,1,3.825552775197418,False
+435,hammerstein,lag x3.0,False,self-tuning pole placement,2,7.231713064910674,False
+435,hammerstein,lag x3.0,False,self-tuning pole placement,3,3.1123012576610023,False
+435,hammerstein,lag x3.0,False,self-tuning pole placement,4,2.4822261143809534,False
+435,hammerstein,lag x3.0,False,retune by experiment,0,1.0,False
+435,hammerstein,lag x3.0,False,retune by experiment,1,1.0,False
+435,hammerstein,lag x3.0,False,retune by experiment,2,1.0,False
+435,hammerstein,lag x3.0,False,retune by experiment,3,1.0,False
+435,hammerstein,lag x3.0,False,retune by experiment,4,1.0,False
+435,hammerstein,lag x0.4,True,frozen,0,1.1750910693053356,False
+435,hammerstein,lag x0.4,True,frozen,1,1.47902106443653,False
+435,hammerstein,lag x0.4,True,frozen,2,100.0,False
+435,hammerstein,lag x0.4,True,frozen,3,100.0,False
+435,hammerstein,lag x0.4,True,frozen,4,100.0,False
+435,hammerstein,lag x0.4,True,adaptive ML,0,1.1007700406499006,False
+435,hammerstein,lag x0.4,True,adaptive ML,1,4.687353320179652,False
+435,hammerstein,lag x0.4,True,adaptive ML,2,28.95850303415851,False
+435,hammerstein,lag x0.4,True,adaptive ML,3,29.70530775842775,False
+435,hammerstein,lag x0.4,True,adaptive ML,4,5.029648301152319,False
+435,hammerstein,lag x0.4,True,self-tuning pole placement,0,1.045597768852537,False
+435,hammerstein,lag x0.4,True,self-tuning pole placement,1,1.859767647260165,False
+435,hammerstein,lag x0.4,True,self-tuning pole placement,2,1.154284493349593,False
+435,hammerstein,lag x0.4,True,self-tuning pole placement,3,0.9373772077066815,False
+435,hammerstein,lag x0.4,True,self-tuning pole placement,4,1.7161650710727594,False
+435,hammerstein,lag x0.4,True,retune by experiment,0,1.0,False
+435,hammerstein,lag x0.4,True,retune by experiment,1,1.0,False
+435,hammerstein,lag x0.4,True,retune by experiment,2,1.0,False
+435,hammerstein,lag x0.4,True,retune by experiment,3,1.0,False
+435,hammerstein,lag x0.4,True,retune by experiment,4,1.0,False
+435,hammerstein,lag x0.4,False,frozen,0,1.1186664230394396,False
+435,hammerstein,lag x0.4,False,frozen,1,1.1014810563468689,False
+435,hammerstein,lag x0.4,False,frozen,2,96.46857718421342,False
+435,hammerstein,lag x0.4,False,frozen,3,100.0,False
+435,hammerstein,lag x0.4,False,frozen,4,92.1237510199891,False
+435,hammerstein,lag x0.4,False,adaptive ML,0,1.1395773443935762,False
+435,hammerstein,lag x0.4,False,adaptive ML,1,8.791618355203447,False
+435,hammerstein,lag x0.4,False,adaptive ML,2,100.0,False
+435,hammerstein,lag x0.4,False,adaptive ML,3,100.0,False
+435,hammerstein,lag x0.4,False,adaptive ML,4,14.471801750119544,False
+435,hammerstein,lag x0.4,False,self-tuning pole placement,0,1.1368005005560797,False
+435,hammerstein,lag x0.4,False,self-tuning pole placement,1,3.8254224821532583,False
+435,hammerstein,lag x0.4,False,self-tuning pole placement,2,2.089016656496515,False
+435,hammerstein,lag x0.4,False,self-tuning pole placement,3,5.466063034846889,False
+435,hammerstein,lag x0.4,False,self-tuning pole placement,4,14.823366473790985,False
+435,hammerstein,lag x0.4,False,retune by experiment,0,1.0,False
+435,hammerstein,lag x0.4,False,retune by experiment,1,1.0,False
+435,hammerstein,lag x0.4,False,retune by experiment,2,1.0,False
+435,hammerstein,lag x0.4,False,retune by experiment,3,1.0,False
+435,hammerstein,lag x0.4,False,retune by experiment,4,1.0,False
+1006,ipdt,none x1.0,True,frozen,0,1.0333925381048188,False
+1006,ipdt,none x1.0,True,frozen,1,0.8578734435759282,False
+1006,ipdt,none x1.0,True,frozen,2,0.8707438204838295,False
+1006,ipdt,none x1.0,True,frozen,3,0.8992787661821987,False
+1006,ipdt,none x1.0,True,frozen,4,0.8916032055692611,False
+1006,ipdt,none x1.0,True,adaptive ML,0,1.0338624992166505,False
+1006,ipdt,none x1.0,True,adaptive ML,1,0.8706739025290845,False
+1006,ipdt,none x1.0,True,adaptive ML,2,1.3044508778276278,False
+1006,ipdt,none x1.0,True,adaptive ML,3,0.8997658521350501,False
+1006,ipdt,none x1.0,True,adaptive ML,4,1.0576698428415632,False
+1006,ipdt,none x1.0,True,self-tuning pole placement,0,1.0119854344212866,False
+1006,ipdt,none x1.0,True,self-tuning pole placement,1,1.5024323836011542,False
+1006,ipdt,none x1.0,True,self-tuning pole placement,2,1.5292298479966773,False
+1006,ipdt,none x1.0,True,self-tuning pole placement,3,1.9413728635922296,False
+1006,ipdt,none x1.0,True,self-tuning pole placement,4,2.4758589078604483,False
+1006,ipdt,none x1.0,True,retune by experiment,0,1.0,False
+1006,ipdt,none x1.0,True,retune by experiment,1,1.0,False
+1006,ipdt,none x1.0,True,retune by experiment,2,1.0,False
+1006,ipdt,none x1.0,True,retune by experiment,3,1.0,False
+1006,ipdt,none x1.0,True,retune by experiment,4,1.0,False
+1006,ipdt,none x1.0,False,frozen,0,1.0015453533271816,False
+1006,ipdt,none x1.0,False,frozen,1,0.8457928708073936,False
+1006,ipdt,none x1.0,False,frozen,2,0.8507736741475656,False
+1006,ipdt,none x1.0,False,frozen,3,0.8457989592849698,False
+1006,ipdt,none x1.0,False,frozen,4,0.8507682613757988,False
+1006,ipdt,none x1.0,False,adaptive ML,0,1.0197345923498013,False
+1006,ipdt,none x1.0,False,adaptive ML,1,1.2286178055902606,False
+1006,ipdt,none x1.0,False,adaptive ML,2,2.516599309671866,False
+1006,ipdt,none x1.0,False,adaptive ML,3,3.1697356982310936,False
+1006,ipdt,none x1.0,False,adaptive ML,4,2.912627182881615,False
+1006,ipdt,none x1.0,False,self-tuning pole placement,0,1.031992384074912,False
+1006,ipdt,none x1.0,False,self-tuning pole placement,1,1.265530563681678,False
+1006,ipdt,none x1.0,False,self-tuning pole placement,2,1.5517331996028039,False
+1006,ipdt,none x1.0,False,self-tuning pole placement,3,2.3235481837536787,False
+1006,ipdt,none x1.0,False,self-tuning pole placement,4,3.459503038844265,False
+1006,ipdt,none x1.0,False,retune by experiment,0,1.0,False
+1006,ipdt,none x1.0,False,retune by experiment,1,1.0,False
+1006,ipdt,none x1.0,False,retune by experiment,2,1.0,False
+1006,ipdt,none x1.0,False,retune by experiment,3,1.0,False
+1006,ipdt,none x1.0,False,retune by experiment,4,1.0,False
+1006,ipdt,gain x0.4,True,frozen,0,1.0333925381048188,False
+1006,ipdt,gain x0.4,True,frozen,1,0.8620505273087254,False
+1006,ipdt,gain x0.4,True,frozen,2,1.2946537918971186,False
+1006,ipdt,gain x0.4,True,frozen,3,1.3255650757663284,False
+1006,ipdt,gain x0.4,True,frozen,4,1.2571086379672545,False
+1006,ipdt,gain x0.4,True,adaptive ML,0,1.0338624992166505,False
+1006,ipdt,gain x0.4,True,adaptive ML,1,0.8683165585706375,False
+1006,ipdt,gain x0.4,True,adaptive ML,2,0.8196377501255104,False
+1006,ipdt,gain x0.4,True,adaptive ML,3,0.6948454124944308,False
+1006,ipdt,gain x0.4,True,adaptive ML,4,0.864727742128532,False
+1006,ipdt,gain x0.4,True,self-tuning pole placement,0,1.0119854344212866,False
+1006,ipdt,gain x0.4,True,self-tuning pole placement,1,1.5084844127154367,False
+1006,ipdt,gain x0.4,True,self-tuning pole placement,2,0.9116824525073821,False
+1006,ipdt,gain x0.4,True,self-tuning pole placement,3,1.1561404843947225,False
+1006,ipdt,gain x0.4,True,self-tuning pole placement,4,1.1450088602069928,False
+1006,ipdt,gain x0.4,True,retune by experiment,0,1.0,False
+1006,ipdt,gain x0.4,True,retune by experiment,1,1.0,False
+1006,ipdt,gain x0.4,True,retune by experiment,2,1.0,False
+1006,ipdt,gain x0.4,True,retune by experiment,3,1.0,False
+1006,ipdt,gain x0.4,True,retune by experiment,4,1.0,False
+1006,ipdt,gain x0.4,False,frozen,0,1.0015453533271816,False
+1006,ipdt,gain x0.4,False,frozen,1,0.8457927939612474,False
+1006,ipdt,gain x0.4,False,frozen,2,1.8622462549817207,False
+1006,ipdt,gain x0.4,False,frozen,3,1.8724598732740962,False
+1006,ipdt,gain x0.4,False,frozen,4,1.8616869256195476,False
+1006,ipdt,gain x0.4,False,adaptive ML,0,1.0197345923498013,False
+1006,ipdt,gain x0.4,False,adaptive ML,1,1.2287776790073388,False
+1006,ipdt,gain x0.4,False,adaptive ML,2,2.10454487146978,False
+1006,ipdt,gain x0.4,False,adaptive ML,3,0.9170560709672719,False
+1006,ipdt,gain x0.4,False,adaptive ML,4,0.8195293285772671,False
+1006,ipdt,gain x0.4,False,self-tuning pole placement,0,1.031992384074912,False
+1006,ipdt,gain x0.4,False,self-tuning pole placement,1,1.2655270974784207,False
+1006,ipdt,gain x0.4,False,self-tuning pole placement,2,2.5380872594019768,False
+1006,ipdt,gain x0.4,False,self-tuning pole placement,3,0.7515295756411563,False
+1006,ipdt,gain x0.4,False,self-tuning pole placement,4,1.3648482287618056,False
+1006,ipdt,gain x0.4,False,retune by experiment,0,1.0,False
+1006,ipdt,gain x0.4,False,retune by experiment,1,1.0,False
+1006,ipdt,gain x0.4,False,retune by experiment,2,1.0,False
+1006,ipdt,gain x0.4,False,retune by experiment,3,1.0,False
+1006,ipdt,gain x0.4,False,retune by experiment,4,1.0,False
+1006,ipdt,gain x2.5,True,frozen,0,1.0333925381048188,False
+1006,ipdt,gain x2.5,True,frozen,1,0.8553188629286969,False
+1006,ipdt,gain x2.5,True,frozen,2,37.11934261938986,False
+1006,ipdt,gain x2.5,True,frozen,3,38.74552751798158,False
+1006,ipdt,gain x2.5,True,frozen,4,34.15995998686745,False
+1006,ipdt,gain x2.5,True,adaptive ML,0,1.0338624992166505,False
+1006,ipdt,gain x2.5,True,adaptive ML,1,0.8777000271891869,False
+1006,ipdt,gain x2.5,True,adaptive ML,2,26.27342037689888,False
+1006,ipdt,gain x2.5,True,adaptive ML,3,3.0773822126896966,False
+1006,ipdt,gain x2.5,True,adaptive ML,4,1.6042003941954588,False
+1006,ipdt,gain x2.5,True,self-tuning pole placement,0,1.0119854344212866,False
+1006,ipdt,gain x2.5,True,self-tuning pole placement,1,1.4933188044070607,False
+1006,ipdt,gain x2.5,True,self-tuning pole placement,2,9.48063661863735,False
+1006,ipdt,gain x2.5,True,self-tuning pole placement,3,2.603834295443139,False
+1006,ipdt,gain x2.5,True,self-tuning pole placement,4,3.1959304986596684,False
+1006,ipdt,gain x2.5,True,retune by experiment,0,1.0,False
+1006,ipdt,gain x2.5,True,retune by experiment,1,1.0,False
+1006,ipdt,gain x2.5,True,retune by experiment,2,1.0,False
+1006,ipdt,gain x2.5,True,retune by experiment,3,1.0,False
+1006,ipdt,gain x2.5,True,retune by experiment,4,1.0,False
+1006,ipdt,gain x2.5,False,frozen,0,1.0015453533271816,False
+1006,ipdt,gain x2.5,False,frozen,1,0.8457927769230358,False
+1006,ipdt,gain x2.5,False,frozen,2,20.542010390525014,False
+1006,ipdt,gain x2.5,False,frozen,3,19.9834049216294,False
+1006,ipdt,gain x2.5,False,frozen,4,20.33517959028526,False
+1006,ipdt,gain x2.5,False,adaptive ML,0,1.0197345923498013,False
+1006,ipdt,gain x2.5,False,adaptive ML,1,1.228300377573353,False
+1006,ipdt,gain x2.5,False,adaptive ML,2,38.322522077079704,False
+1006,ipdt,gain x2.5,False,adaptive ML,3,38.195069334267345,False
+1006,ipdt,gain x2.5,False,adaptive ML,4,14.954287710271311,False
+1006,ipdt,gain x2.5,False,self-tuning pole placement,0,1.031992384074912,False
+1006,ipdt,gain x2.5,False,self-tuning pole placement,1,1.2655357781300067,False
+1006,ipdt,gain x2.5,False,self-tuning pole placement,2,1.1981405190760894,False
+1006,ipdt,gain x2.5,False,self-tuning pole placement,3,3.832897086478167,False
+1006,ipdt,gain x2.5,False,self-tuning pole placement,4,4.438212859053645,False
+1006,ipdt,gain x2.5,False,retune by experiment,0,1.0,False
+1006,ipdt,gain x2.5,False,retune by experiment,1,1.0,False
+1006,ipdt,gain x2.5,False,retune by experiment,2,1.0,False
+1006,ipdt,gain x2.5,False,retune by experiment,3,1.0,False
+1006,ipdt,gain x2.5,False,retune by experiment,4,1.0,False
+1006,ipdt,lag x3.0,True,frozen,0,1.0333925381048188,False
+1006,ipdt,lag x3.0,True,frozen,1,0.8604308392949586,False
+1006,ipdt,lag x3.0,True,frozen,2,0.5396849374088608,False
+1006,ipdt,lag x3.0,True,frozen,3,0.5292564786623364,False
+1006,ipdt,lag x3.0,True,frozen,4,0.5365293947177565,False
+1006,ipdt,lag x3.0,True,adaptive ML,0,1.0338624992166505,False
+1006,ipdt,lag x3.0,True,adaptive ML,1,0.8661613122549637,False
+1006,ipdt,lag x3.0,True,adaptive ML,2,1.4984083166753766,False
+1006,ipdt,lag x3.0,True,adaptive ML,3,0.6035888679869682,False
+1006,ipdt,lag x3.0,True,adaptive ML,4,0.7649807819707675,False
+1006,ipdt,lag x3.0,True,self-tuning pole placement,0,1.0119854344212866,False
+1006,ipdt,lag x3.0,True,self-tuning pole placement,1,1.5043196382801685,False
+1006,ipdt,lag x3.0,True,self-tuning pole placement,2,2.1447096584506973,False
+1006,ipdt,lag x3.0,True,self-tuning pole placement,3,0.9355044632142226,False
+1006,ipdt,lag x3.0,True,self-tuning pole placement,4,1.2537323192105936,False
+1006,ipdt,lag x3.0,True,retune by experiment,0,1.0,False
+1006,ipdt,lag x3.0,True,retune by experiment,1,1.0,False
+1006,ipdt,lag x3.0,True,retune by experiment,2,1.0,False
+1006,ipdt,lag x3.0,True,retune by experiment,3,1.0,False
+1006,ipdt,lag x3.0,True,retune by experiment,4,1.0,False
+1006,ipdt,lag x3.0,False,frozen,0,1.0015453533271816,False
+1006,ipdt,lag x3.0,False,frozen,1,0.8457871325521836,False
+1006,ipdt,lag x3.0,False,frozen,2,0.5019974132115465,False
+1006,ipdt,lag x3.0,False,frozen,3,0.4980818259316357,False
+1006,ipdt,lag x3.0,False,frozen,4,0.5026643419747725,False
+1006,ipdt,lag x3.0,False,adaptive ML,0,1.0197345923498013,False
+1006,ipdt,lag x3.0,False,adaptive ML,1,1.2287654726698538,False
+1006,ipdt,lag x3.0,False,adaptive ML,2,0.4694488290451589,False
+1006,ipdt,lag x3.0,False,adaptive ML,3,4.898244121269435,False
+1006,ipdt,lag x3.0,False,adaptive ML,4,6.906518191317004,False
+1006,ipdt,lag x3.0,False,self-tuning pole placement,0,1.031992384074912,False
+1006,ipdt,lag x3.0,False,self-tuning pole placement,1,1.2655187537097852,False
+1006,ipdt,lag x3.0,False,self-tuning pole placement,2,1.098545777138996,False
+1006,ipdt,lag x3.0,False,self-tuning pole placement,3,0.691391300851393,False
+1006,ipdt,lag x3.0,False,self-tuning pole placement,4,1.2570128880413618,False
+1006,ipdt,lag x3.0,False,retune by experiment,0,1.0,False
+1006,ipdt,lag x3.0,False,retune by experiment,1,1.0,False
+1006,ipdt,lag x3.0,False,retune by experiment,2,1.0,False
+1006,ipdt,lag x3.0,False,retune by experiment,3,1.0,False
+1006,ipdt,lag x3.0,False,retune by experiment,4,1.0,False
+1006,ipdt,lag x0.4,True,frozen,0,1.0333925381048188,False
+1006,ipdt,lag x0.4,True,frozen,1,0.8563911194694172,False
+1006,ipdt,lag x0.4,True,frozen,2,4.549720137666105,False
+1006,ipdt,lag x0.4,True,frozen,3,3.5541223308524468,False
+1006,ipdt,lag x0.4,True,frozen,4,2.6724465611716677,False
+1006,ipdt,lag x0.4,True,adaptive ML,0,1.0338624992166505,False
+1006,ipdt,lag x0.4,True,adaptive ML,1,0.8759232098984728,False
+1006,ipdt,lag x0.4,True,adaptive ML,2,1.1567642220911225,False
+1006,ipdt,lag x0.4,True,adaptive ML,3,0.9035807211703488,False
+1006,ipdt,lag x0.4,True,adaptive ML,4,1.039133875369855,False
+1006,ipdt,lag x0.4,True,self-tuning pole placement,0,1.0119854344212866,False
+1006,ipdt,lag x0.4,True,self-tuning pole placement,1,1.5036682445286575,False
+1006,ipdt,lag x0.4,True,self-tuning pole placement,2,1.0833264456816234,False
+1006,ipdt,lag x0.4,True,self-tuning pole placement,3,2.456913069944861,False
+1006,ipdt,lag x0.4,True,self-tuning pole placement,4,3.1969504650196137,False
+1006,ipdt,lag x0.4,True,retune by experiment,0,1.0,False
+1006,ipdt,lag x0.4,True,retune by experiment,1,1.0,False
+1006,ipdt,lag x0.4,True,retune by experiment,2,1.0,False
+1006,ipdt,lag x0.4,True,retune by experiment,3,1.0,False
+1006,ipdt,lag x0.4,True,retune by experiment,4,1.0,False
+1006,ipdt,lag x0.4,False,frozen,0,1.0015453533271816,False
+1006,ipdt,lag x0.4,False,frozen,1,0.8458034700120343,False
+1006,ipdt,lag x0.4,False,frozen,2,2.2175988715867354,False
+1006,ipdt,lag x0.4,False,frozen,3,2.3088508672294807,False
+1006,ipdt,lag x0.4,False,frozen,4,2.218220289857519,False
+1006,ipdt,lag x0.4,False,adaptive ML,0,1.0197345923498013,False
+1006,ipdt,lag x0.4,False,adaptive ML,1,1.2285012965804263,False
+1006,ipdt,lag x0.4,False,adaptive ML,2,3.1674264219563066,False
+1006,ipdt,lag x0.4,False,adaptive ML,3,2.14576292756478,False
+1006,ipdt,lag x0.4,False,adaptive ML,4,1.6161030851117868,False
+1006,ipdt,lag x0.4,False,self-tuning pole placement,0,1.031992384074912,False
+1006,ipdt,lag x0.4,False,self-tuning pole placement,1,1.2655481498810357,False
+1006,ipdt,lag x0.4,False,self-tuning pole placement,2,4.027727082483642,False
+1006,ipdt,lag x0.4,False,self-tuning pole placement,3,4.282359068705526,False
+1006,ipdt,lag x0.4,False,self-tuning pole placement,4,5.881836480616789,False
+1006,ipdt,lag x0.4,False,retune by experiment,0,1.0,False
+1006,ipdt,lag x0.4,False,retune by experiment,1,1.0,False
+1006,ipdt,lag x0.4,False,retune by experiment,2,1.0,False
+1006,ipdt,lag x0.4,False,retune by experiment,3,1.0,False
+1006,ipdt,lag x0.4,False,retune by experiment,4,1.0,False
+561,sopdt,none x1.0,True,frozen,0,0.974394653177277,False
+561,sopdt,none x1.0,True,frozen,1,0.7908122349591084,False
+561,sopdt,none x1.0,True,frozen,2,0.8665714881422235,False
+561,sopdt,none x1.0,True,frozen,3,0.7676551405425529,False
+561,sopdt,none x1.0,True,frozen,4,0.8609023445936309,False
+561,sopdt,none x1.0,True,adaptive ML,0,1.0366534225240627,False
+561,sopdt,none x1.0,True,adaptive ML,1,100.0,False
+561,sopdt,none x1.0,True,adaptive ML,2,100.0,False
+561,sopdt,none x1.0,True,adaptive ML,3,100.0,False
+561,sopdt,none x1.0,True,adaptive ML,4,100.0,False
+561,sopdt,none x1.0,True,self-tuning pole placement,0,0.9401499325686474,False
+561,sopdt,none x1.0,True,self-tuning pole placement,1,0.9255240693046802,False
+561,sopdt,none x1.0,True,self-tuning pole placement,2,1.000217680194444,False
+561,sopdt,none x1.0,True,self-tuning pole placement,3,1.0555667983736785,False
+561,sopdt,none x1.0,True,self-tuning pole placement,4,1.4071334616293472,False
+561,sopdt,none x1.0,True,retune by experiment,0,1.0,False
+561,sopdt,none x1.0,True,retune by experiment,1,1.0,False
+561,sopdt,none x1.0,True,retune by experiment,2,1.0,False
+561,sopdt,none x1.0,True,retune by experiment,3,1.0,False
+561,sopdt,none x1.0,True,retune by experiment,4,1.0,False
+561,sopdt,none x1.0,False,frozen,0,1.0004446015771264,False
+561,sopdt,none x1.0,False,frozen,1,1.0032777695544939,False
+561,sopdt,none x1.0,False,frozen,2,1.0032773854377257,False
+561,sopdt,none x1.0,False,frozen,3,1.0032671370040311,False
+561,sopdt,none x1.0,False,frozen,4,1.0032774620175346,False
+561,sopdt,none x1.0,False,adaptive ML,0,1.0032132468744994,False
+561,sopdt,none x1.0,False,adaptive ML,1,100.0,False
+561,sopdt,none x1.0,False,adaptive ML,2,100.0,False
+561,sopdt,none x1.0,False,adaptive ML,3,63.979670571205524,False
+561,sopdt,none x1.0,False,adaptive ML,4,57.54439542997302,False
+561,sopdt,none x1.0,False,self-tuning pole placement,0,0.9996972147809297,False
+561,sopdt,none x1.0,False,self-tuning pole placement,1,1.249889110016277,False
+561,sopdt,none x1.0,False,self-tuning pole placement,2,2.429873163092751,False
+561,sopdt,none x1.0,False,self-tuning pole placement,3,2.708646560459523,False
+561,sopdt,none x1.0,False,self-tuning pole placement,4,2.8073439011050327,False
+561,sopdt,none x1.0,False,retune by experiment,0,1.0,False
+561,sopdt,none x1.0,False,retune by experiment,1,1.0,False
+561,sopdt,none x1.0,False,retune by experiment,2,1.0,False
+561,sopdt,none x1.0,False,retune by experiment,3,1.0,False
+561,sopdt,none x1.0,False,retune by experiment,4,1.0,False
+561,sopdt,gain x0.4,True,frozen,0,0.974394653177277,False
+561,sopdt,gain x0.4,True,frozen,1,0.9466794335835668,False
+561,sopdt,gain x0.4,True,frozen,2,3.91593325934228,False
+561,sopdt,gain x0.4,True,frozen,3,1.578055866344473,False
+561,sopdt,gain x0.4,True,frozen,4,1.531021954565799,False
+561,sopdt,gain x0.4,True,adaptive ML,0,1.0366534225240627,False
+561,sopdt,gain x0.4,True,adaptive ML,1,29.857047312436645,False
+561,sopdt,gain x0.4,True,adaptive ML,2,1.0017209891243852,False
+561,sopdt,gain x0.4,True,adaptive ML,3,69.51932939266581,False
+561,sopdt,gain x0.4,True,adaptive ML,4,100.0,False
+561,sopdt,gain x0.4,True,self-tuning pole placement,0,0.9401499325686474,False
+561,sopdt,gain x0.4,True,self-tuning pole placement,1,0.9828426323304107,False
+561,sopdt,gain x0.4,True,self-tuning pole placement,2,12.29950009560655,False
+561,sopdt,gain x0.4,True,self-tuning pole placement,3,1.7437058640707055,False
+561,sopdt,gain x0.4,True,self-tuning pole placement,4,1.7858487146546629,False
+561,sopdt,gain x0.4,True,retune by experiment,0,1.0,False
+561,sopdt,gain x0.4,True,retune by experiment,1,1.0,False
+561,sopdt,gain x0.4,True,retune by experiment,2,1.0,False
+561,sopdt,gain x0.4,True,retune by experiment,3,1.0,False
+561,sopdt,gain x0.4,True,retune by experiment,4,1.0,False
+561,sopdt,gain x0.4,False,frozen,0,1.0004446015771264,False
+561,sopdt,gain x0.4,False,frozen,1,1.000577736545663,False
+561,sopdt,gain x0.4,False,frozen,2,3.6001996471987954,False
+561,sopdt,gain x0.4,False,frozen,3,2.003955411721431,False
+561,sopdt,gain x0.4,False,frozen,4,2.0087112099491193,False
+561,sopdt,gain x0.4,False,adaptive ML,0,1.0032132468744994,False
+561,sopdt,gain x0.4,False,adaptive ML,1,24.753953037777652,False
+561,sopdt,gain x0.4,False,adaptive ML,2,1.0875535761058286,False
+561,sopdt,gain x0.4,False,adaptive ML,3,43.97971646749862,False
+561,sopdt,gain x0.4,False,adaptive ML,4,100.0,False
+561,sopdt,gain x0.4,False,self-tuning pole placement,0,0.9996972147809297,False
+561,sopdt,gain x0.4,False,self-tuning pole placement,1,1.0438988979485289,False
+561,sopdt,gain x0.4,False,self-tuning pole placement,2,21.172942678122578,False
+561,sopdt,gain x0.4,False,self-tuning pole placement,3,3.6329348109959674,False
+561,sopdt,gain x0.4,False,self-tuning pole placement,4,3.1843668836596235,False
+561,sopdt,gain x0.4,False,retune by experiment,0,1.0,False
+561,sopdt,gain x0.4,False,retune by experiment,1,1.0,False
+561,sopdt,gain x0.4,False,retune by experiment,2,1.0,False
+561,sopdt,gain x0.4,False,retune by experiment,3,1.0,False
+561,sopdt,gain x0.4,False,retune by experiment,4,1.0,False
+561,sopdt,gain x2.5,True,frozen,0,0.974394653177277,False
+561,sopdt,gain x2.5,True,frozen,1,0.9741224268598494,False
+561,sopdt,gain x2.5,True,frozen,2,74.18971284989449,False
+561,sopdt,gain x2.5,True,frozen,3,100.0,False
+561,sopdt,gain x2.5,True,frozen,4,100.0,False
+561,sopdt,gain x2.5,True,adaptive ML,0,1.0366534225240627,False
+561,sopdt,gain x2.5,True,adaptive ML,1,15.250303470914607,False
+561,sopdt,gain x2.5,True,adaptive ML,2,100.0,False
+561,sopdt,gain x2.5,True,adaptive ML,3,100.0,False
+561,sopdt,gain x2.5,True,adaptive ML,4,100.0,False
+561,sopdt,gain x2.5,True,self-tuning pole placement,0,0.9401499325686474,False
+561,sopdt,gain x2.5,True,self-tuning pole placement,1,0.989299840591461,False
+561,sopdt,gain x2.5,True,self-tuning pole placement,2,2.6701051988967337,False
+561,sopdt,gain x2.5,True,self-tuning pole placement,3,1.0329029011590687,False
+561,sopdt,gain x2.5,True,self-tuning pole placement,4,1.3316739937629234,False
+561,sopdt,gain x2.5,True,retune by experiment,0,1.0,False
+561,sopdt,gain x2.5,True,retune by experiment,1,1.0,False
+561,sopdt,gain x2.5,True,retune by experiment,2,1.0,False
+561,sopdt,gain x2.5,True,retune by experiment,3,1.0,False
+561,sopdt,gain x2.5,True,retune by experiment,4,1.0,False
+561,sopdt,gain x2.5,False,frozen,0,1.0004446015771264,False
+561,sopdt,gain x2.5,False,frozen,1,1.0002568473354665,False
+561,sopdt,gain x2.5,False,frozen,2,70.187012104948,False
+561,sopdt,gain x2.5,False,frozen,3,100.0,False
+561,sopdt,gain x2.5,False,frozen,4,100.0,False
+561,sopdt,gain x2.5,False,adaptive ML,0,1.0032132468744994,False
+561,sopdt,gain x2.5,False,adaptive ML,1,11.78926022961467,False
+561,sopdt,gain x2.5,False,adaptive ML,2,100.0,False
+561,sopdt,gain x2.5,False,adaptive ML,3,100.0,False
+561,sopdt,gain x2.5,False,adaptive ML,4,89.21571276956114,False
+561,sopdt,gain x2.5,False,self-tuning pole placement,0,0.9996972147809297,False
+561,sopdt,gain x2.5,False,self-tuning pole placement,1,1.01952707817828,False
+561,sopdt,gain x2.5,False,self-tuning pole placement,2,1.6766118422875151,False
+561,sopdt,gain x2.5,False,self-tuning pole placement,3,1.7138002638906509,False
+561,sopdt,gain x2.5,False,self-tuning pole placement,4,2.7856382784175873,False
+561,sopdt,gain x2.5,False,retune by experiment,0,1.0,False
+561,sopdt,gain x2.5,False,retune by experiment,1,1.0,False
+561,sopdt,gain x2.5,False,retune by experiment,2,1.0,False
+561,sopdt,gain x2.5,False,retune by experiment,3,1.0,False
+561,sopdt,gain x2.5,False,retune by experiment,4,1.0,False
+561,sopdt,lag x3.0,True,frozen,0,0.974394653177277,False
+561,sopdt,lag x3.0,True,frozen,1,0.7876980134419631,False
+561,sopdt,lag x3.0,True,frozen,2,4.9821513060241385,False
+561,sopdt,lag x3.0,True,frozen,3,4.939784301547152,False
+561,sopdt,lag x3.0,True,frozen,4,5.067518050845585,False
+561,sopdt,lag x3.0,True,adaptive ML,0,1.0366534225240627,False
+561,sopdt,lag x3.0,True,adaptive ML,1,100.0,False
+561,sopdt,lag x3.0,True,adaptive ML,2,47.46457486662792,False
+561,sopdt,lag x3.0,True,adaptive ML,3,6.7277374380611725,False
+561,sopdt,lag x3.0,True,adaptive ML,4,1.5329690462468746,False
+561,sopdt,lag x3.0,True,self-tuning pole placement,0,0.9401499325686474,False
+561,sopdt,lag x3.0,True,self-tuning pole placement,1,0.9369835391135253,False
+561,sopdt,lag x3.0,True,self-tuning pole placement,2,4.689252510510483,False
+561,sopdt,lag x3.0,True,self-tuning pole placement,3,2.528565703173987,False
+561,sopdt,lag x3.0,True,self-tuning pole placement,4,2.567140529863872,False
+561,sopdt,lag x3.0,True,retune by experiment,0,1.0,False
+561,sopdt,lag x3.0,True,retune by experiment,1,1.0,False
+561,sopdt,lag x3.0,True,retune by experiment,2,1.0,False
+561,sopdt,lag x3.0,True,retune by experiment,3,1.0,False
+561,sopdt,lag x3.0,True,retune by experiment,4,1.0,False
+561,sopdt,lag x3.0,False,frozen,0,1.0004446015771264,False
+561,sopdt,lag x3.0,False,frozen,1,1.0032786194264236,False
+561,sopdt,lag x3.0,False,frozen,2,6.633696298972871,False
+561,sopdt,lag x3.0,False,frozen,3,6.1287995480639275,False
+561,sopdt,lag x3.0,False,frozen,4,6.162420274799604,False
+561,sopdt,lag x3.0,False,adaptive ML,0,1.0032132468744994,False
+561,sopdt,lag x3.0,False,adaptive ML,1,100.0,False
+561,sopdt,lag x3.0,False,adaptive ML,2,28.53417141028546,False
+561,sopdt,lag x3.0,False,adaptive ML,3,26.918070400437877,False
+561,sopdt,lag x3.0,False,adaptive ML,4,1.8240390853701827,False
+561,sopdt,lag x3.0,False,self-tuning pole placement,0,0.9996972147809297,False
+561,sopdt,lag x3.0,False,self-tuning pole placement,1,1.2499627330661565,False
+561,sopdt,lag x3.0,False,self-tuning pole placement,2,4.251034795804512,False
+561,sopdt,lag x3.0,False,self-tuning pole placement,3,2.7371126645603145,False
+561,sopdt,lag x3.0,False,self-tuning pole placement,4,1.7693248328419793,False
+561,sopdt,lag x3.0,False,retune by experiment,0,1.0,False
+561,sopdt,lag x3.0,False,retune by experiment,1,1.0,False
+561,sopdt,lag x3.0,False,retune by experiment,2,1.0,False
+561,sopdt,lag x3.0,False,retune by experiment,3,1.0,False
+561,sopdt,lag x3.0,False,retune by experiment,4,1.0,False
+561,sopdt,lag x0.4,True,frozen,0,0.974394653177277,False
+561,sopdt,lag x0.4,True,frozen,1,0.7967089099106466,False
+561,sopdt,lag x0.4,True,frozen,2,2.0808551313604444,False
+561,sopdt,lag x0.4,True,frozen,3,3.199967385564461,False
+561,sopdt,lag x0.4,True,frozen,4,2.010782359091283,False
+561,sopdt,lag x0.4,True,adaptive ML,0,1.0366534225240627,False
+561,sopdt,lag x0.4,True,adaptive ML,1,100.0,False
+561,sopdt,lag x0.4,True,adaptive ML,2,100.0,False
+561,sopdt,lag x0.4,True,adaptive ML,3,100.0,False
+561,sopdt,lag x0.4,True,adaptive ML,4,100.0,False
+561,sopdt,lag x0.4,True,self-tuning pole placement,0,0.9401499325686474,False
+561,sopdt,lag x0.4,True,self-tuning pole placement,1,0.9039667784893732,False
+561,sopdt,lag x0.4,True,self-tuning pole placement,2,0.8413300344606195,False
+561,sopdt,lag x0.4,True,self-tuning pole placement,3,0.9882718577821742,False
+561,sopdt,lag x0.4,True,self-tuning pole placement,4,0.8005621344071199,False
+561,sopdt,lag x0.4,True,retune by experiment,0,1.0,False
+561,sopdt,lag x0.4,True,retune by experiment,1,1.0,False
+561,sopdt,lag x0.4,True,retune by experiment,2,1.0,False
+561,sopdt,lag x0.4,True,retune by experiment,3,1.0,False
+561,sopdt,lag x0.4,True,retune by experiment,4,1.0,False
+561,sopdt,lag x0.4,False,frozen,0,1.0004446015771264,False
+561,sopdt,lag x0.4,False,frozen,1,1.0032791486601815,False
+561,sopdt,lag x0.4,False,frozen,2,1.6750638107211206,False
+561,sopdt,lag x0.4,False,frozen,3,1.5788798193628613,False
+561,sopdt,lag x0.4,False,frozen,4,1.549757770359675,False
+561,sopdt,lag x0.4,False,adaptive ML,0,1.0032132468744994,False
+561,sopdt,lag x0.4,False,adaptive ML,1,100.0,False
+561,sopdt,lag x0.4,False,adaptive ML,2,100.0,False
+561,sopdt,lag x0.4,False,adaptive ML,3,100.0,False
+561,sopdt,lag x0.4,False,adaptive ML,4,100.0,False
+561,sopdt,lag x0.4,False,self-tuning pole placement,0,0.9996972147809297,False
+561,sopdt,lag x0.4,False,self-tuning pole placement,1,1.249817058562181,False
+561,sopdt,lag x0.4,False,self-tuning pole placement,2,0.9712631798982226,False
+561,sopdt,lag x0.4,False,self-tuning pole placement,3,0.9890281173595659,False
+561,sopdt,lag x0.4,False,self-tuning pole placement,4,0.9717818243413348,False
+561,sopdt,lag x0.4,False,retune by experiment,0,1.0,False
+561,sopdt,lag x0.4,False,retune by experiment,1,1.0,False
+561,sopdt,lag x0.4,False,retune by experiment,2,1.0,False
+561,sopdt,lag x0.4,False,retune by experiment,3,1.0,False
+561,sopdt,lag x0.4,False,retune by experiment,4,1.0,False
+951,hammerstein,none x1.0,True,frozen,0,1.2769931000059684,False
+951,hammerstein,none x1.0,True,frozen,1,1.424796871645499,False
+951,hammerstein,none x1.0,True,frozen,2,1.1638614438742643,False
+951,hammerstein,none x1.0,True,frozen,3,1.3528349581199115,False
+951,hammerstein,none x1.0,True,frozen,4,1.241386725685076,False
+951,hammerstein,none x1.0,True,adaptive ML,0,1.244730363040901,False
+951,hammerstein,none x1.0,True,adaptive ML,1,25.891446006748527,False
+951,hammerstein,none x1.0,True,adaptive ML,2,25.69098044569882,False
+951,hammerstein,none x1.0,True,adaptive ML,3,19.178107535592353,False
+951,hammerstein,none x1.0,True,adaptive ML,4,21.77582214188552,False
+951,hammerstein,none x1.0,True,self-tuning pole placement,0,0.5151994695341935,False
+951,hammerstein,none x1.0,True,self-tuning pole placement,1,0.33076920864786324,False
+951,hammerstein,none x1.0,True,self-tuning pole placement,2,0.513341019538377,False
+951,hammerstein,none x1.0,True,self-tuning pole placement,3,0.3426179589179287,False
+951,hammerstein,none x1.0,True,self-tuning pole placement,4,0.5142815481008542,False
+951,hammerstein,none x1.0,True,retune by experiment,0,1.0,False
+951,hammerstein,none x1.0,True,retune by experiment,1,1.0,False
+951,hammerstein,none x1.0,True,retune by experiment,2,1.0,False
+951,hammerstein,none x1.0,True,retune by experiment,3,1.0,False
+951,hammerstein,none x1.0,True,retune by experiment,4,1.0,False
+951,hammerstein,none x1.0,False,frozen,0,0.9973312261836486,False
+951,hammerstein,none x1.0,False,frozen,1,0.9777740754056328,False
+951,hammerstein,none x1.0,False,frozen,2,1.005589996413133,False
+951,hammerstein,none x1.0,False,frozen,3,0.9777740967402727,False
+951,hammerstein,none x1.0,False,frozen,4,1.005589992481222,False
+951,hammerstein,none x1.0,False,adaptive ML,0,1.0376374648484417,False
+951,hammerstein,none x1.0,False,adaptive ML,1,6.645844504855436,False
+951,hammerstein,none x1.0,False,adaptive ML,2,0.32665136676657697,False
+951,hammerstein,none x1.0,False,adaptive ML,3,1.4070815803606418,False
+951,hammerstein,none x1.0,False,adaptive ML,4,1.3132413547903938,False
+951,hammerstein,none x1.0,False,self-tuning pole placement,0,1.0081922107692165,False
+951,hammerstein,none x1.0,False,self-tuning pole placement,1,2.795325466029627,False
+951,hammerstein,none x1.0,False,self-tuning pole placement,2,3.4513970580781104,False
+951,hammerstein,none x1.0,False,self-tuning pole placement,3,4.290979513681607,False
+951,hammerstein,none x1.0,False,self-tuning pole placement,4,3.5421640490679085,False
+951,hammerstein,none x1.0,False,retune by experiment,0,1.0,False
+951,hammerstein,none x1.0,False,retune by experiment,1,1.0,False
+951,hammerstein,none x1.0,False,retune by experiment,2,1.0,False
+951,hammerstein,none x1.0,False,retune by experiment,3,1.0,False
+951,hammerstein,none x1.0,False,retune by experiment,4,1.0,False
+951,hammerstein,gain x0.4,True,frozen,0,1.2769931000059684,False
+951,hammerstein,gain x0.4,True,frozen,1,1.768669358353811,False
+951,hammerstein,gain x0.4,True,frozen,2,0.5583719224137604,False
+951,hammerstein,gain x0.4,True,frozen,3,0.3709862403811153,False
+951,hammerstein,gain x0.4,True,frozen,4,0.5646894921621471,False
+951,hammerstein,gain x0.4,True,adaptive ML,0,1.244730363040901,False
+951,hammerstein,gain x0.4,True,adaptive ML,1,18.579230637696952,False
+951,hammerstein,gain x0.4,True,adaptive ML,2,1.6055317775004863,False
+951,hammerstein,gain x0.4,True,adaptive ML,3,0.685192473721443,False
+951,hammerstein,gain x0.4,True,adaptive ML,4,3.48207890215393,False
+951,hammerstein,gain x0.4,True,self-tuning pole placement,0,0.5151994695341935,False
+951,hammerstein,gain x0.4,True,self-tuning pole placement,1,1.5001022457314468,False
+951,hammerstein,gain x0.4,True,self-tuning pole placement,2,1.537272694540275,False
+951,hammerstein,gain x0.4,True,self-tuning pole placement,3,0.36766092709880843,False
+951,hammerstein,gain x0.4,True,self-tuning pole placement,4,0.5110252840452174,False
+951,hammerstein,gain x0.4,True,retune by experiment,0,1.0,False
+951,hammerstein,gain x0.4,True,retune by experiment,1,1.0,False
+951,hammerstein,gain x0.4,True,retune by experiment,2,1.0,False
+951,hammerstein,gain x0.4,True,retune by experiment,3,1.0,False
+951,hammerstein,gain x0.4,True,retune by experiment,4,1.0,False
+951,hammerstein,gain x0.4,False,frozen,0,0.9973312261836486,False
+951,hammerstein,gain x0.4,False,frozen,1,2.088481441524851,False
+951,hammerstein,gain x0.4,False,frozen,2,2.9340799126936625,False
+951,hammerstein,gain x0.4,False,frozen,3,4.438610805484226,False
+951,hammerstein,gain x0.4,False,frozen,4,3.9406880302610396,False
+951,hammerstein,gain x0.4,False,adaptive ML,0,1.0376374648484417,False
+951,hammerstein,gain x0.4,False,adaptive ML,1,2.4538282576397603,False
+951,hammerstein,gain x0.4,False,adaptive ML,2,6.130063067752049,False
+951,hammerstein,gain x0.4,False,adaptive ML,3,1.2443420901846425,False
+951,hammerstein,gain x0.4,False,adaptive ML,4,1.2854811379470015,False
+951,hammerstein,gain x0.4,False,self-tuning pole placement,0,1.0081922107692165,False
+951,hammerstein,gain x0.4,False,self-tuning pole placement,1,2.7315946215323335,False
+951,hammerstein,gain x0.4,False,self-tuning pole placement,2,12.242131580276357,False
+951,hammerstein,gain x0.4,False,self-tuning pole placement,3,4.639771287898293,False
+951,hammerstein,gain x0.4,False,self-tuning pole placement,4,4.2441200895168105,False
+951,hammerstein,gain x0.4,False,retune by experiment,0,1.0,False
+951,hammerstein,gain x0.4,False,retune by experiment,1,1.0,False
+951,hammerstein,gain x0.4,False,retune by experiment,2,1.0,False
+951,hammerstein,gain x0.4,False,retune by experiment,3,1.0,False
+951,hammerstein,gain x0.4,False,retune by experiment,4,1.0,False
+951,hammerstein,gain x2.5,True,frozen,0,1.2769931000059684,False
+951,hammerstein,gain x2.5,True,frozen,1,2.2154869666243706,False
+951,hammerstein,gain x2.5,True,frozen,2,86.46850525371147,False
+951,hammerstein,gain x2.5,True,frozen,3,57.83838921493363,False
+951,hammerstein,gain x2.5,True,frozen,4,69.83497318293364,False
+951,hammerstein,gain x2.5,True,adaptive ML,0,1.244730363040901,False
+951,hammerstein,gain x2.5,True,adaptive ML,1,15.41335381185873,False
+951,hammerstein,gain x2.5,True,adaptive ML,2,89.26846637615104,False
+951,hammerstein,gain x2.5,True,adaptive ML,3,60.18633985398649,False
+951,hammerstein,gain x2.5,True,adaptive ML,4,72.52795623514263,False
+951,hammerstein,gain x2.5,True,self-tuning pole placement,0,0.5151994695341935,False
+951,hammerstein,gain x2.5,True,self-tuning pole placement,1,1.1467142028496657,False
+951,hammerstein,gain x2.5,True,self-tuning pole placement,2,0.4492637839093925,False
+951,hammerstein,gain x2.5,True,self-tuning pole placement,3,0.31974457551055147,False
+951,hammerstein,gain x2.5,True,self-tuning pole placement,4,0.5315694610660071,False
+951,hammerstein,gain x2.5,True,retune by experiment,0,1.0,False
+951,hammerstein,gain x2.5,True,retune by experiment,1,1.0,False
+951,hammerstein,gain x2.5,True,retune by experiment,2,1.0,False
+951,hammerstein,gain x2.5,True,retune by experiment,3,1.0,False
+951,hammerstein,gain x2.5,True,retune by experiment,4,1.0,False
+951,hammerstein,gain x2.5,False,frozen,0,0.9973312261836486,False
+951,hammerstein,gain x2.5,False,frozen,1,0.8855398480412203,False
+951,hammerstein,gain x2.5,False,frozen,2,100.0,False
+951,hammerstein,gain x2.5,False,frozen,3,100.0,False
+951,hammerstein,gain x2.5,False,frozen,4,100.0,False
+951,hammerstein,gain x2.5,False,adaptive ML,0,1.0376374648484417,False
+951,hammerstein,gain x2.5,False,adaptive ML,1,0.8546648462811134,False
+951,hammerstein,gain x2.5,False,adaptive ML,2,100.0,False
+951,hammerstein,gain x2.5,False,adaptive ML,3,48.81227248959914,False
+951,hammerstein,gain x2.5,False,adaptive ML,4,3.5435742219323556,False
+951,hammerstein,gain x2.5,False,self-tuning pole placement,0,1.0081922107692165,False
+951,hammerstein,gain x2.5,False,self-tuning pole placement,1,0.9981546315929385,False
+951,hammerstein,gain x2.5,False,self-tuning pole placement,2,0.8021013853366972,False
+951,hammerstein,gain x2.5,False,self-tuning pole placement,3,3.7512036299547926,False
+951,hammerstein,gain x2.5,False,self-tuning pole placement,4,3.446325137512489,False
+951,hammerstein,gain x2.5,False,retune by experiment,0,1.0,False
+951,hammerstein,gain x2.5,False,retune by experiment,1,1.0,False
+951,hammerstein,gain x2.5,False,retune by experiment,2,1.0,False
+951,hammerstein,gain x2.5,False,retune by experiment,3,1.0,False
+951,hammerstein,gain x2.5,False,retune by experiment,4,1.0,False
+951,hammerstein,lag x3.0,True,frozen,0,1.2769931000059684,False
+951,hammerstein,lag x3.0,True,frozen,1,1.370790606038905,False
+951,hammerstein,lag x3.0,True,frozen,2,0.9837859271124015,False
+951,hammerstein,lag x3.0,True,frozen,3,0.7912276620164557,False
+951,hammerstein,lag x3.0,True,frozen,4,1.005723309369963,False
+951,hammerstein,lag x3.0,True,adaptive ML,0,1.244730363040901,False
+951,hammerstein,lag x3.0,True,adaptive ML,1,25.4518459601735,False
+951,hammerstein,lag x3.0,True,adaptive ML,2,6.147273135217671,False
+951,hammerstein,lag x3.0,True,adaptive ML,3,3.080076936410461,False
+951,hammerstein,lag x3.0,True,adaptive ML,4,4.723612400414266,False
+951,hammerstein,lag x3.0,True,self-tuning pole placement,0,0.5151994695341935,False
+951,hammerstein,lag x3.0,True,self-tuning pole placement,1,0.35189862024416285,False
+951,hammerstein,lag x3.0,True,self-tuning pole placement,2,2.1395815181253792,False
+951,hammerstein,lag x3.0,True,self-tuning pole placement,3,0.9655387461552793,False
+951,hammerstein,lag x3.0,True,self-tuning pole placement,4,0.7509203924620447,False
+951,hammerstein,lag x3.0,True,retune by experiment,0,1.0,False
+951,hammerstein,lag x3.0,True,retune by experiment,1,1.0,False
+951,hammerstein,lag x3.0,True,retune by experiment,2,1.0,False
+951,hammerstein,lag x3.0,True,retune by experiment,3,1.0,False
+951,hammerstein,lag x3.0,True,retune by experiment,4,1.0,False
+951,hammerstein,lag x3.0,False,frozen,0,0.9973312261836486,False
+951,hammerstein,lag x3.0,False,frozen,1,0.9777741391025472,False
+951,hammerstein,lag x3.0,False,frozen,2,5.6075397373333224,False
+951,hammerstein,lag x3.0,False,frozen,3,2.505574253305961,False
+951,hammerstein,lag x3.0,False,frozen,4,5.607539713792536,False
+951,hammerstein,lag x3.0,False,adaptive ML,0,1.0376374648484417,False
+951,hammerstein,lag x3.0,False,adaptive ML,1,6.64617823260668,False
+951,hammerstein,lag x3.0,False,adaptive ML,2,3.244610475838119,False
+951,hammerstein,lag x3.0,False,adaptive ML,3,0.9575987063376867,False
+951,hammerstein,lag x3.0,False,adaptive ML,4,1.8483161969206519,False
+951,hammerstein,lag x3.0,False,self-tuning pole placement,0,1.0081922107692165,False
+951,hammerstein,lag x3.0,False,self-tuning pole placement,1,2.7953255445039793,False
+951,hammerstein,lag x3.0,False,self-tuning pole placement,2,9.159543202247677,False
+951,hammerstein,lag x3.0,False,self-tuning pole placement,3,2.8385916662744988,False
+951,hammerstein,lag x3.0,False,self-tuning pole placement,4,6.388658818541825,False
+951,hammerstein,lag x3.0,False,retune by experiment,0,1.0,False
+951,hammerstein,lag x3.0,False,retune by experiment,1,1.0,False
+951,hammerstein,lag x3.0,False,retune by experiment,2,1.0,False
+951,hammerstein,lag x3.0,False,retune by experiment,3,1.0,False
+951,hammerstein,lag x3.0,False,retune by experiment,4,1.0,False
+951,hammerstein,lag x0.4,True,frozen,0,1.2769931000059684,False
+951,hammerstein,lag x0.4,True,frozen,1,1.9183125458770842,False
+951,hammerstein,lag x0.4,True,frozen,2,82.46999325080498,False
+951,hammerstein,lag x0.4,True,frozen,3,60.72974463214447,False
+951,hammerstein,lag x0.4,True,frozen,4,67.65871605758834,False
+951,hammerstein,lag x0.4,True,adaptive ML,0,1.244730363040901,False
+951,hammerstein,lag x0.4,True,adaptive ML,1,29.40662957999344,False
+951,hammerstein,lag x0.4,True,adaptive ML,2,87.6825296762507,False
+951,hammerstein,lag x0.4,True,adaptive ML,3,62.988945824730834,False
+951,hammerstein,lag x0.4,True,adaptive ML,4,11.560936550788213,False
+951,hammerstein,lag x0.4,True,self-tuning pole placement,0,0.5151994695341935,False
+951,hammerstein,lag x0.4,True,self-tuning pole placement,1,0.35232083259481367,False
+951,hammerstein,lag x0.4,True,self-tuning pole placement,2,0.4703368868208085,False
+951,hammerstein,lag x0.4,True,self-tuning pole placement,3,0.44342697519931096,False
+951,hammerstein,lag x0.4,True,self-tuning pole placement,4,0.5587082996063648,False
+951,hammerstein,lag x0.4,True,retune by experiment,0,1.0,False
+951,hammerstein,lag x0.4,True,retune by experiment,1,1.0,False
+951,hammerstein,lag x0.4,True,retune by experiment,2,1.0,False
+951,hammerstein,lag x0.4,True,retune by experiment,3,1.0,False
+951,hammerstein,lag x0.4,True,retune by experiment,4,1.0,False
+951,hammerstein,lag x0.4,False,frozen,0,0.9973312261836486,False
+951,hammerstein,lag x0.4,False,frozen,1,0.9777740277999125,False
+951,hammerstein,lag x0.4,False,frozen,2,100.0,False
+951,hammerstein,lag x0.4,False,frozen,3,100.0,False
+951,hammerstein,lag x0.4,False,frozen,4,100.0,False
+951,hammerstein,lag x0.4,False,adaptive ML,0,1.0376374648484417,False
+951,hammerstein,lag x0.4,False,adaptive ML,1,6.645664593338241,False
+951,hammerstein,lag x0.4,False,adaptive ML,2,11.330662227178122,False
+951,hammerstein,lag x0.4,False,adaptive ML,3,4.844981644129223,False
+951,hammerstein,lag x0.4,False,adaptive ML,4,2.3670995587599366,False
+951,hammerstein,lag x0.4,False,self-tuning pole placement,0,1.0081922107692165,False
+951,hammerstein,lag x0.4,False,self-tuning pole placement,1,2.795325364201629,False
+951,hammerstein,lag x0.4,False,self-tuning pole placement,2,1.376232553586855,False
+951,hammerstein,lag x0.4,False,self-tuning pole placement,3,0.9752477841109974,False
+951,hammerstein,lag x0.4,False,self-tuning pole placement,4,3.59778026905577,False
+951,hammerstein,lag x0.4,False,retune by experiment,0,1.0,False
+951,hammerstein,lag x0.4,False,retune by experiment,1,1.0,False
+951,hammerstein,lag x0.4,False,retune by experiment,2,1.0,False
+951,hammerstein,lag x0.4,False,retune by experiment,3,1.0,False
+951,hammerstein,lag x0.4,False,retune by experiment,4,1.0,False
+40,fopdt,none x1.0,True,frozen,0,1.2091516744536948,False
+40,fopdt,none x1.0,True,frozen,1,1.562565276060174,False
+40,fopdt,none x1.0,True,frozen,2,1.5226796307794994,False
+40,fopdt,none x1.0,True,frozen,3,1.7543914538241416,False
+40,fopdt,none x1.0,True,frozen,4,1.6922951206649506,False
+40,fopdt,none x1.0,True,adaptive ML,0,1.0884397687984333,False
+40,fopdt,none x1.0,True,adaptive ML,1,1.0274842262411776,False
+40,fopdt,none x1.0,True,adaptive ML,2,0.9413859666186537,False
+40,fopdt,none x1.0,True,adaptive ML,3,1.1758611673426096,False
+40,fopdt,none x1.0,True,adaptive ML,4,0.6378401517649336,False
+40,fopdt,none x1.0,True,self-tuning pole placement,0,0.9659142952427395,False
+40,fopdt,none x1.0,True,self-tuning pole placement,1,1.217363779524351,False
+40,fopdt,none x1.0,True,self-tuning pole placement,2,0.9138980045583167,False
+40,fopdt,none x1.0,True,self-tuning pole placement,3,0.6684322231751165,False
+40,fopdt,none x1.0,True,self-tuning pole placement,4,0.8664733958369599,False
+40,fopdt,none x1.0,True,retune by experiment,0,1.0,False
+40,fopdt,none x1.0,True,retune by experiment,1,1.0,False
+40,fopdt,none x1.0,True,retune by experiment,2,1.0,False
+40,fopdt,none x1.0,True,retune by experiment,3,1.0,False
+40,fopdt,none x1.0,True,retune by experiment,4,1.0,False
+40,fopdt,none x1.0,False,frozen,0,1.0054837145137392,False
+40,fopdt,none x1.0,False,frozen,1,1.0279682141969742,False
+40,fopdt,none x1.0,False,frozen,2,1.0279682397869747,False
+40,fopdt,none x1.0,False,frozen,3,1.0279682397870418,False
+40,fopdt,none x1.0,False,frozen,4,1.0279682240962302,False
+40,fopdt,none x1.0,False,adaptive ML,0,1.0068280702052421,False
+40,fopdt,none x1.0,False,adaptive ML,1,1.81683180175885,False
+40,fopdt,none x1.0,False,adaptive ML,2,1.5834210334925396,False
+40,fopdt,none x1.0,False,adaptive ML,3,0.907117746422725,False
+40,fopdt,none x1.0,False,adaptive ML,4,0.8735465010096913,False
+40,fopdt,none x1.0,False,self-tuning pole placement,0,1.0060037462050688,False
+40,fopdt,none x1.0,False,self-tuning pole placement,1,3.2215004980187363,False
+40,fopdt,none x1.0,False,self-tuning pole placement,2,2.812481255296568,False
+40,fopdt,none x1.0,False,self-tuning pole placement,3,2.855531364354256,False
+40,fopdt,none x1.0,False,self-tuning pole placement,4,2.9007647591668526,False
+40,fopdt,none x1.0,False,retune by experiment,0,1.0,False
+40,fopdt,none x1.0,False,retune by experiment,1,1.0,False
+40,fopdt,none x1.0,False,retune by experiment,2,1.0,False
+40,fopdt,none x1.0,False,retune by experiment,3,1.0,False
+40,fopdt,none x1.0,False,retune by experiment,4,1.0,False
+40,fopdt,gain x0.4,True,frozen,0,1.2091516744536948,False
+40,fopdt,gain x0.4,True,frozen,1,1.108569381807321,False
+40,fopdt,gain x0.4,True,frozen,2,2.6192656991947243,False
+40,fopdt,gain x0.4,True,frozen,3,0.8212416555191684,False
+40,fopdt,gain x0.4,True,frozen,4,0.9054124280913762,False
+40,fopdt,gain x0.4,True,adaptive ML,0,1.0884397687984333,False
+40,fopdt,gain x0.4,True,adaptive ML,1,1.0173164753945487,False
+40,fopdt,gain x0.4,True,adaptive ML,2,8.03905464731197,False
+40,fopdt,gain x0.4,True,adaptive ML,3,0.8085015304894422,False
+40,fopdt,gain x0.4,True,adaptive ML,4,0.7094971454465765,False
+40,fopdt,gain x0.4,True,self-tuning pole placement,0,0.9659142952427395,False
+40,fopdt,gain x0.4,True,self-tuning pole placement,1,1.0702082180022126,False
+40,fopdt,gain x0.4,True,self-tuning pole placement,2,8.216443166011874,False
+40,fopdt,gain x0.4,True,self-tuning pole placement,3,0.8664111570873508,False
+40,fopdt,gain x0.4,True,self-tuning pole placement,4,0.8846391086387844,False
+40,fopdt,gain x0.4,True,retune by experiment,0,1.0,False
+40,fopdt,gain x0.4,True,retune by experiment,1,1.0,False
+40,fopdt,gain x0.4,True,retune by experiment,2,1.0,False
+40,fopdt,gain x0.4,True,retune by experiment,3,1.0,False
+40,fopdt,gain x0.4,True,retune by experiment,4,1.0,False
+40,fopdt,gain x0.4,False,frozen,0,1.0054837145137392,False
+40,fopdt,gain x0.4,False,frozen,1,1.002454936304508,False
+40,fopdt,gain x0.4,False,frozen,2,6.82676636996248,False
+40,fopdt,gain x0.4,False,frozen,3,2.7467555893807756,False
+40,fopdt,gain x0.4,False,frozen,4,2.746974392389792,False
+40,fopdt,gain x0.4,False,adaptive ML,0,1.0068280702052421,False
+40,fopdt,gain x0.4,False,adaptive ML,1,1.0680936738614348,False
+40,fopdt,gain x0.4,False,adaptive ML,2,18.825133590962466,False
+40,fopdt,gain x0.4,False,adaptive ML,3,0.759541474010268,False
+40,fopdt,gain x0.4,False,adaptive ML,4,0.7606501740198258,False
+40,fopdt,gain x0.4,False,self-tuning pole placement,0,1.0060037462050688,False
+40,fopdt,gain x0.4,False,self-tuning pole placement,1,1.186127261331484,False
+40,fopdt,gain x0.4,False,self-tuning pole placement,2,27.93322386222416,False
+40,fopdt,gain x0.4,False,self-tuning pole placement,3,2.8641254570621233,False
+40,fopdt,gain x0.4,False,self-tuning pole placement,4,2.899844471953845,False
+40,fopdt,gain x0.4,False,retune by experiment,0,1.0,False
+40,fopdt,gain x0.4,False,retune by experiment,1,1.0,False
+40,fopdt,gain x0.4,False,retune by experiment,2,1.0,False
+40,fopdt,gain x0.4,False,retune by experiment,3,1.0,False
+40,fopdt,gain x0.4,False,retune by experiment,4,1.0,False
+40,fopdt,gain x2.5,True,frozen,0,1.2091516744536948,False
+40,fopdt,gain x2.5,True,frozen,1,1.0476052569889251,False
+40,fopdt,gain x2.5,True,frozen,2,100.0,False
+40,fopdt,gain x2.5,True,frozen,3,100.0,False
+40,fopdt,gain x2.5,True,frozen,4,100.0,False
+40,fopdt,gain x2.5,True,adaptive ML,0,1.0884397687984333,False
+40,fopdt,gain x2.5,True,adaptive ML,1,1.0294339049645813,False
+40,fopdt,gain x2.5,True,adaptive ML,2,5.155735268225321,False
+40,fopdt,gain x2.5,True,adaptive ML,3,1.073934364298701,False
+40,fopdt,gain x2.5,True,adaptive ML,4,0.7860732055343665,False
+40,fopdt,gain x2.5,True,self-tuning pole placement,0,0.9659142952427395,False
+40,fopdt,gain x2.5,True,self-tuning pole placement,1,1.0737362487089308,False
+40,fopdt,gain x2.5,True,self-tuning pole placement,2,0.3017633651696496,False
+40,fopdt,gain x2.5,True,self-tuning pole placement,3,1.0961883961282002,False
+40,fopdt,gain x2.5,True,self-tuning pole placement,4,0.9054707259343594,False
+40,fopdt,gain x2.5,True,retune by experiment,0,1.0,False
+40,fopdt,gain x2.5,True,retune by experiment,1,1.0,False
+40,fopdt,gain x2.5,True,retune by experiment,2,1.0,False
+40,fopdt,gain x2.5,True,retune by experiment,3,1.0,False
+40,fopdt,gain x2.5,True,retune by experiment,4,1.0,False
+40,fopdt,gain x2.5,False,frozen,0,1.0054837145137392,False
+40,fopdt,gain x2.5,False,frozen,1,1.002103310407683,False
+40,fopdt,gain x2.5,False,frozen,2,100.0,False
+40,fopdt,gain x2.5,False,frozen,3,100.0,False
+40,fopdt,gain x2.5,False,frozen,4,100.0,False
+40,fopdt,gain x2.5,False,adaptive ML,0,1.0068280702052421,False
+40,fopdt,gain x2.5,False,adaptive ML,1,1.0411584325522512,False
+40,fopdt,gain x2.5,False,adaptive ML,2,11.949854773936526,False
+40,fopdt,gain x2.5,False,adaptive ML,3,1.0458966273032402,False
+40,fopdt,gain x2.5,False,adaptive ML,4,0.9517794579177051,False
+40,fopdt,gain x2.5,False,self-tuning pole placement,0,1.0060037462050688,False
+40,fopdt,gain x2.5,False,self-tuning pole placement,1,1.1193705367188387,False
+40,fopdt,gain x2.5,False,self-tuning pole placement,2,0.7803701840598256,False
+40,fopdt,gain x2.5,False,self-tuning pole placement,3,2.9233622447056233,False
+40,fopdt,gain x2.5,False,self-tuning pole placement,4,2.9064636549602367,False
+40,fopdt,gain x2.5,False,retune by experiment,0,1.0,False
+40,fopdt,gain x2.5,False,retune by experiment,1,1.0,False
+40,fopdt,gain x2.5,False,retune by experiment,2,1.0,False
+40,fopdt,gain x2.5,False,retune by experiment,3,1.0,False
+40,fopdt,gain x2.5,False,retune by experiment,4,1.0,False
+40,fopdt,lag x3.0,True,frozen,0,1.2091516744536948,False
+40,fopdt,lag x3.0,True,frozen,1,1.5448984705877524,False
+40,fopdt,lag x3.0,True,frozen,2,2.450762666424338,False
+40,fopdt,lag x3.0,True,frozen,3,2.5391921510373563,False
+40,fopdt,lag x3.0,True,frozen,4,2.372378636897726,False
+40,fopdt,lag x3.0,True,adaptive ML,0,1.0884397687984333,False
+40,fopdt,lag x3.0,True,adaptive ML,1,1.0217696321487404,False
+40,fopdt,lag x3.0,True,adaptive ML,2,2.4883217404258513,False
+40,fopdt,lag x3.0,True,adaptive ML,3,1.599503328252014,False
+40,fopdt,lag x3.0,True,adaptive ML,4,1.1472803138924064,False
+40,fopdt,lag x3.0,True,self-tuning pole placement,0,0.9659142952427395,False
+40,fopdt,lag x3.0,True,self-tuning pole placement,1,1.2093852453895462,False
+40,fopdt,lag x3.0,True,self-tuning pole placement,2,4.648830805842417,False
+40,fopdt,lag x3.0,True,self-tuning pole placement,3,1.7882853670135639,False
+40,fopdt,lag x3.0,True,self-tuning pole placement,4,1.6668749871068742,False
+40,fopdt,lag x3.0,True,retune by experiment,0,1.0,False
+40,fopdt,lag x3.0,True,retune by experiment,1,1.0,False
+40,fopdt,lag x3.0,True,retune by experiment,2,1.0,False
+40,fopdt,lag x3.0,True,retune by experiment,3,1.0,False
+40,fopdt,lag x3.0,True,retune by experiment,4,1.0,False
+40,fopdt,lag x3.0,False,frozen,0,1.0054837145137392,False
+40,fopdt,lag x3.0,False,frozen,1,1.0279679174089877,False
+40,fopdt,lag x3.0,False,frozen,2,4.847446820967153,False
+40,fopdt,lag x3.0,False,frozen,3,4.85772040740733,False
+40,fopdt,lag x3.0,False,frozen,4,4.857241341890357,False
+40,fopdt,lag x3.0,False,adaptive ML,0,1.0068280702052421,False
+40,fopdt,lag x3.0,False,adaptive ML,1,1.8168397656148443,False
+40,fopdt,lag x3.0,False,adaptive ML,2,2.596074475681333,False
+40,fopdt,lag x3.0,False,adaptive ML,3,1.806032100618648,False
+40,fopdt,lag x3.0,False,adaptive ML,4,2.63740753416287,False
+40,fopdt,lag x3.0,False,self-tuning pole placement,0,1.0060037462050688,False
+40,fopdt,lag x3.0,False,self-tuning pole placement,1,3.2214255398372935,False
+40,fopdt,lag x3.0,False,self-tuning pole placement,2,7.349057779008201,False
+40,fopdt,lag x3.0,False,self-tuning pole placement,3,2.485472320804833,False
+40,fopdt,lag x3.0,False,self-tuning pole placement,4,2.4545540791672673,False
+40,fopdt,lag x3.0,False,retune by experiment,0,1.0,False
+40,fopdt,lag x3.0,False,retune by experiment,1,1.0,False
+40,fopdt,lag x3.0,False,retune by experiment,2,1.0,False
+40,fopdt,lag x3.0,False,retune by experiment,3,1.0,False
+40,fopdt,lag x3.0,False,retune by experiment,4,1.0,False
+40,fopdt,lag x0.4,True,frozen,0,1.2091516744536948,False
+40,fopdt,lag x0.4,True,frozen,1,1.546000294998977,False
+40,fopdt,lag x0.4,True,frozen,2,100.0,False
+40,fopdt,lag x0.4,True,frozen,3,100.0,False
+40,fopdt,lag x0.4,True,frozen,4,100.0,False
+40,fopdt,lag x0.4,True,adaptive ML,0,1.0884397687984333,False
+40,fopdt,lag x0.4,True,adaptive ML,1,0.9914148352818822,False
+40,fopdt,lag x0.4,True,adaptive ML,2,4.942072038060274,False
+40,fopdt,lag x0.4,True,adaptive ML,3,5.311130060090522,False
+40,fopdt,lag x0.4,True,adaptive ML,4,1.7621075174479215,False
+40,fopdt,lag x0.4,True,self-tuning pole placement,0,0.9659142952427395,False
+40,fopdt,lag x0.4,True,self-tuning pole placement,1,1.168434633168573,False
+40,fopdt,lag x0.4,True,self-tuning pole placement,2,0.9886857563693173,False
+40,fopdt,lag x0.4,True,self-tuning pole placement,3,0.8302275178320365,False
+40,fopdt,lag x0.4,True,self-tuning pole placement,4,1.0921885246849672,False
+40,fopdt,lag x0.4,True,retune by experiment,0,1.0,False
+40,fopdt,lag x0.4,True,retune by experiment,1,1.0,False
+40,fopdt,lag x0.4,True,retune by experiment,2,1.0,False
+40,fopdt,lag x0.4,True,retune by experiment,3,1.0,False
+40,fopdt,lag x0.4,True,retune by experiment,4,1.0,False
+40,fopdt,lag x0.4,False,frozen,0,1.0054837145137392,False
+40,fopdt,lag x0.4,False,frozen,1,1.0279680442016,False
+40,fopdt,lag x0.4,False,frozen,2,69.44448523306838,False
+40,fopdt,lag x0.4,False,frozen,3,74.16112869654627,False
+40,fopdt,lag x0.4,False,frozen,4,75.62983469785543,False
+40,fopdt,lag x0.4,False,adaptive ML,0,1.0068280702052421,False
+40,fopdt,lag x0.4,False,adaptive ML,1,1.8168203776647789,False
+40,fopdt,lag x0.4,False,adaptive ML,2,71.33841834025823,False
+40,fopdt,lag x0.4,False,adaptive ML,3,34.772907774951065,False
+40,fopdt,lag x0.4,False,adaptive ML,4,13.532131248352975,False
+40,fopdt,lag x0.4,False,self-tuning pole placement,0,1.0060037462050688,False
+40,fopdt,lag x0.4,False,self-tuning pole placement,1,3.2215947698310066,False
+40,fopdt,lag x0.4,False,self-tuning pole placement,2,2.218979813230597,False
+40,fopdt,lag x0.4,False,self-tuning pole placement,3,1.9300985050173538,False
+40,fopdt,lag x0.4,False,self-tuning pole placement,4,2.0824615815959104,False
+40,fopdt,lag x0.4,False,retune by experiment,0,1.0,False
+40,fopdt,lag x0.4,False,retune by experiment,1,1.0,False
+40,fopdt,lag x0.4,False,retune by experiment,2,1.0,False
+40,fopdt,lag x0.4,False,retune by experiment,3,1.0,False
+40,fopdt,lag x0.4,False,retune by experiment,4,1.0,False
+786,ipdt,none x1.0,True,frozen,0,1.0095664657105718,False
+786,ipdt,none x1.0,True,frozen,1,0.9983701690241534,False
+786,ipdt,none x1.0,True,frozen,2,1.006513882891608,False
+786,ipdt,none x1.0,True,frozen,3,1.0083207201319648,False
+786,ipdt,none x1.0,True,frozen,4,1.0046957668216745,False
+786,ipdt,none x1.0,True,adaptive ML,0,0.9892370889219986,False
+786,ipdt,none x1.0,True,adaptive ML,1,1.3893577485036541,False
+786,ipdt,none x1.0,True,adaptive ML,2,4.397914453604272,False
+786,ipdt,none x1.0,True,adaptive ML,3,8.727856932696445,False
+786,ipdt,none x1.0,True,adaptive ML,4,8.620992670058147,False
+786,ipdt,none x1.0,True,self-tuning pole placement,0,0.881110102060043,False
+786,ipdt,none x1.0,True,self-tuning pole placement,1,1.4013329459421902,False
+786,ipdt,none x1.0,True,self-tuning pole placement,2,3.781993741880958,False
+786,ipdt,none x1.0,True,self-tuning pole placement,3,3.6455678696014067,False
+786,ipdt,none x1.0,True,self-tuning pole placement,4,10.47446713383837,False
+786,ipdt,none x1.0,True,retune by experiment,0,1.0,False
+786,ipdt,none x1.0,True,retune by experiment,1,1.0,False
+786,ipdt,none x1.0,True,retune by experiment,2,1.0,False
+786,ipdt,none x1.0,True,retune by experiment,3,1.0,False
+786,ipdt,none x1.0,True,retune by experiment,4,1.0,False
+786,ipdt,none x1.0,False,frozen,0,1.0517968091468666,False
+786,ipdt,none x1.0,False,frozen,1,0.895744904521746,False
+786,ipdt,none x1.0,False,frozen,2,0.9043194432772299,False
+786,ipdt,none x1.0,False,frozen,3,0.8957463080040244,False
+786,ipdt,none x1.0,False,frozen,4,0.9042981324509176,False
+786,ipdt,none x1.0,False,adaptive ML,0,1.1165628944651822,False
+786,ipdt,none x1.0,False,adaptive ML,1,2.2853209240112857,False
+786,ipdt,none x1.0,False,adaptive ML,2,8.466147323071501,False
+786,ipdt,none x1.0,False,adaptive ML,3,8.683859869769186,False
+786,ipdt,none x1.0,False,adaptive ML,4,9.161750959307845,False
+786,ipdt,none x1.0,False,self-tuning pole placement,0,1.1273162501313845,False
+786,ipdt,none x1.0,False,self-tuning pole placement,1,0.745398758882084,False
+786,ipdt,none x1.0,False,self-tuning pole placement,2,1.13130781445742,False
+786,ipdt,none x1.0,False,self-tuning pole placement,3,3.0882295837185025,False
+786,ipdt,none x1.0,False,self-tuning pole placement,4,3.1819354806714175,False
+786,ipdt,none x1.0,False,retune by experiment,0,1.0,False
+786,ipdt,none x1.0,False,retune by experiment,1,1.0,False
+786,ipdt,none x1.0,False,retune by experiment,2,1.0,False
+786,ipdt,none x1.0,False,retune by experiment,3,1.0,False
+786,ipdt,none x1.0,False,retune by experiment,4,1.0,False
+786,ipdt,gain x0.4,True,frozen,0,1.0095664657105718,False
+786,ipdt,gain x0.4,True,frozen,1,1.0022563256347161,False
+786,ipdt,gain x0.4,True,frozen,2,0.6505481468052856,False
+786,ipdt,gain x0.4,True,frozen,3,0.7422689196140149,False
+786,ipdt,gain x0.4,True,frozen,4,0.6417522124783563,False
+786,ipdt,gain x0.4,True,adaptive ML,0,0.9892370889219986,False
+786,ipdt,gain x0.4,True,adaptive ML,1,1.294898571041183,False
+786,ipdt,gain x0.4,True,adaptive ML,2,0.6980686065568948,False
+786,ipdt,gain x0.4,True,adaptive ML,3,0.9427679123539806,False
+786,ipdt,gain x0.4,True,adaptive ML,4,0.6834455943022991,False
+786,ipdt,gain x0.4,True,self-tuning pole placement,0,0.881110102060043,False
+786,ipdt,gain x0.4,True,self-tuning pole placement,1,1.2349574585332255,False
+786,ipdt,gain x0.4,True,self-tuning pole placement,2,1.3852728506250618,False
+786,ipdt,gain x0.4,True,self-tuning pole placement,3,1.7474138056595314,False
+786,ipdt,gain x0.4,True,self-tuning pole placement,4,2.269579279817236,False
+786,ipdt,gain x0.4,True,retune by experiment,0,1.0,False
+786,ipdt,gain x0.4,True,retune by experiment,1,1.0,False
+786,ipdt,gain x0.4,True,retune by experiment,2,1.0,False
+786,ipdt,gain x0.4,True,retune by experiment,3,1.0,False
+786,ipdt,gain x0.4,True,retune by experiment,4,1.0,False
+786,ipdt,gain x0.4,False,frozen,0,1.0517968091468666,False
+786,ipdt,gain x0.4,False,frozen,1,0.8957644993265568,False
+786,ipdt,gain x0.4,False,frozen,2,1.1124547212706497,False
+786,ipdt,gain x0.4,False,frozen,3,1.1134691571159196,False
+786,ipdt,gain x0.4,False,frozen,4,1.1117984323090133,False
+786,ipdt,gain x0.4,False,adaptive ML,0,1.1165628944651822,False
+786,ipdt,gain x0.4,False,adaptive ML,1,2.2415046795970164,False
+786,ipdt,gain x0.4,False,adaptive ML,2,1.6760948186133438,False
+786,ipdt,gain x0.4,False,adaptive ML,3,1.3902533237591048,False
+786,ipdt,gain x0.4,False,adaptive ML,4,1.3504725029284501,False
+786,ipdt,gain x0.4,False,self-tuning pole placement,0,1.1273162501313845,False
+786,ipdt,gain x0.4,False,self-tuning pole placement,1,0.7454547423095057,False
+786,ipdt,gain x0.4,False,self-tuning pole placement,2,1.3235625671722553,False
+786,ipdt,gain x0.4,False,self-tuning pole placement,3,1.065985886631876,False
+786,ipdt,gain x0.4,False,self-tuning pole placement,4,1.6957801058984938,False
+786,ipdt,gain x0.4,False,retune by experiment,0,1.0,False
+786,ipdt,gain x0.4,False,retune by experiment,1,1.0,False
+786,ipdt,gain x0.4,False,retune by experiment,2,1.0,False
+786,ipdt,gain x0.4,False,retune by experiment,3,1.0,False
+786,ipdt,gain x0.4,False,retune by experiment,4,1.0,False
+786,ipdt,gain x2.5,True,frozen,0,1.0095664657105718,False
+786,ipdt,gain x2.5,True,frozen,1,0.9441010339915044,False
+786,ipdt,gain x2.5,True,frozen,2,11.965935305674524,False
+786,ipdt,gain x2.5,True,frozen,3,11.51526565196273,False
+786,ipdt,gain x2.5,True,frozen,4,11.876562563122068,False
+786,ipdt,gain x2.5,True,adaptive ML,0,0.9892370889219986,False
+786,ipdt,gain x2.5,True,adaptive ML,1,1.4696269024588449,False
+786,ipdt,gain x2.5,True,adaptive ML,2,16.480096253942982,False
+786,ipdt,gain x2.5,True,adaptive ML,3,3.27070514181344,False
+786,ipdt,gain x2.5,True,adaptive ML,4,4.436985673432696,False
+786,ipdt,gain x2.5,True,self-tuning pole placement,0,0.881110102060043,False
+786,ipdt,gain x2.5,True,self-tuning pole placement,1,1.5955432667851597,False
+786,ipdt,gain x2.5,True,self-tuning pole placement,2,23.595504174487864,False
+786,ipdt,gain x2.5,True,self-tuning pole placement,3,2.206434435766878,False
+786,ipdt,gain x2.5,True,self-tuning pole placement,4,13.779973423271434,False
+786,ipdt,gain x2.5,True,retune by experiment,0,1.0,False
+786,ipdt,gain x2.5,True,retune by experiment,1,1.0,False
+786,ipdt,gain x2.5,True,retune by experiment,2,1.0,False
+786,ipdt,gain x2.5,True,retune by experiment,3,1.0,False
+786,ipdt,gain x2.5,True,retune by experiment,4,1.0,False
+786,ipdt,gain x2.5,False,frozen,0,1.0517968091468666,False
+786,ipdt,gain x2.5,False,frozen,1,0.8957895969296403,False
+786,ipdt,gain x2.5,False,frozen,2,24.272073960362828,False
+786,ipdt,gain x2.5,False,frozen,3,22.5521672024014,False
+786,ipdt,gain x2.5,False,frozen,4,24.529660301130356,False
+786,ipdt,gain x2.5,False,adaptive ML,0,1.1165628944651822,False
+786,ipdt,gain x2.5,False,adaptive ML,1,2.4113136497676853,False
+786,ipdt,gain x2.5,False,adaptive ML,2,24.672278226717122,False
+786,ipdt,gain x2.5,False,adaptive ML,3,23.17259581331477,False
+786,ipdt,gain x2.5,False,adaptive ML,4,25.499119404196797,False
+786,ipdt,gain x2.5,False,self-tuning pole placement,0,1.1273162501313845,False
+786,ipdt,gain x2.5,False,self-tuning pole placement,1,0.7452407994070238,False
+786,ipdt,gain x2.5,False,self-tuning pole placement,2,0.933322565351007,False
+786,ipdt,gain x2.5,False,self-tuning pole placement,3,3.9233952861705683,False
+786,ipdt,gain x2.5,False,self-tuning pole placement,4,4.128151064306498,False
+786,ipdt,gain x2.5,False,retune by experiment,0,1.0,False
+786,ipdt,gain x2.5,False,retune by experiment,1,1.0,False
+786,ipdt,gain x2.5,False,retune by experiment,2,1.0,False
+786,ipdt,gain x2.5,False,retune by experiment,3,1.0,False
+786,ipdt,gain x2.5,False,retune by experiment,4,1.0,False
+786,ipdt,lag x3.0,True,frozen,0,1.0095664657105718,False
+786,ipdt,lag x3.0,True,frozen,1,0.9963142208661554,False
+786,ipdt,lag x3.0,True,frozen,2,0.29706186787696137,False
+786,ipdt,lag x3.0,True,frozen,3,0.19165263671272542,False
+786,ipdt,lag x3.0,True,frozen,4,0.1768407946373305,False
+786,ipdt,lag x3.0,True,adaptive ML,0,0.9892370889219986,False
+786,ipdt,lag x3.0,True,adaptive ML,1,1.2906699253100158,False
+786,ipdt,lag x3.0,True,adaptive ML,2,0.6403525923598958,False
+786,ipdt,lag x3.0,True,adaptive ML,3,0.37333073380716825,False
+786,ipdt,lag x3.0,True,adaptive ML,4,0.3632934992853855,False
+786,ipdt,lag x3.0,True,self-tuning pole placement,0,0.881110102060043,False
+786,ipdt,lag x3.0,True,self-tuning pole placement,1,1.2290735008474394,False
+786,ipdt,lag x3.0,True,self-tuning pole placement,2,5.329766873362985,False
+786,ipdt,lag x3.0,True,self-tuning pole placement,3,6.986389734446653,False
+786,ipdt,lag x3.0,True,self-tuning pole placement,4,4.887087561839212,False
+786,ipdt,lag x3.0,True,retune by experiment,0,1.0,False
+786,ipdt,lag x3.0,True,retune by experiment,1,1.0,False
+786,ipdt,lag x3.0,True,retune by experiment,2,1.0,False
+786,ipdt,lag x3.0,True,retune by experiment,3,1.0,False
+786,ipdt,lag x3.0,True,retune by experiment,4,1.0,False
+786,ipdt,lag x3.0,False,frozen,0,1.0517968091468666,False
+786,ipdt,lag x3.0,False,frozen,1,0.895683162130118,False
+786,ipdt,lag x3.0,False,frozen,2,0.09899957783494892,False
+786,ipdt,lag x3.0,False,frozen,3,0.10529702161788251,False
+786,ipdt,lag x3.0,False,frozen,4,0.10378835016612543,False
+786,ipdt,lag x3.0,False,adaptive ML,0,1.1165628944651822,False
+786,ipdt,lag x3.0,False,adaptive ML,1,2.245321245334065,False
+786,ipdt,lag x3.0,False,adaptive ML,2,0.7000374085626481,False
+786,ipdt,lag x3.0,False,adaptive ML,3,1.1045357305456411,False
+786,ipdt,lag x3.0,False,adaptive ML,4,1.057072767429442,False
+786,ipdt,lag x3.0,False,self-tuning pole placement,0,1.1273162501313845,False
+786,ipdt,lag x3.0,False,self-tuning pole placement,1,0.745387225150916,False
+786,ipdt,lag x3.0,False,self-tuning pole placement,2,0.26815459665889496,False
+786,ipdt,lag x3.0,False,self-tuning pole placement,3,0.9318699006722914,False
+786,ipdt,lag x3.0,False,self-tuning pole placement,4,0.9923889804610716,False
+786,ipdt,lag x3.0,False,retune by experiment,0,1.0,False
+786,ipdt,lag x3.0,False,retune by experiment,1,1.0,False
+786,ipdt,lag x3.0,False,retune by experiment,2,1.0,False
+786,ipdt,lag x3.0,False,retune by experiment,3,1.0,False
+786,ipdt,lag x3.0,False,retune by experiment,4,1.0,False
+786,ipdt,lag x0.4,True,frozen,0,1.0095664657105718,False
+786,ipdt,lag x0.4,True,frozen,1,0.9820866234882348,False
+786,ipdt,lag x0.4,True,frozen,2,2.3617313265911517,False
+786,ipdt,lag x0.4,True,frozen,3,2.7848126475613593,False
+786,ipdt,lag x0.4,True,frozen,4,1.7929788319061675,False
+786,ipdt,lag x0.4,True,adaptive ML,0,0.9892370889219986,False
+786,ipdt,lag x0.4,True,adaptive ML,1,1.4509698660770736,False
+786,ipdt,lag x0.4,True,adaptive ML,2,7.2841485415136695,False
+786,ipdt,lag x0.4,True,adaptive ML,3,12.417474170616103,False
+786,ipdt,lag x0.4,True,adaptive ML,4,1.9301524102126553,False
+786,ipdt,lag x0.4,True,self-tuning pole placement,0,0.881110102060043,False
+786,ipdt,lag x0.4,True,self-tuning pole placement,1,1.5465293409253165,False
+786,ipdt,lag x0.4,True,self-tuning pole placement,2,1.5850408908958535,False
+786,ipdt,lag x0.4,True,self-tuning pole placement,3,0.6139575715476383,False
+786,ipdt,lag x0.4,True,self-tuning pole placement,4,0.9886152057301548,False
+786,ipdt,lag x0.4,True,retune by experiment,0,1.0,False
+786,ipdt,lag x0.4,True,retune by experiment,1,1.0,False
+786,ipdt,lag x0.4,True,retune by experiment,2,1.0,False
+786,ipdt,lag x0.4,True,retune by experiment,3,1.0,False
+786,ipdt,lag x0.4,True,retune by experiment,4,1.0,False
+786,ipdt,lag x0.4,False,frozen,0,1.0517968091468666,False
+786,ipdt,lag x0.4,False,frozen,1,0.8958990525497865,False
+786,ipdt,lag x0.4,False,frozen,2,40.91467550812433,False
+786,ipdt,lag x0.4,False,frozen,3,44.01424584320546,False
+786,ipdt,lag x0.4,False,frozen,4,40.87908338922157,False
+786,ipdt,lag x0.4,False,adaptive ML,0,1.1165628944651822,False
+786,ipdt,lag x0.4,False,adaptive ML,1,2.3540737537842773,False
+786,ipdt,lag x0.4,False,adaptive ML,2,4.737970498173605,False
+786,ipdt,lag x0.4,False,adaptive ML,3,1.8682561609103645,False
+786,ipdt,lag x0.4,False,adaptive ML,4,1.6860254368725907,False
+786,ipdt,lag x0.4,False,self-tuning pole placement,0,1.1273162501313845,False
+786,ipdt,lag x0.4,False,self-tuning pole placement,1,0.7454147562305372,False
+786,ipdt,lag x0.4,False,self-tuning pole placement,2,4.613997341595437,False
+786,ipdt,lag x0.4,False,self-tuning pole placement,3,10.879580428698517,False
+786,ipdt,lag x0.4,False,self-tuning pole placement,4,9.899203773909566,False
+786,ipdt,lag x0.4,False,retune by experiment,0,1.0,False
+786,ipdt,lag x0.4,False,retune by experiment,1,1.0,False
+786,ipdt,lag x0.4,False,retune by experiment,2,1.0,False
+786,ipdt,lag x0.4,False,retune by experiment,3,1.0,False
+786,ipdt,lag x0.4,False,retune by experiment,4,1.0,False

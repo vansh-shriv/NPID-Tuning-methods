@@ -1,0 +1,22 @@
+label,dc_speed,dc_position,link,fopdt,tank
+01 Trial and error,ok,ok,fails,ok,ok
+02 Ziegler-Nichols (reaction curve),ok,ok,fails,ok,not applicable
+03 Cohen-Coon,ok,ok,ok,ok,not applicable
+04 Continuous cycling,not applicable,ok,not applicable,ok,not applicable
+05 Time-domain (SIMC),ok,ok,ok,ok,ok
+06 Self-tuning (pole placement),ok,ok,ok,ok,ok
+07 Model matching,ok,ok,ok,ok,fails
+08 PSO,ok,ok,ok,ok,ok
+09 GA,ok,ok,ok,ok,ok
+10 ABC,ok,ok,ok,ok,ok
+11 SA,ok,ok,ok,ok,ok
+12 Regression (SVR),ok,ok,ok,ok,ok
+13 Reinforcement learning (PPO),ok,ok,ok,ok,ok
+14 Gaussian-process optimisation,ok,ok,ok,ok,ok
+15 ANN (decision-focused),ok,ok,ok,ok,ok
+16 GA-enhanced ML,ok,ok,ok,ok,ok
+17 Hybrid ML + classical (+20 sims),ok,ok,ok,ok,ok
+06b Self-tuning online (pole placement),-,-,-,-,-
+18 Adaptive ML,ok,ok,ok,ok,ok
+R1 Random search (reference),ok,ok,ok,ok,ok
+R2 Constant normalised gains (reference),ok,ok,ok,ok,fails

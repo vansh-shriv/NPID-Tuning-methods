@@ -1,0 +1,2 @@
+best_model,pso_seconds,predict_seconds,speedup
+ridge-poly2,26.1386778249871,0.0008251025015488266,31679.3098747384

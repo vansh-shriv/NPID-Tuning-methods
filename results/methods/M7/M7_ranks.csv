@@ -1,0 +1,357 @@
+plant,scenario,label,family,rank
+dc_position,change,01 Trial and error,classical,9
+dc_position,change,02 Ziegler-Nichols (reaction curve),classical,6
+dc_position,change,03 Cohen-Coon,classical,8
+dc_position,change,04 Continuous cycling,classical,12
+dc_position,change,05 Time-domain (SIMC),classical,7
+dc_position,change,06b Self-tuning online (pole placement),adaptive,5
+dc_position,change,07 Model matching,intelligent,9
+dc_position,change,09 GA,optimization,1
+dc_position,change,10 ABC,optimization,1
+dc_position,change,11 SA,optimization,1
+dc_position,change,12 Regression (SVR),ml,2
+dc_position,change,13 Reinforcement learning (PPO),ml,1
+dc_position,change,14 Gaussian-process optimisation,ml,4
+dc_position,change,15 ANN (decision-focused),ml,4
+dc_position,change,16 GA-enhanced ML,hybrid,1
+dc_position,change,17 Hybrid ML + classical (+20 sims),hybrid,3
+dc_position,change,R1 Random search (reference),reference,1
+dc_position,load,01 Trial and error,classical,8
+dc_position,load,02 Ziegler-Nichols (reaction curve),classical,14
+dc_position,load,03 Cohen-Coon,classical,13
+dc_position,load,04 Continuous cycling,classical,17
+dc_position,load,05 Time-domain (SIMC),classical,14
+dc_position,load,06 Self-tuning (pole placement),intelligent,19
+dc_position,load,07 Model matching,intelligent,16
+dc_position,load,08 PSO,optimization,1
+dc_position,load,09 GA,optimization,1
+dc_position,load,10 ABC,optimization,1
+dc_position,load,11 SA,optimization,1
+dc_position,load,12 Regression (SVR),ml,7
+dc_position,load,13 Reinforcement learning (PPO),ml,1
+dc_position,load,14 Gaussian-process optimisation,ml,10
+dc_position,load,15 ANN (decision-focused),ml,11
+dc_position,load,16 GA-enhanced ML,hybrid,9
+dc_position,load,17 Hybrid ML + classical (+20 sims),hybrid,5
+dc_position,load,18 Adaptive ML,adaptive,20
+dc_position,load,R1 Random search (reference),reference,5
+dc_position,load,R2 Constant normalised gains (reference),reference,18
+dc_position,noise,01 Trial and error,classical,11
+dc_position,noise,02 Ziegler-Nichols (reaction curve),classical,14
+dc_position,noise,03 Cohen-Coon,classical,13
+dc_position,noise,04 Continuous cycling,classical,17
+dc_position,noise,05 Time-domain (SIMC),classical,16
+dc_position,noise,06 Self-tuning (pole placement),intelligent,19
+dc_position,noise,07 Model matching,intelligent,14
+dc_position,noise,08 PSO,optimization,1
+dc_position,noise,09 GA,optimization,1
+dc_position,noise,10 ABC,optimization,1
+dc_position,noise,11 SA,optimization,1
+dc_position,noise,12 Regression (SVR),ml,7
+dc_position,noise,13 Reinforcement learning (PPO),ml,2
+dc_position,noise,14 Gaussian-process optimisation,ml,9
+dc_position,noise,15 ANN (decision-focused),ml,12
+dc_position,noise,16 GA-enhanced ML,hybrid,8
+dc_position,noise,17 Hybrid ML + classical (+20 sims),hybrid,4
+dc_position,noise,18 Adaptive ML,adaptive,20
+dc_position,noise,R1 Random search (reference),reference,6
+dc_position,noise,R2 Constant normalised gains (reference),reference,18
+dc_position,step,01 Trial and error,classical,11
+dc_position,step,02 Ziegler-Nichols (reaction curve),classical,14
+dc_position,step,03 Cohen-Coon,classical,13
+dc_position,step,04 Continuous cycling,classical,17
+dc_position,step,05 Time-domain (SIMC),classical,16
+dc_position,step,06 Self-tuning (pole placement),intelligent,19
+dc_position,step,07 Model matching,intelligent,14
+dc_position,step,08 PSO,optimization,1
+dc_position,step,09 GA,optimization,1
+dc_position,step,10 ABC,optimization,1
+dc_position,step,11 SA,optimization,1
+dc_position,step,12 Regression (SVR),ml,6
+dc_position,step,13 Reinforcement learning (PPO),ml,4
+dc_position,step,14 Gaussian-process optimisation,ml,9
+dc_position,step,15 ANN (decision-focused),ml,12
+dc_position,step,16 GA-enhanced ML,hybrid,8
+dc_position,step,17 Hybrid ML + classical (+20 sims),hybrid,4
+dc_position,step,18 Adaptive ML,adaptive,20
+dc_position,step,R1 Random search (reference),reference,6
+dc_position,step,R2 Constant normalised gains (reference),reference,18
+dc_speed,change,01 Trial and error,classical,20
+dc_speed,change,02 Ziegler-Nichols (reaction curve),classical,12
+dc_speed,change,03 Cohen-Coon,classical,8
+dc_speed,change,05 Time-domain (SIMC),classical,4
+dc_speed,change,06 Self-tuning (pole placement),intelligent,2
+dc_speed,change,06b Self-tuning online (pole placement),adaptive,1
+dc_speed,change,07 Model matching,intelligent,11
+dc_speed,change,08 PSO,optimization,13
+dc_speed,change,09 GA,optimization,13
+dc_speed,change,10 ABC,optimization,13
+dc_speed,change,11 SA,optimization,15
+dc_speed,change,12 Regression (SVR),ml,6
+dc_speed,change,13 Reinforcement learning (PPO),ml,5
+dc_speed,change,14 Gaussian-process optimisation,ml,13
+dc_speed,change,15 ANN (decision-focused),ml,10
+dc_speed,change,16 GA-enhanced ML,hybrid,2
+dc_speed,change,17 Hybrid ML + classical (+20 sims),hybrid,1
+dc_speed,change,18 Adaptive ML,adaptive,13
+dc_speed,change,R1 Random search (reference),reference,16
+dc_speed,change,R2 Constant normalised gains (reference),reference,7
+dc_speed,load,01 Trial and error,classical,14
+dc_speed,load,02 Ziegler-Nichols (reaction curve),classical,7
+dc_speed,load,03 Cohen-Coon,classical,7
+dc_speed,load,05 Time-domain (SIMC),classical,17
+dc_speed,load,06 Self-tuning (pole placement),intelligent,18
+dc_speed,load,07 Model matching,intelligent,14
+dc_speed,load,08 PSO,optimization,1
+dc_speed,load,09 GA,optimization,1
+dc_speed,load,10 ABC,optimization,1
+dc_speed,load,11 SA,optimization,1
+dc_speed,load,12 Regression (SVR),ml,11
+dc_speed,load,13 Reinforcement learning (PPO),ml,11
+dc_speed,load,14 Gaussian-process optimisation,ml,1
+dc_speed,load,15 ANN (decision-focused),ml,13
+dc_speed,load,16 GA-enhanced ML,hybrid,8
+dc_speed,load,17 Hybrid ML + classical (+20 sims),hybrid,7
+dc_speed,load,18 Adaptive ML,adaptive,18
+dc_speed,load,R1 Random search (reference),reference,5
+dc_speed,load,R2 Constant normalised gains (reference),reference,14
+dc_speed,noise,01 Trial and error,classical,17
+dc_speed,noise,02 Ziegler-Nichols (reaction curve),classical,4
+dc_speed,noise,03 Cohen-Coon,classical,2
+dc_speed,noise,05 Time-domain (SIMC),classical,10
+dc_speed,noise,06 Self-tuning (pole placement),intelligent,18
+dc_speed,noise,07 Model matching,intelligent,6
+dc_speed,noise,08 PSO,optimization,10
+dc_speed,noise,09 GA,optimization,10
+dc_speed,noise,10 ABC,optimization,10
+dc_speed,noise,11 SA,optimization,12
+dc_speed,noise,12 Regression (SVR),ml,5
+dc_speed,noise,13 Reinforcement learning (PPO),ml,4
+dc_speed,noise,14 Gaussian-process optimisation,ml,13
+dc_speed,noise,15 ANN (decision-focused),ml,8
+dc_speed,noise,16 GA-enhanced ML,hybrid,2
+dc_speed,noise,17 Hybrid ML + classical (+20 sims),hybrid,1
+dc_speed,noise,18 Adaptive ML,adaptive,18
+dc_speed,noise,R1 Random search (reference),reference,13
+dc_speed,noise,R2 Constant normalised gains (reference),reference,9
+dc_speed,step,01 Trial and error,classical,15
+dc_speed,step,02 Ziegler-Nichols (reaction curve),classical,6
+dc_speed,step,03 Cohen-Coon,classical,6
+dc_speed,step,05 Time-domain (SIMC),classical,17
+dc_speed,step,06 Self-tuning (pole placement),intelligent,18
+dc_speed,step,07 Model matching,intelligent,13
+dc_speed,step,08 PSO,optimization,1
+dc_speed,step,09 GA,optimization,1
+dc_speed,step,10 ABC,optimization,1
+dc_speed,step,11 SA,optimization,1
+dc_speed,step,12 Regression (SVR),ml,11
+dc_speed,step,13 Reinforcement learning (PPO),ml,11
+dc_speed,step,14 Gaussian-process optimisation,ml,1
+dc_speed,step,15 ANN (decision-focused),ml,12
+dc_speed,step,16 GA-enhanced ML,hybrid,8
+dc_speed,step,17 Hybrid ML + classical (+20 sims),hybrid,6
+dc_speed,step,18 Adaptive ML,adaptive,18
+dc_speed,step,R1 Random search (reference),reference,5
+dc_speed,step,R2 Constant normalised gains (reference),reference,15
+fopdt,change,01 Trial and error,classical,6
+fopdt,change,05 Time-domain (SIMC),classical,5
+fopdt,change,06 Self-tuning (pole placement),intelligent,3
+fopdt,change,06b Self-tuning online (pole placement),adaptive,1
+fopdt,change,07 Model matching,intelligent,1
+fopdt,change,18 Adaptive ML,adaptive,4
+fopdt,load,01 Trial and error,classical,19
+fopdt,load,02 Ziegler-Nichols (reaction curve),classical,1
+fopdt,load,03 Cohen-Coon,classical,17
+fopdt,load,04 Continuous cycling,classical,1
+fopdt,load,05 Time-domain (SIMC),classical,12
+fopdt,load,06 Self-tuning (pole placement),intelligent,16
+fopdt,load,07 Model matching,intelligent,19
+fopdt,load,08 PSO,optimization,4
+fopdt,load,09 GA,optimization,6
+fopdt,load,10 ABC,optimization,4
+fopdt,load,11 SA,optimization,5
+fopdt,load,12 Regression (SVR),ml,10
+fopdt,load,13 Reinforcement learning (PPO),ml,1
+fopdt,load,14 Gaussian-process optimisation,ml,5
+fopdt,load,15 ANN (decision-focused),ml,11
+fopdt,load,16 GA-enhanced ML,hybrid,4
+fopdt,load,17 Hybrid ML + classical (+20 sims),hybrid,1
+fopdt,load,18 Adaptive ML,adaptive,16
+fopdt,load,R1 Random search (reference),reference,1
+fopdt,load,R2 Constant normalised gains (reference),reference,15
+fopdt,noise,01 Trial and error,classical,19
+fopdt,noise,02 Ziegler-Nichols (reaction curve),classical,15
+fopdt,noise,03 Cohen-Coon,classical,20
+fopdt,noise,04 Continuous cycling,classical,15
+fopdt,noise,05 Time-domain (SIMC),classical,7
+fopdt,noise,06 Self-tuning (pole placement),intelligent,12
+fopdt,noise,07 Model matching,intelligent,17
+fopdt,noise,08 PSO,optimization,1
+fopdt,noise,09 GA,optimization,1
+fopdt,noise,10 ABC,optimization,1
+fopdt,noise,11 SA,optimization,1
+fopdt,noise,12 Regression (SVR),ml,11
+fopdt,noise,13 Reinforcement learning (PPO),ml,3
+fopdt,noise,14 Gaussian-process optimisation,ml,1
+fopdt,noise,15 ANN (decision-focused),ml,10
+fopdt,noise,16 GA-enhanced ML,hybrid,4
+fopdt,noise,17 Hybrid ML + classical (+20 sims),hybrid,7
+fopdt,noise,18 Adaptive ML,adaptive,12
+fopdt,noise,R1 Random search (reference),reference,7
+fopdt,noise,R2 Constant normalised gains (reference),reference,13
+fopdt,step,01 Trial and error,classical,19
+fopdt,step,02 Ziegler-Nichols (reaction curve),classical,10
+fopdt,step,03 Cohen-Coon,classical,20
+fopdt,step,04 Continuous cycling,classical,10
+fopdt,step,05 Time-domain (SIMC),classical,9
+fopdt,step,06 Self-tuning (pole placement),intelligent,13
+fopdt,step,07 Model matching,intelligent,17
+fopdt,step,08 PSO,optimization,1
+fopdt,step,09 GA,optimization,1
+fopdt,step,10 ABC,optimization,1
+fopdt,step,11 SA,optimization,3
+fopdt,step,12 Regression (SVR),ml,15
+fopdt,step,13 Reinforcement learning (PPO),ml,1
+fopdt,step,14 Gaussian-process optimisation,ml,5
+fopdt,step,15 ANN (decision-focused),ml,16
+fopdt,step,16 GA-enhanced ML,hybrid,3
+fopdt,step,17 Hybrid ML + classical (+20 sims),hybrid,1
+fopdt,step,18 Adaptive ML,adaptive,11
+fopdt,step,R1 Random search (reference),reference,8
+fopdt,step,R2 Constant normalised gains (reference),reference,13
+link,change,01 Trial and error,classical,18
+link,change,02 Ziegler-Nichols (reaction curve),classical,5
+link,change,03 Cohen-Coon,classical,8
+link,change,05 Time-domain (SIMC),classical,17
+link,change,06 Self-tuning (pole placement),intelligent,4
+link,change,06b Self-tuning online (pole placement),adaptive,9
+link,change,07 Model matching,intelligent,20
+link,change,08 PSO,optimization,11
+link,change,09 GA,optimization,14
+link,change,10 ABC,optimization,11
+link,change,11 SA,optimization,9
+link,change,12 Regression (SVR),ml,1
+link,change,13 Reinforcement learning (PPO),ml,6
+link,change,14 Gaussian-process optimisation,ml,11
+link,change,15 ANN (decision-focused),ml,1
+link,change,16 GA-enhanced ML,hybrid,3
+link,change,17 Hybrid ML + classical (+20 sims),hybrid,3
+link,change,18 Adaptive ML,adaptive,1
+link,change,R1 Random search (reference),reference,11
+link,change,R2 Constant normalised gains (reference),reference,5
+link,load,03 Cohen-Coon,classical,10
+link,load,05 Time-domain (SIMC),classical,15
+link,load,06 Self-tuning (pole placement),intelligent,7
+link,load,08 PSO,optimization,1
+link,load,09 GA,optimization,1
+link,load,10 ABC,optimization,4
+link,load,11 SA,optimization,1
+link,load,12 Regression (SVR),ml,11
+link,load,13 Reinforcement learning (PPO),ml,8
+link,load,14 Gaussian-process optimisation,ml,3
+link,load,15 ANN (decision-focused),ml,13
+link,load,16 GA-enhanced ML,hybrid,11
+link,load,17 Hybrid ML + classical (+20 sims),hybrid,8
+link,load,18 Adaptive ML,adaptive,15
+link,load,R1 Random search (reference),reference,5
+link,load,R2 Constant normalised gains (reference),reference,13
+link,noise,01 Trial and error,classical,19
+link,noise,02 Ziegler-Nichols (reaction curve),classical,18
+link,noise,03 Cohen-Coon,classical,12
+link,noise,05 Time-domain (SIMC),classical,15
+link,noise,06 Self-tuning (pole placement),intelligent,1
+link,noise,07 Model matching,intelligent,17
+link,noise,08 PSO,optimization,1
+link,noise,09 GA,optimization,4
+link,noise,10 ABC,optimization,1
+link,noise,11 SA,optimization,1
+link,noise,12 Regression (SVR),ml,10
+link,noise,13 Reinforcement learning (PPO),ml,4
+link,noise,14 Gaussian-process optimisation,ml,2
+link,noise,15 ANN (decision-focused),ml,13
+link,noise,16 GA-enhanced ML,hybrid,10
+link,noise,17 Hybrid ML + classical (+20 sims),hybrid,2
+link,noise,18 Adaptive ML,adaptive,13
+link,noise,R1 Random search (reference),reference,2
+link,noise,R2 Constant normalised gains (reference),reference,16
+link,step,03 Cohen-Coon,classical,12
+link,step,05 Time-domain (SIMC),classical,15
+link,step,06 Self-tuning (pole placement),intelligent,7
+link,step,07 Model matching,intelligent,17
+link,step,08 PSO,optimization,2
+link,step,09 GA,optimization,1
+link,step,10 ABC,optimization,2
+link,step,11 SA,optimization,3
+link,step,12 Regression (SVR),ml,9
+link,step,13 Reinforcement learning (PPO),ml,9
+link,step,14 Gaussian-process optimisation,ml,3
+link,step,15 ANN (decision-focused),ml,13
+link,step,16 GA-enhanced ML,hybrid,10
+link,step,17 Hybrid ML + classical (+20 sims),hybrid,8
+link,step,18 Adaptive ML,adaptive,13
+link,step,R1 Random search (reference),reference,5
+link,step,R2 Constant normalised gains (reference),reference,16
+tank,change,01 Trial and error,classical,3
+tank,change,05 Time-domain (SIMC),classical,3
+tank,change,06 Self-tuning (pole placement),intelligent,1
+tank,change,06b Self-tuning online (pole placement),adaptive,1
+tank,change,07 Model matching,intelligent,6
+tank,change,08 PSO,optimization,13
+tank,change,09 GA,optimization,13
+tank,change,10 ABC,optimization,13
+tank,change,11 SA,optimization,13
+tank,change,12 Regression (SVR),ml,8
+tank,change,13 Reinforcement learning (PPO),ml,12
+tank,change,14 Gaussian-process optimisation,ml,13
+tank,change,15 ANN (decision-focused),ml,6
+tank,change,16 GA-enhanced ML,hybrid,10
+tank,change,17 Hybrid ML + classical (+20 sims),hybrid,8
+tank,change,18 Adaptive ML,adaptive,8
+tank,change,R1 Random search (reference),reference,13
+tank,change,R2 Constant normalised gains (reference),reference,5
+tank,load,05 Time-domain (SIMC),classical,13
+tank,load,06 Self-tuning (pole placement),intelligent,14
+tank,load,08 PSO,optimization,1
+tank,load,09 GA,optimization,1
+tank,load,10 ABC,optimization,1
+tank,load,11 SA,optimization,1
+tank,load,12 Regression (SVR),ml,10
+tank,load,13 Reinforcement learning (PPO),ml,7
+tank,load,14 Gaussian-process optimisation,ml,1
+tank,load,15 ANN (decision-focused),ml,12
+tank,load,16 GA-enhanced ML,hybrid,8
+tank,load,17 Hybrid ML + classical (+20 sims),hybrid,9
+tank,load,18 Adaptive ML,adaptive,1
+tank,load,R1 Random search (reference),reference,1
+tank,noise,01 Trial and error,classical,15
+tank,noise,05 Time-domain (SIMC),classical,1
+tank,noise,06 Self-tuning (pole placement),intelligent,7
+tank,noise,07 Model matching,intelligent,17
+tank,noise,08 PSO,optimization,9
+tank,noise,09 GA,optimization,9
+tank,noise,10 ABC,optimization,9
+tank,noise,11 SA,optimization,9
+tank,noise,12 Regression (SVR),ml,3
+tank,noise,13 Reinforcement learning (PPO),ml,7
+tank,noise,14 Gaussian-process optimisation,ml,9
+tank,noise,15 ANN (decision-focused),ml,1
+tank,noise,16 GA-enhanced ML,hybrid,5
+tank,noise,17 Hybrid ML + classical (+20 sims),hybrid,3
+tank,noise,18 Adaptive ML,adaptive,6
+tank,noise,R1 Random search (reference),reference,9
+tank,noise,R2 Constant normalised gains (reference),reference,16
+tank,step,01 Trial and error,classical,15
+tank,step,05 Time-domain (SIMC),classical,13
+tank,step,06 Self-tuning (pole placement),intelligent,14
+tank,step,08 PSO,optimization,1
+tank,step,09 GA,optimization,1
+tank,step,10 ABC,optimization,1
+tank,step,11 SA,optimization,1
+tank,step,12 Regression (SVR),ml,10
+tank,step,13 Reinforcement learning (PPO),ml,7
+tank,step,14 Gaussian-process optimisation,ml,1
+tank,step,15 ANN (decision-focused),ml,11
+tank,step,16 GA-enhanced ML,hybrid,7
+tank,step,17 Hybrid ML + classical (+20 sims),hybrid,8
+tank,step,18 Adaptive ML,adaptive,1
+tank,step,R1 Random search (reference),reference,1

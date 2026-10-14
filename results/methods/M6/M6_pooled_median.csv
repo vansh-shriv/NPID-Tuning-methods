@@ -1,0 +1,41 @@
+noise,change,method,pre,first post,adapted (w3-4)
+False,gain x0.4,adaptive ML,1.17,11.09,2.48
+False,gain x0.4,frozen,1.02,3.43,2.34
+False,gain x0.4,retune by experiment,1.0,1.0,1.0
+False,gain x0.4,self-tuning pole placement,1.11,13.17,2.77
+False,gain x2.5,adaptive ML,1.07,2.76,3.07
+False,gain x2.5,frozen,1.0,50.98,100.0
+False,gain x2.5,retune by experiment,1.0,1.0,1.0
+False,gain x2.5,self-tuning pole placement,1.06,1.49,3.54
+False,lag x0.4,adaptive ML,1.12,3.82,3.09
+False,lag x0.4,frozen,1.01,93.05,96.11
+False,lag x0.4,retune by experiment,1.0,1.0,1.0
+False,lag x0.4,self-tuning pole placement,1.1,2.54,3.47
+False,lag x3.0,adaptive ML,1.15,2.69,2.69
+False,lag x3.0,frozen,1.01,2.74,2.27
+False,lag x3.0,retune by experiment,1.0,1.0,1.0
+False,lag x3.0,self-tuning pole placement,1.12,5.18,2.22
+False,none x1.0,adaptive ML,1.15,2.57,3.1
+False,none x1.0,frozen,1.01,1.0,1.0
+False,none x1.0,retune by experiment,1.0,1.0,1.0
+False,none x1.0,self-tuning pole placement,1.12,2.92,3.0
+True,gain x0.4,adaptive ML,1.24,3.34,1.11
+True,gain x0.4,frozen,1.13,1.4,1.04
+True,gain x0.4,retune by experiment,1.0,1.0,1.0
+True,gain x0.4,self-tuning pole placement,1.08,2.04,1.32
+True,gain x2.5,adaptive ML,1.12,5.18,1.51
+True,gain x2.5,frozen,1.06,20.7,21.32
+True,gain x2.5,retune by experiment,1.0,1.0,1.0
+True,gain x2.5,self-tuning pole placement,1.03,0.74,1.07
+True,lag x0.4,adaptive ML,1.21,2.16,1.09
+True,lag x0.4,frozen,1.15,15.92,17.32
+True,lag x0.4,retune by experiment,1.0,1.0,1.0
+True,lag x0.4,self-tuning pole placement,0.98,0.8,0.69
+True,lag x3.0,adaptive ML,1.2,1.67,1.24
+True,lag x3.0,frozen,1.14,1.25,1.1
+True,lag x3.0,retune by experiment,1.0,1.0,1.0
+True,lag x3.0,self-tuning pole placement,0.98,3.64,1.88
+True,none x1.0,adaptive ML,1.2,1.46,1.38
+True,none x1.0,frozen,1.15,1.08,1.1
+True,none x1.0,retune by experiment,1.0,1.0,1.0
+True,none x1.0,self-tuning pole placement,0.98,1.31,1.1

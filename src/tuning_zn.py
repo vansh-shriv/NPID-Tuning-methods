@@ -20,85 +20,111 @@ from src.controllers import LPID
 from src.simulate import run_simulation
 
 
-def detect_oscillation_type(omega, time, t_start_fraction=0.4):
+def oscillation_growth_ratio(y, time, max_halfcycles=30):
     """
-    Analyze the tail of a P-only closed-loop response to classify oscillation.
+    Per-half-cycle amplitude ratio of the oscillation in a P-only step response.
 
-    Uses peak amplitude decay ratio to distinguish:
-      - damped: later peaks are significantly smaller than earlier peaks
-      - sustained: peak amplitudes are roughly constant (limit cycle)
-      - growing: later peaks are larger than earlier peaks
-
-    Args:
-        omega: (N,) angular velocity array.
-        time: (N,) time array.
-        t_start_fraction: Fraction of simulation to skip (analyze tail only).
+    Extrema of y (peaks and troughs merged) give half-cycle amplitudes
+    a_k = |y_{k+1} - y_k|, which are independent of the unknown steady-state
+    offset. For a linear loop a_{k+1}/a_k = r is constant: r < 1 damped,
+    r = 1 sustained (Kp = Kcr), r > 1 growing. The median of the first
+    `max_halfcycles` ratios is returned, so a loop that grows and then locks
+    into a saturation limit cycle still reads as r >= 1.
 
     Returns:
-        (osc_type, period, amplitude) where:
-          osc_type: "damped", "sustained", "growing", or "none"
-          period: Average oscillation period (s), or None.
-          amplitude: Average peak-to-peak amplitude, or None.
+        (ratio, period, amplitude) or (None, None, None) if fewer than 4 extrema
+        (monotone / overdamped response).
     """
-    # Focus on the tail portion of the signal
-    t_start = time[-1] * t_start_fraction
-    mask = time >= t_start
-    omega_tail = omega[mask]
-    time_tail = time[mask]
+    y = np.asarray(y, dtype=float)
+    span = np.max(y) - np.min(y)
+    if not np.isfinite(span) or span < 1e-12:
+        return None, None, None
+    prom = 1e-5 * span
+    pk, _ = find_peaks(y, prominence=prom)
+    tr, _ = find_peaks(-y, prominence=prom)
+    ext = np.sort(np.concatenate([pk, tr]))
+    if len(ext) < 4:
+        return None, None, None
+    ext = ext[: max_halfcycles + 2]
+    amps = np.abs(np.diff(y[ext]))
+    amps = amps[amps > 0]
+    if len(amps) < 3:
+        return None, None, None
+    ratio = float(np.median(amps[1:] / amps[:-1]))
+    period = 2.0 * float(np.mean(np.diff(time[ext])))
+    return ratio, period, float(np.mean(amps))
 
-    if len(omega_tail) < 50:
+
+def detect_oscillation_type(omega, time, tol=1e-3, **_ignored):
+    """
+    Classify a P-only step response as "none", "damped", "sustained" or "growing"
+    from its half-cycle amplitude ratio (see `oscillation_growth_ratio`).
+
+    Returns:
+        (osc_type, period, amplitude)
+    """
+    ratio, period, amp = oscillation_growth_ratio(omega, time)
+    if ratio is None:
         return "none", None, None
+    if ratio < 1.0 - tol:
+        return "damped", period, amp
+    if ratio > 1.0 + tol:
+        return "growing", period, amp
+    return "sustained", period, amp
 
-    # Remove DC offset for peak detection
-    omega_centered = omega_tail - np.mean(omega_tail)
 
-    # Overall range check
-    amp_range = np.max(omega_centered) - np.min(omega_centered)
-    if amp_range < 1e-8:
+def detect_limit_cycle(omega, time, y_ref=None, tail_fraction=0.25, rel_threshold=1e-3):
+    """
+    Practical "sustained oscillation" test for plants with NO linear ultimate gain.
+
+    Plants like the DC motor (relative degree 2, minimum phase) never go unstable
+    in continuous time; at high Kp the sampled, saturated, friction-stiff loop
+    instead settles into a small chattering limit cycle. This flags a limit
+    cycle when the tail of the response keeps swinging by more than
+    `rel_threshold * |y_ref|`, regardless of the decay ratio. It is a numerical /
+    saturation artifact rather than a true Kcr, so results found this way should
+    be reported as such.
+    """
+    n = len(omega)
+    tail = np.asarray(omega[int(n * (1 - tail_fraction)):], dtype=float)
+    ref = abs(y_ref) if y_ref else max(abs(np.mean(tail)), 1e-12)
+    if np.ptp(tail) <= rel_threshold * ref:
+        return "damped", None, None
+    pk, _ = find_peaks(tail, prominence=0.1 * np.ptp(tail))
+    if len(pk) < 3:
         return "none", None, None
-
-    # Find peaks with adaptive thresholding
-    dt = time_tail[1] - time_tail[0]
-    min_distance = max(3, int(0.005 / dt))  # At least 5ms between peaks
-
-    # Use a very low height threshold to catch small oscillations
-    min_height = 0.001 * amp_range
-    peaks, _ = find_peaks(omega_centered, height=min_height, distance=min_distance)
-
-    if len(peaks) < 4:
-        return "none", None, None
-
-    # Compute peak amplitudes and periods
-    peak_amplitudes = np.abs(omega_centered[peaks])
-    peak_times = time_tail[peaks]
-    periods = np.diff(peak_times)
-    avg_period = np.mean(periods)
-
-    # Classify by comparing first-third and last-third peak amplitudes
-    n_peaks = len(peak_amplitudes)
-    third = max(1, n_peaks // 3)
-
-    first_third_amp = np.mean(peak_amplitudes[:third])
-    last_third_amp = np.mean(peak_amplitudes[-third:])
-
-    if first_third_amp < 1e-12:
-        return "none", None, None
-
-    amp_ratio = last_third_amp / first_third_amp
-    avg_amplitude = np.mean(peak_amplitudes)
-
-    # Classification thresholds
-    if amp_ratio < 0.5:
-        return "damped", avg_period, avg_amplitude
-    elif amp_ratio > 2.0:
-        return "growing", avg_period, avg_amplitude
-    else:
-        # Between 0.5 and 2.0 — approximately sustained
-        return "sustained", avg_period, avg_amplitude
+    t_tail = np.asarray(time[int(n * (1 - tail_fraction)):], dtype=float)
+    return "sustained", float(np.mean(np.diff(t_tail[pk]))), float(np.ptp(tail))
 
 
 def find_critical_gain(params=None, omega_ref=20.0, t_end=8.0, dt=0.001,
-                       kp_start=1.0, kp_max=2000.0, verbose=True):
+                       kp_start=1.0, kp_max=2000.0, verbose=True, mode="auto"):
+    """
+    Critical gain / period for Ziegler-Nichols.
+
+    mode:
+      "linear"      - true marginal stability: half-cycle amplitude ratio crosses 1
+                      (accurate to <0.5% on plants with an analytic Kcr).
+      "limit_cycle" - onset of a persistent saturation/sampling limit cycle, for
+                      plants with no linear Kcr (e.g. this DC motor).
+      "auto"        - try "linear"; if no ultimate gain exists below kp_max, warn and
+                      fall back to "limit_cycle".
+    """
+    import warnings
+    if mode in ("auto", "linear"):
+        try:
+            return _find_critical_gain(params, omega_ref, t_end, dt, kp_start, kp_max, verbose,
+                                       lambda w, t: detect_oscillation_type(w, t))
+        except RuntimeError:
+            if mode == "linear":
+                raise
+            warnings.warn("No linear ultimate gain found; falling back to limit-cycle "
+                          "detection (Kcr is a saturation/sampling artifact, not marginal stability).")
+    return _find_critical_gain(params, omega_ref, t_end, dt, kp_start, kp_max, verbose,
+                               lambda w, t: detect_limit_cycle(w, t, omega_ref))
+
+
+def _find_critical_gain(params, omega_ref, t_end, dt, kp_start, kp_max, verbose, classify):
     """
     Find the critical gain Kcr and critical period Tcr using the
     Ziegler-Nichols method (Spec S3.1).
@@ -139,9 +165,9 @@ def find_critical_gain(params=None, omega_ref=20.0, t_end=8.0, dt=0.001,
     def test_kp(kp):
         """Run P-only sim and classify oscillation."""
         controller = LPID(Kp=kp, Ki=0.0, Kd=0.0, dt=dt,
-                          u_min=-params.Vmax, u_max=params.Vmax)
+                          u_min=params.u_min, u_max=params.u_max)
         result = run_simulation(controller, params, omega_ref, t_end=t_end, dt=dt)
-        return detect_oscillation_type(result.omega, result.time)
+        return classify(result.omega, result.time)
 
     # Phase 1: Exponential coarse sweep to bracket the critical region
     kp_damped = None
@@ -190,7 +216,7 @@ def find_critical_gain(params=None, omega_ref=20.0, t_end=8.0, dt=0.001,
     best_sustained_kp = kp_sustained_or_growing
     best_sustained_period = None
 
-    for iteration in range(25):
+    for iteration in range(40):
         kp_mid = (kp_damped + kp_sustained_or_growing) / 2.0
         osc_type, period, amplitude = test_kp(kp_mid)
 
@@ -208,7 +234,7 @@ def find_critical_gain(params=None, omega_ref=20.0, t_end=8.0, dt=0.001,
             kp_damped = kp_mid
 
         # Convergence check
-        if (kp_sustained_or_growing - kp_damped) / kp_sustained_or_growing < 0.02:
+        if (kp_sustained_or_growing - kp_damped) / kp_sustained_or_growing < 0.003:
             break
 
     # Use the best sustained point found

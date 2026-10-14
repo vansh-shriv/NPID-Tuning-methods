@@ -1,0 +1,8 @@
+family,geomean_ratio_step,mean_rank_step,geomean_ratio_load,mean_rank_load,geomean_ratio_noise,mean_rank_noise,geomean_ratio_change,mean_rank_change,geomean_gap_best_known_step,median_evals,median_sim_seconds
+classical,18.98,13.5,7.57,11.75,5.08,12.75,6.55,8.0,19.25,4.0,41.97
+intelligent,16.22,14.72,18.11,15.57,5.63,12.8,3.97,5.95,16.74,2.5,33.79
+optimization,1.16,1.2,1.23,1.9,1.91,4.6,12.11,9.88,1.21,400.0,1600.0
+ml,4.17,8.3,4.41,7.7,2.18,7.0,5.47,5.62,4.33,8.0,52.68
+hybrid,2.89,6.3,4.07,7.0,1.56,4.6,3.33,3.88,3.0,14.0,74.76
+adaptive,14.21,12.6,15.02,14.0,7.31,13.8,3.95,4.95,14.73,5.0,58.14
+reference,11.32,10.25,10.36,9.2,5.07,10.9,8.68,7.96,11.75,202.0,815.7

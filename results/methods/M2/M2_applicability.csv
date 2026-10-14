@@ -1,0 +1,6 @@
+method,dc_speed,dc_position,link,fopdt,tank
+Self-tuning (pole placement),ok,ok,ok,ok,ok
+Model matching (frequency),ok,ok,ok,ok,ok
+Model matching (time domain),ok,ok,ok,ok,ok
+Time-domain (SIMC),ok,ok,ok,ok,ok
+PSO,ok,ok,ok,ok,ok

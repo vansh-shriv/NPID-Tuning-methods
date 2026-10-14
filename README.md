@@ -1,153 +1,79 @@
 # ML-Assisted Tuning of Nonlinear PID (N-PID) Controllers
 
-A high-performance controls and machine learning project implementing, optimizing, and predicting gains for **Nonlinear PID (N-PID)** controllers compared to traditional **Linear PID (L-PID)** baselines. 
+Implementation and critical re-evaluation of the methods in Çelik et al., *"Advancements in nonlinear PID controllers: A comprehensive review,"* Computers and Electrical Engineering, 2026: linear PID vs error-shaped nonlinear PID (Eq. 9-12), Ziegler-Nichols and PSO tuning, machine-learning gain prediction, and online RL adaptation.
 
-This work simulates an armature-controlled DC motor plant with non-smooth Coulomb friction, applies **Particle Swarm Optimization (PSO)** to compute tracking-optimal controller parameters, and trains **multi-output machine learning models** to predict controller gains near-instantly directly from physical system settings.
+**Start here:** [`report/methods_report.md`](report/methods_report.md) (final report of the 18-method tuning study), [`report/final_report_v2.md`](report/final_report_v2.md) (v2 re-evaluation of the paper's controller comparison), [`progress.md`](progress.md) (engineering log), [`docs/METHODS_ROADMAP.md`](docs/METHODS_ROADMAP.md) / [`docs/ROADMAP_v2.md`](docs/ROADMAP_v2.md) (plans).
 
-**Theoretical Basis:** Çelik et al., "Advancements in nonlinear PID controllers: A comprehensive review," *Computers and Electrical Engineering*, 2026.
+## Headline findings of the methods study (18 tuning methods, `report/methods_report.md`)
 
----
+* All 18 methods of the review's taxonomy (classical, intelligent, optimization, ML, hybrid, adaptive) are implemented behind one `Tuner` interface and benchmarked on 5 plants x 4 scenarios (step, disturbance, noise, plant change).
+* **Search wins when 400 simulations are affordable** (GA/PSO/ABC/SA within 1.0-1.3x of the best, 1.04-1.4x of the best-known optimum); everything cheaper is 1.6-33x worse. Cost/accuracy Pareto front: self-tuning (1 experiment) - GA-enhanced ML (4) - PPO search (12) - ML + classical hybrid with 20 simulations (24, 2.4x) - GP optimisation (60, 1.6x) - GA (362).
+* **The classical rules are limited by their assumptions** (FOPDT-like plants): 5 of the 18 methods are not applicable or fail on at least one benchmark plant; SIMC is the robust one.
+* **Aggressive (ITAE-optimal) gains are fragile** under noise (2x) and plant change (a 2.5x actuator gain makes the dead-time loop unstable for all optimizers and ML methods); conservative or adaptive methods survive. Adaptive ML works on randomized plants (M6) but failed on the short-horizon DC-position loop.
+* N-PID vs L-PID with identical gains: better in about half of the cells under noise, similar or worse elsewhere.
 
-## Key Features
+## Headline findings (v2)
 
-* **Continuous Plant Simulation:** Armature-controlled DC motor speed loop modeling Coulomb friction via a differentiable, tanh-smoothed approximation ($T_c \cdot \tanh(\omega/\epsilon)$).
-* **RK4 Numerical Solver:** High-speed, inlined 4th-order Runge-Kutta solver delivering a **63x execution speedup** over general-purpose Python integration wrappers, enabling fast offline optimization sweeps.
-* **Nonlinear Error-Shaping:** N-PID implementation modifying gains dynamically via proportional $\alpha(e)$, integral $\beta(e)$, and derivative $\gamma(de/dt)$ scaling.
-* **Automated Ziegler-Nichols (ZN) Tuning:** Auto-detects critical gain $K_{cr}$ and oscillation period $T_{cr}$ via closed-loop binary search sweeps.
-* **PSO Gain Optimization:** ITAE-based swarm tuning finding optimal damping characteristics.
-* **Multi-Output Regression:** Random Forest and MLP networks predicting controller parameters in parallel.
-* **Noise Sensitivity & Extrapolation Checks:** Robustness test suite comparing controllers under measurement feedback noise and out-of-distribution physical plant extrapolation parameters.
+* **N-PID is not a free win.** With the same PSO tuning, a PSO-tuned L-PID matches the best N-PID on the DC-motor step response. N-PID's real advantage is noise robustness (~2x once L-PID gets a derivative filter and noise-aware tuning, not 50x) and nonlinear plants with state-dependent gain (tank level). It loses on a gravity-loaded link and a dead-time process.
+* **The paper's shaping functions are not scale-free**; their behaviour depends on plant units and setpoint. A scale-free variant is provided.
+* **Ziegler-Nichols is ill-posed for the DC motor** (no true ultimate gain); the original Kcr was a sampling/saturation limit cycle.
+* **ML gain prediction is fast (~25,000x vs PSO) but a single fixed gain set is already within 3% of per-plant PSO** on this plant family. The original dataset was invalid for 42% of its rows (unreachable setpoints) and was regenerated.
+* **RL adaptation is not justified for resistance drift**: frozen gains lose 7% at 3x drift; the trained TD3 agent is orders of magnitude worse.
 
----
+The original Weeks 1-8 scripts and reports (`run_week*.py`, `report/legacy/final_report.md`, `report/legacy/phase5_rl_report.md`) are kept as a record; where they conflict with v2, v2 is correct (see `progress.md` for each correction).
 
-## Project Structure
+## Layout (full guide with every file: [`docs/DIRECTORY_GUIDE.md`](docs/DIRECTORY_GUIDE.md))
 
 ```
-npid-ml-tuning/
-├── src/
-│   ├── plant.py            # DC motor dynamics & open-loop verification (Section 1)
-│   ├── controllers.py      # L-PID and N-PID controllers with anti-windup (Section 2)
-│   ├── simulate.py         # RK4 closed-loop control simulation (Section 1.5)
-│   ├── metrics.py          # Standard performance metrics calculations (Section 3.2)
-│   ├── tuning_zn.py        # Ziegler-Nichols critical-gain auto-tuning (Section 3.1)
-│   ├── tuning_pso.py       # Swarm optimizer for ITAE minimization (Section 3.3)
-│   ├── generate_dataset.py # Batch dataset generator using parallel CPU pools (Section 3.4)
-│   └── ml_models.py        # RF and MLP regressors training & speed testing (Section 4)
-├── run_week1.py            # Week 1 baseline simulation and ZN tuning runner
-├── run_week4.py            # Week 4 noise robustness and extrapolation runner
-├── data/
-│   └── tuning_dataset.csv  # 500-sample generated PID tuning database
-├── results/
-│   ├── figures/            # Saved system plots (step response, noise, etc.)
-│   └── tables/             # CSV master benchmarking tables
-├── report/
-│   └── final_report.md     # Detailed 4-week project internship report
-├── requirements.txt        # Project dependencies
-└── README.md               # Quick start & results guide
+README.md  CLAUDE.md  progress.md      this file | guidance for Claude Code | chronological engineering log
+requirements*.txt  pytest.ini          dependencies, test config
+run_v2.py  run_methods.py              regenerate the v2 study | regenerate the methods study (M1-M7)
+
+src/                 library: plant, simulate, controllers, metrics, tuning_zn/relay/generic, plant_family, benchmark_plants
+  tuners/            the 18 tuning methods + framework (base, identify, classical, selftuning, modelmatching, optimizers,
+                     ml, rl, hybrid, adaptive, features, benchmark, plots, reference)
+  legacy/            original Weeks 1-8 modules (dataset generator, RF models, TD3 RL, PSO) - kept for the record
+experiments/
+  v2/                01..07: the v2 re-evaluation of the paper's L-PID vs N-PID claims
+  m1..m7_*.py        one script per phase of the methods study (m5_common.py is shared)
+tests/               pytest suite (225 tests)
+docs/                PROTOCOL.md (experimental protocol), METHODS_ROADMAP.md (plan of M0-M7), ROADMAP_v2.md, DIRECTORY_GUIDE.md
+report/              methods_report.md (FINAL), methods/M1..M6 (per phase), final_report_v2.md, legacy/ (superseded)
+results/             methods/M1..M7 (current), v2/, logs/ (run logs), legacy/ (original figures and tables)
+data/                m4/ (plant-family dataset, regenerable), v2/ (v2 dataset), legacy/ (original, invalid rows)
+models/              m4/ (PPO), m7/ (trained ML models), v2/ (gain predictor), legacy/ (original TD3 agents)
+legacy/              run_week1..8.py, eval_week6_hires.py - original runners, kept for the record
 ```
 
----
+## Setup and run
 
-## Installation & Setup
-
-1. **Clone the repository and navigate to the project directory:**
-   ```bash
-   cd npid-ml-tuning
-   ```
-2. **Create and activate a virtual environment:**
-   ```bash
-   python -m venv .venv
-   # Windows:
-   .venv\Scripts\activate
-   # macOS/Linux:
-   source .venv/bin/activate
-   ```
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
-## Run Pipeline
-
-### Week 1: Plant Verification & Ziegler-Nichols Baselines
-Run the open-loop test, compute Ziegler-Nichols ultimate gains, and perform baseline comparisons:
 ```bash
-python run_week1.py
+python -m venv .venv && .venv\Scripts\activate        # Windows (source .venv/bin/activate elsewhere)
+pip install -r requirements-dev.txt
+pytest                                                # 225 tests, 2-5 min
+python run_v2.py                                      # all v2 experiments except dataset generation
+python run_v2.py --with-dataset                       # + regenerate data/v2/dataset_npid.csv (~1 h on 14 workers)
+python run_v2.py --only 01 07                         # selected experiments
+python run_methods.py                                 # methods study: M7 benchmark of all 18 methods (about 1 h)
+python run_methods.py --all                           # every phase M1..M7 (hours; see the header of run_methods.py)
 ```
-*Outputs: `results/figures/open_loop_response.png`, `step_response_comparison.png`, `disturbance_rejection_comparison.png`, and `results/tables/week1_metrics.csv`.*
 
-### Week 2: Particle Swarm Optimization (PSO)
-Verify that the PSO tuning minimizes ITAE and outperforms Ziegler-Nichols:
-```bash
-python src/tuning_pso.py
+Using the library on your own plant:
+
+```python
+from src.plant import TransferFunctionPlant, DelayedPlant
+from src.controllers import NPID
+from src.simulate import run_simulation
+from src.tuning_generic import tune_pso
+
+plant = DelayedPlant(TransferFunctionPlant([2.0], [5.0, 1.0], u_limits=(-10, 10)), delay=1.0)
+gains, cost = tune_pso("npid", plant, y_ref=1.0, center=None, dt=0.02, t_end=60,
+                       bounds=((0.5, 0.01, 0.01), (200, 20, 200)), log_space=True, restarts=3)
+result = run_simulation(NPID(**gains, dt=0.02, u_min=-10, u_max=10), plant, 1.0, t_end=60, dt=0.02)
 ```
-*Outputs: Prints comparison metrics and saves `results/figures/pso_vs_zn_comparison.png`.*
 
-### Week 2 (Cont.): Parallel Dataset Generation
-Generate the 500-sample training dataset of physical configurations to optimal gains:
-```bash
-python src/generate_dataset.py --samples 500 --workers 4
-```
-*Outputs: Saves `data/tuning_dataset.csv`.*
+Notes: use `dt` equal to the controller step for both the tuner and the simulation; avoid non-ASCII characters in `print` output on Windows consoles (cp1252).
 
-### Week 3: ML Model Training & Benchmarks
-Train Random Forest and MLP Multi-Output Regressors, run downstream stability checks, and run execution timing benchmarks:
-```bash
-python src/ml_models.py
-```
-*Outputs: Prints training metrics, speeds, and saves `results/figures/feature_importances.png`.*
+## Legacy pipeline
 
-### Week 4: Noise Robustness, Extrapolation & Master Comparison
-Simulate the controllers under Gaussian feedback noise, test out-of-distribution extrapolation ($J = 0.03$), and generate master benchmarking tables:
-```bash
-python run_week4.py
-```
-*Outputs: Saves master tables in `results/tables/` and comparative plots in `results/figures/`.*
-
----
-
-## 📊 Summary of Results
-
-### 1. Baseline Performance (No Noise)
-Evaluated on the default plant ($J=0.01, B=0.1, T_c=0.05$):
-
-| Controller | Rise Time (s) | Overshoot (%) | Settling Time (s) | IAE | ITAE |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **L-PID (ZN)** | 0.1350 | 0.22% | 0.1990 | 2.3403 | 0.1631 |
-| **N-PID (ZN)** | 0.1340 | 8.07% | 0.7510 | 3.5882 | 2.2720 |
-| **N-PID (PSO)** | 0.1350 | 7.17% | 0.6480 | 2.7699 | 0.3466 |
-| **N-PID (ML)** | 0.1350 | 7.20% | 0.6460 | 2.8060 | 0.3894 |
-
-### 2. Feedback Noise Robustness ($\sigma = 0.3$)
-Injected noise (~1.5% of reference speed $\omega_{ref} = 20\text{ rad/s}$) to test noise immunity:
-
-| Controller | Rise Time (s) | Overshoot (%) | Settling Time (s) | IAE | ITAE |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **L-PID (ZN)** | 0.2620 | **54.18%** | 3.9990 | 61.5929 | **121.7759** |
-| **N-PID (ZN)** | 0.1330 | 9.47% | 3.9220 | 3.6429 | 2.4825 |
-| **N-PID (PSO)** | 0.1330 | 9.42% | 3.9200 | 3.6524 | 2.4984 |
-| **N-PID (ML)** | 0.1330 | 9.69% | 3.9260 | 3.6880 | 2.5603 |
-
-> 💡 **Key Takeaway:** Traditional L-PID performance collapses under feedback noise because high-frequency noise spikes propagate through the linear derivative path, injecting extreme voltages. **N-PID variants show remarkable noise immunity**, maintaining overshoot under **9.7%** and ITAE under **2.60**. This is due to the nonlinear derivative factor $\gamma(de/dt)$ which suppresses derivative gain automatically in response to large error rate-of-change spikes.
-
-### 3. Out-of-Distribution Extrapolation ($J = 0.03$, Training Limit $J=0.02$)
-Tested extrapolation limit under step load disturbance applied at $t=1.5\text{s}$:
-
-| Controller | Rise Time (s) | Overshoot (%) | Settling Time (s) | IAE | ITAE |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **N-PID (PSO)** | 0.2090 | 10.83% | 1.2490 | 5.0541 | 1.3410 |
-| **N-PID (ML)** | 0.2090 | 10.84% | 1.3670 | 5.0941 | 1.4124 |
-
-* The ML regressor generalizes extremely well to out-of-distribution parameters, predicting parameters that match the true offline PSO search performance within a tiny fraction.
-
-### 4. ML Speedup
-* **PSO Optimization search time:** $30.108\text{ seconds}$
-* **ML Regressor prediction time:** $15.95\text{ milliseconds}$
-* **Performance gain:** **ML predicts optimal gains 1887.1x faster** than online iterative optimization, making it suitable for real-time control adjustments.
-
----
-
-## 🔮 Future Work: Reinforcement Learning
-A natural next step to extend this project's offline ML approach is **Online Adaptive Reinforcement Learning** (e.g., DDPG or TD3). An RL agent can learn directly from physical error feedback and rewards in real-time, adapting PID gains dynamically to handle parameter drift (e.g., motor heating increasing resistance $R$) without requiring prior parameter estimates.
+`python legacy/run_week1.py` ... `python legacy/run_week8.py` reproduce the original results (their README tables were replaced by the v2 findings above). Their ZN, dataset and RL-drift numbers have known issues listed in `progress.md` (Phases 2, 3, 5, 6).

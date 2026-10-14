@@ -1,0 +1,5 @@
+method,fopdt,hammerstein,ipdt,sopdt
+adaptive ML,1.52,1.28,0.8,1.5
+frozen,1.72,17.38,1.29,3.27
+retune by experiment,1.0,1.0,1.0,1.0
+self-tuning pole placement,0.66,0.68,1.93,1.5

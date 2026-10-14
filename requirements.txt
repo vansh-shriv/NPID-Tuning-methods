@@ -1,6 +1,14 @@
-numpy>=1.24
-scipy>=1.10
-matplotlib>=3.7
+# Core (Weeks 1-4: plant, controllers, tuning, ML)
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8
+pandas>=2.2
+scikit-learn>=1.5
 pyswarms>=1.3.0
-scikit-learn>=1.2.0
-pandas>=2.0.0
+joblib>=1.4
+
+# Phase 5 (reinforcement learning)
+gymnasium>=1.0
+stable-baselines3>=2.4
+torch>=2.4
+tensorboard>=2.17

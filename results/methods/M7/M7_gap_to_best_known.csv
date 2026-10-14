@@ -1,0 +1,22 @@
+label,dc_speed,dc_position,link,fopdt,tank
+01 Trial and error,5.12,4.2,100.0,15.78,78.02
+02 Ziegler-Nichols (reaction curve),2.46,8.36,100.0,3.66,100.0
+03 Cohen-Coon,2.51,7.18,43.87,38.02,100.0
+04 Continuous cycling,100.0,12.09,100.0,3.69,100.0
+05 Time-domain (SIMC),6.7,9.97,55.07,2.41,5.55
+06 Self-tuning (pole placement),13.24,53.66,8.18,4.58,19.85
+07 Model matching,4.54,8.27,100.0,7.57,100.0
+08 PSO,1.01,1.06,1.54,1.03,1.0
+09 GA,1.01,1.05,1.12,1.02,1.0
+10 ABC,1.02,1.59,2.11,1.12,1.0
+11 SA,1.02,1.1,3.59,1.17,1.0
+12 Regression (SVR),3.65,2.46,38.48,5.86,2.15
+13 Reinforcement learning (PPO),3.72,1.39,28.2,2.16,1.27
+14 Gaussian-process optimisation,1.02,3.77,2.65,1.22,1.0
+15 ANN (decision-focused),4.32,4.77,48.93,7.0,3.08
+16 GA-enhanced ML,2.62,3.47,39.68,1.12,1.38
+17 Hybrid ML + classical (+20 sims),2.41,1.53,12.94,1.27,1.48
+06b Self-tuning online (pole placement),,,,,
+18 Adaptive ML,21.7,100.0,49.63,5.96,1.08
+R1 Random search (reference),1.09,2.03,4.67,1.77,1.01
+R2 Constant normalised gains (reference),5.18,32.33,60.22,4.78,100.0

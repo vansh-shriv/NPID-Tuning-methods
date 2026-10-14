@@ -1,0 +1,11 @@
+method,dc_speed,dc_position,link,fopdt,tank
+Trial and error (scripted),ok,ok,ok,ok,ok
+Ziegler-Nichols (reaction curve),ok,ok,ok,ok,"n/a: theta/tau = 0.00477 outside [0.1, 1.0] r"
+Cohen-Coon,ok,ok,ok,ok,"n/a: theta/tau = 0.00468 outside [0.1, 1.0] r"
+Continuous cycling (zn),n/a: no ultimate gain: P-only loop never reac,ok,n/a: no ultimate gain: P-only loop never reac,ok,n/a: ultimate period 0.04s is at the sampling
+Continuous cycling (zn relay),ok,ok,ok,ok,n/a: relay oscillation is set by the hysteres
+Continuous cycling (tyreus-luyben relay),ok,ok,ok,ok,n/a: relay oscillation is set by the hysteres
+Time-domain (SIMC),ok,ok,ok,ok,ok
+Time-domain (CHR 0%),ok,ok,ok,ok,"n/a: theta/tau = 0.00469 outside [0.1, 1.0] r"
+Time-domain (CHR 20%),ok,ok,ok,ok,"n/a: theta/tau = 0.00469 outside [0.1, 1.0] r"
+PSO (reference),ok,ok,ok,ok,ok

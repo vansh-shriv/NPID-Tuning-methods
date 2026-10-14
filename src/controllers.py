@@ -10,6 +10,16 @@ import numpy as np
 import math
 
 
+def _filtered_derivative(ctrl, error):
+    """Finite-difference de/dt, optionally low-passed with time constant ctrl.tau_d."""
+    raw = (error - ctrl._prev_error) / ctrl.dt
+    if ctrl.tau_d > 0.0:
+        a = ctrl.dt / (ctrl.tau_d + ctrl.dt)
+        ctrl._d_filt += a * (raw - ctrl._d_filt)
+        return ctrl._d_filt
+    return raw
+
+
 class LPID:
     """
     Standard Linear PID controller with back-calculation anti-windup.
@@ -20,12 +30,14 @@ class LPID:
     [u_min, u_max], the integral term is adjusted to prevent windup.
     """
 
-    def __init__(self, Kp, Ki, Kd, dt, u_min=-24.0, u_max=24.0):
+    def __init__(self, Kp, Ki, Kd, dt, u_min=-24.0, u_max=24.0, tau_d=0.0):
         """
         Args:
             Kp, Ki, Kd: PID gains.
             dt: Controller timestep (s).
             u_min, u_max: Output saturation limits (V).
+            tau_d: Time constant (s) of a first-order low-pass filter on the
+                derivative term. 0 (default) = unfiltered finite difference.
         """
         self.Kp = Kp
         self.Ki = Ki
@@ -33,9 +45,11 @@ class LPID:
         self.dt = dt
         self.u_min = u_min
         self.u_max = u_max
+        self.tau_d = tau_d
 
         self._integral = 0.0
         self._prev_error = 0.0
+        self._d_filt = 0.0
         self._first_call = True
 
     def compute(self, error):
@@ -60,7 +74,7 @@ class LPID:
             D = 0.0
             self._first_call = False
         else:
-            D = self.Kd * (error - self._prev_error) / self.dt
+            D = self.Kd * _filtered_derivative(self, error)
 
         # Raw output
         u_raw = P + I + D
@@ -79,6 +93,7 @@ class LPID:
         """Reset controller state for a fresh simulation run."""
         self._integral = 0.0
         self._prev_error = 0.0
+        self._d_filt = 0.0
         self._first_call = True
 
     def get_gains(self):
@@ -104,14 +119,25 @@ class NPID:
     in addition to the explicit clamping anti-windup applied on top.
     """
 
-    def __init__(self, Kp, Ki, Kd, dt, n=2, m=2, p=2, u_min=-24.0, u_max=24.0):
+    def __init__(self, Kp, Ki, Kd, dt, n=2, m=2, p=2, u_min=-24.0, u_max=24.0,
+                 tau_d=0.0, e_scale=1.0, de_scale=1.0):
         """
         Args:
             Kp, Ki, Kd: Base PID gains (same as LPID).
             dt: Controller timestep (s).
             n, m, p: Nonlinearity shape parameters (Spec §2.2).
             u_min, u_max: Output saturation limits (V).
+            tau_d: Derivative low-pass time constant (s); 0 = unfiltered.
+            e_scale, de_scale: Error / error-rate scales (in plant output units)
+                at which the shaping functions start to act. The paper's
+                α, β, γ take raw e and de/dt, so their behaviour depends on the
+                plant's units and operating point; e_scale/de_scale make the
+                shaping scale-free (e.g. e_scale = ω_ref). 1.0 = paper-literal.
         """
+        self.tau_d = tau_d
+        self.e_scale = e_scale
+        self.de_scale = de_scale
+        self._d_filt = 0.0
         self.Kp = Kp
         self.Ki = Ki
         self.Kd = Kd
@@ -167,14 +193,15 @@ class NPID:
         # which is always positive and breaks the feedback loop. The behavioral
         # description ("≈ e for small e, saturates for large e") only holds
         # when α(e) is used directly as the proportional signal.
-        alpha_e = self.alpha(error, self.n)
+        es = self.e_scale
+        alpha_e = es * self.alpha(error / es, self.n)
         P = self.Kp * alpha_e
 
         # Nonlinear integral term (Spec Eq. 9, 11):
         # β(e) = 1/(1+|e|^m) acts as a gain on the integral accumulation.
         # During large transients (β → 0), integral barely grows.
         # Near setpoint (β → 1), standard integral behavior is restored.
-        beta_e = self.beta(error, self.m)
+        beta_e = self.beta(error / es, self.m)
         self._integral += beta_e * error * self.dt
         I = self.Ki * self._integral
 
@@ -184,9 +211,9 @@ class NPID:
             de_dt = 0.0
             self._first_call = False
         else:
-            de_dt = (error - self._prev_error) / self.dt
+            de_dt = _filtered_derivative(self, error)
 
-        gamma_de = self.gamma(de_dt, self.p)
+        gamma_de = self.gamma(de_dt / self.de_scale, self.p)
         D = self.Kd * gamma_de * de_dt
 
         # Raw output
@@ -206,6 +233,8 @@ class NPID:
         """Reset controller state for a fresh simulation run."""
         self._integral = 0.0
         self._prev_error = 0.0
+        self._d_filt = 0.0
+        self._d_filt = 0.0
         self._first_call = True
 
     def get_gains(self):
@@ -213,6 +242,7 @@ class NPID:
         return {
             "Kp": self.Kp, "Ki": self.Ki, "Kd": self.Kd,
             "n": self.n, "m": self.m, "p": self.p,
+            "tau_d": self.tau_d, "e_scale": self.e_scale, "de_scale": self.de_scale,
         }
 
     def __repr__(self):

@@ -1,0 +1,6 @@
+method,dc_speed,dc_position,link,fopdt,tank
+Self-tuning (pole placement),0.944,1.998,0.532,16.14,10.86
+Model matching (frequency),0.886,1.286,2.858,19.66,39.1
+Model matching (time domain),0.732,0.944,3.998,8.14,19.64
+Time-domain (SIMC),1.14,1.998,2.338,10.42,3.6
+PSO,0.232,0.75,0.222,5.24,1.18
